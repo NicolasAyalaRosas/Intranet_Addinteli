@@ -2,6 +2,7 @@
     --primary-color: #1e90ff;
     --secondary-color: #13479a;
     --background-color: rgba(255, 255, 255, 0.95);
+    --textbotton: #ffffff;  
     --text-color: #333;
     --hover-color: red;
 }
@@ -128,4 +129,18 @@ dl dd::before {
     transform: translateY(-50%);
     font-size: 18px;
     color: #555;
+}
+
+#volver-arriba a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    color: var(--textbotton) !important;  /* Forzar el color del texto */
+    text-decoration: none;  /* Elimina el subrayado predeterminado */
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+#volver-arriba a:hover {
+    background-color: var(--secondary-color);
 }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style_glosario.css">
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <img src="../Imagenes_y_Archivos/Logo Addinteli 2.png" alt="Logo Addinteli" class="logo">
         <nav>
             <ul id="barradenavegacion">
@@ -479,6 +479,59 @@
                 El HLR se comunica con otros elementos de la red a través del protocolo Parte de aplicación móvil (MAPA). Este protocolo forma parte del Sistema de Señalización 7 (RSV) estándar. 
             </dd>
 
+            <dt>HPLMN - Home Public Land Mobile Network</dt>
+            <dd>
+                En telecomunicaciones, HPLMN (Home Public Land Mobile Network) se refiere al operador de red móvil (MNO) al que pertenece la tarjeta SIM de un suscriptor y donde se almacena su perfil.<br>
+                <ul>
+                    <strong>Qué es:</strong>
+                    <li>HPLMN es la red que un dispositivo móvil (como un teléfono) considera su red "doméstica", es decir, la red en la que está registrada la tarjeta SIM y desde la que se accede a la información de suscripción del usuario. </li>
+                </ul>
+
+                <ul>
+                    <strong>Cómo funciona:</strong>
+                    <li>Cuando un dispositivo móvil está en itinerancia (utiliza una red que no es su red local), el dispositivo utilizará la HPLMN para acceder a datos de suscripción, como información de autenticación, para permitir que la red en itinerancia autentique al usuario.</li>
+                </ul>
+                <ul>
+                    <strong>PLMN frente a HPLMN:</strong>
+                    <li>PLMN (red móvil terrestre pública): es un término general para cualquier red móvil, incluida la HPLMN y cualquier otra red en la que un dispositivo pueda navegar. </li>
+                    <li>HPLMN: se refiere específicamente a la red en la que está registrada la tarjeta SIM del suscriptor y es la red a la que el dispositivo intentará conectarse primero. </li>
+                </ul>
+                <ul>
+                    <strong>Ejemplo:</strong>
+                    <li>Cuando viajas a un país diferente y tu teléfono se conecta automáticamente a una red local, esa red local es una PLMN, pero tu red doméstica (aquella en la que está registrada tu tarjeta SIM) es tu HPLMN. </li>
+                </ul>
+                <ul>
+                    <strong>Importancia:</strong>
+                    <li>HPLMN es crucial para el roaming, ya que permite que los dispositivos móviles accedan a la información necesaria para conectarse a otras redes y utilizar servicios como llamadas de voz y datos.</li>
+                </ul>
+            </dd>
+
+            <dt>PLMN - Public Land Mobile Network</dt>
+            <dd>
+                En telecomunicaciones, una Red Móvil Terrestre Pública(PLMN) se refiere a la red celular de un operador móvil dentro de un país específico, identificada por un código PLMN único que combina el Código de país móvil (MCC) y el Código de red móvil (MNC) del operador. 
+
+                <ul>
+                    <strong>Qué es:</strong>
+                    <li>Una PLMN es esencialmente una colección de servicios de comunicación inalámbrica ofrecidos por un operador específico en un país específico, que abarca tecnologías como GSM/2G, UMTS/3G, LTE/4G y NR/5G. </li>
+                </ul>
+                <ul>
+                    <strong>Identificador único:</strong>
+                    <li>Cada PLMN tiene un identificador único, el código PLMN, que se forma combinando el MCC (un código de 3 dígitos que identifica al país) y el MNC (un código de 2 o 3 dígitos que identifica al operador específico dentro de ese país). </li>
+                </ul>
+                <ul>
+                    <strong>Tarjeta SIM y PLMN:</strong>
+                    <li>Cuando recibes una tarjeta SIM de un operador móvil, a menudo contiene una lista de PLMN, que tu teléfono utiliza para seleccionar automáticamente la mejor red disponible. </li>
+                </ul>
+                <ul>
+                    <strong>PLMN local (HPLMN):</strong>
+                    <li>La HPLMN es la PLMN donde se almacena el perfil del suscriptor y los usuarios que se desplazan a otras redes recibirán información de suscripción de su HPLMN. </li>
+                </ul>
+                <ul>
+                    <strong>Ejemplo:</strong>
+                     Si está en la Ciudad de México y usa una tarjeta SIM de Telcel, el identificador PLMN sería el MCC de México (334) combinado con el MNC de Telcel (10), dando como resultado 33410. 
+
+            </dd>
+
             <dt>MCC - Mobile Country Code</dt>
             <dd>El MCC, o Mobile Country Code (Código de País Móvil), es un código de tres dígitos que identifica el país de origen de un número de teléfono. Se utiliza junto con el MNC (Mobile Network Code) para identificar una red móvil.
                 <ul>
@@ -557,9 +610,6 @@
             
             </dd>
 
-            <dt>Red móvil terrestre pública - PLMN</dt>
-            <dd>Es un conjunto de servicios de telecomunicaciones inalámbricas que ofrece un operador de telefonía móvil en un país.<br>Cada PLMN tiene un código único que se compone del código de país móvil (MCC) y el código de red móvil (MNC).</dd>
-
             <dt>MME - Mobility Management Entity</dt>
             <dd>Es un acrónimo que significa "Entidad de Gestión de la Movilidad", Es un componente fundamental de las redes LTE (Long Term Evolution) y EPC (Evolved Packet Core), que son la base de las telecomunicaciones móviles.<br>La MME se encarga de: Gestionar las sesiones de movilidad de la red LTE, Autenticar a los suscriptores, Permitir el roaming, Transferir a otras redes.<br>La MME puede implementarse en el centro de datos o en un servidor.<br>
                 
@@ -599,6 +649,32 @@
                     <li>Gestión del establecimiento, modificación y liberación de sesiones.</li>
                     <li>Coordinación de traspasos entre diferentes torres de telefonía celular.</li>
                 </ul>
+            </dd>
+
+            <dt>MME Identity</dt>
+            <dd>
+                El “MME Identity” se refiere a la identificación única de una Entidad de Gestión de Movilidad (MME) dentro de la red LTE, que es un componente clave para la gestión de la movilidad y la identidad de los usuarios y dispositivos que acceden a la red. 
+
+                <ul>
+                    <strong>MME (Entidad de Gestión de la Movilidad):</strong>
+                    <li>Es un componente fundamental de la arquitectura LTE (Long Term Evolution), que gestiona la movilidad y la autenticación de los usuarios dentro de la red. </li>
+                </ul>
+
+                <ul>
+                    <strong>Identidad MME:</strong>
+                    <li>Es un identificador único que permite a la red LTE identificar y diferenciar cada MME, lo que es crucial para la gestión de la movilidad y la transferencia de contexto entre diferentes MME. </li>
+                </ul>
+
+                <ul>
+                    <strong>Importancia de la Identidad MME:</strong>
+                    <li>Permite a la red LTE identificar y gestionar la movilidad de los usuarios de manera eficiente. </li>
+                    <li>Facilita la transferencia de contexto entre diferentes MME cuando un dispositivo se mueve entre diferentes celdas.</li>
+                    <li>Es esencial para la autenticación y autorización de los usuarios.</li>
+                </ul>
+
+                <strong>Ejemplo:</strong>
+                Cuando un dispositivo se mueve de una celda a otra, la MME actual debe transferir el contexto del usuario a la nueva MME responsable de la nueva celda, utilizando la MME Identity para identificar la MME de destino.
+
             </dd>
 
             <dt>GUTI - Globally Unique Temporary Identifier</dt>
@@ -984,6 +1060,12 @@
                 </ul>
             </dd>
 
+            <p id="volver-arriba" style="text-align: center; margin-top: 20px;">
+                <a href="#inicio" style="color: var(--primary-color); text-decoration: none; font-size: 18px; font-weight: bold;">
+                    ↑ Volver al inicio
+                </a>
+            </p>
+            
         </dl>
 
     </section>

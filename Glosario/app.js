@@ -30,6 +30,17 @@ function searchGlossary() {
     });
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector("#volver-arriba a").addEventListener("click", function (event) {
+        event.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+});
+
+
 /**
  * Escucha el evento 'input' en el campo de búsqueda.
  * Cada vez que el usuario escribe, se ejecuta la función searchGlossary.
