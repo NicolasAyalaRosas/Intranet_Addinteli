@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name author="Nicolas Ayala Rosas">
+    <title>Intranet Addinteli</title>
+    <link rel="stylesheet" href="style_troubleshootin.css">
+</head>
+
+<body>
+    <header>
+        <img src="../Imagenes_y_Archivos/Logo Addinteli 2.png" alt="Logo Addinteli" class="logo">
+        <nav>
+            <ul id="barradenavegacion">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../Glosario/glosario.html">Glosario</a></li>
+                <li><a href="../Guias Rapidas/guiasrapidas.html">Guías rápidas</a></li>
+                <li><a href="../Procesos y Manuales/procesos y manuales.html">Procesos y Manuales</a></li>
+                <li><a href="../Intranet/Sitios MBB/SitiosMBB.html">Sitios MBB</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="temario">
+            <h2>Temas disponibles</h2>
+            <div class="tarjetas-temas">
+                <div class="tarjeta" onclick="mostrarMapa('llamadas')">📞 Llamadas</div>
+                <div class="tarjeta" onclick="mostrarMapa('mensajes')">✉️ Mensajes</div>
+                <div class="tarjeta" onclick="mostrarMapa('datos')">🌐 Datos móviles</div>
+            </div>
+        </section>
+    
+        <section id="mapa-mental" style="display: none;">
+            <h3 id="titulo-mapa"></h3>
+            <div id="contenido-mapa"></div>
+            <button onclick="volverPasoAnterior()">🔁 Regresar un paso</button>
+            <button onclick="regresarAlTemario()">🔙 Volver al temario</button>
+          </section>         
+    
+        <script src="../Troubleshooting/app.js" type="module"></script>
+
+    </main>
+    
+</body>
+</html>
