@@ -88,7 +88,6 @@ function mostrarResultadosTabla(antenas) {
             <td>${a.CP || ""}</td>
             <td>${a.TX || ""}</td>
             <td>${a["En Huella MBB"] || a["EN HUELLA MBB"] || ""}</td>
-            <td>${a.Sectores || a.SECTORES || ""}</td>
             <td>${a["Usuarios activos MBB"] || a["USUARIOS ACTIVOS MBB"] || ""}</td>
             <td>${a["THP MBB (Mbps)"] || ""}</td>
             <td>${a.distancia.toFixed(3)}</td>
