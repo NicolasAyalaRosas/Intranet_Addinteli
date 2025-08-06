@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name author="Nicolas Ayala Rosas">
-    <title>Intranet Addinteli</title>
-    <link rel="stylesheet" href="style_troubleshootin.css">
+    <title>Troubleshooting - Soporte Técnico</title>
+    <link rel="stylesheet" href="style_troubleshooting.css">
+    <script src="https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.0.0/dist/transformers.min.js"></script>
 </head>
 
 <body>
     <header>
-        <img src="../Imagenes_y_Archivos/Logo Addinteli 2.png" alt="Logo Addinteli" class="logo">
+        <img src="../Imagenes_y_Archivos/Logo Addinteli 2.png" alt="Logo Addinteli" class="logo" />
         <nav>
-            <ul id="barradenavegacion">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../Glosario/glosario.html">Glosario</a></li>
-                <li><a href="../Guias Rapidas/guiasrapidas.html">Guías rápidas</a></li>
-                <li><a href="../Procesos y Manuales/procesos y manuales.html">Procesos y Manuales</a></li>
-                <li><a href="../Intranet/Sitios MBB/SitiosMBB.html">Sitios MBB</a></li>
-            </ul>
+        <ul id="barradenavegacion">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../Guias Rapidas/guiasrapidas.html">Guias rápidas</a></li>
+            <li><a href="../Procesos y Manuales/procesos y manuales.html">Procesos y Manuales</a></li>
+            <li><a href="../Sitios MBB/SitiosMBB.html">Sitios MBB</a></li>
+            <li><a href="../Troubleshooting/Troubleshooting.html">Troubleshooting</a></li>
+        </ul>
         </nav>
     </header>
-    
     <main>
         <section id="temario">
             <h2>Temas disponibles</h2>
@@ -31,17 +30,21 @@
                 <div class="tarjeta" onclick="mostrarMapa('datos')">🌐 Datos móviles</div>
             </div>
         </section>
-    
         <section id="mapa-mental" style="display: none;">
-            <h3 id="titulo-mapa"></h3>
+            <h2 id="titulo-mapa"></h2>
             <div id="contenido-mapa"></div>
             <button onclick="volverPasoAnterior()">🔁 Regresar un paso</button>
             <button onclick="regresarAlTemario()">🔙 Volver al temario</button>
-          </section>         
-    
-        <script src="../Troubleshooting/app.js" type="module"></script>
-
+            <button onclick="reiniciarFlujo()">🔄 Reiniciar flujo</button>
+        </section>
+        <button id="chatbot-btn">💬</button>
+        <div id="chatbot-box" class="hidden">
+            <div id="chatbot-header">Asistente Técnico</div>
+            <div id="chatbot-content"></div>
+            <input type="text" id="chatbot-input" placeholder="Escribe tu consulta...">
+        </div>
     </main>
-    
+    <script type="module" src="app.js"></script>
+    <script type="module" src="chatbot.js"></script>
 </body>
 </html>

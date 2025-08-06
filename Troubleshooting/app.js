@@ -73,6 +73,13 @@ function regresarAlTemario() {
   tituloMapa.textContent = "";
 }
 
+function reiniciarFlujo() {
+  if (historial.length > 0) {
+    mostrarPaso(historial[0]); // vuelve al nodo raíz del flujo actual
+  }
+}
+
+window.reiniciarFlujo = reiniciarFlujo;
 window.mostrarMapa = mostrarMapa;
 window.regresarAlTemario = regresarAlTemario;
 window.volverPasoAnterior = volverPasoAnterior;

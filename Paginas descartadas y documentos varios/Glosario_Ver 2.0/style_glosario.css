@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #005b99; 
-    --secondary-color: rgb(19, 71, 154);
+    --primary-color: #1e90ff;
+    --secondary-color: #13479a;
     --background-color: rgba(255, 255, 255, 0.95);
     --textbotton: #ffffff;  
     --text-color: #333;
@@ -17,7 +17,6 @@ body {
     background-attachment: fixed;
     height: 100vh;
     padding-bottom: 40px;
-    color: var(--text-color);
 }
 
 header {
@@ -70,10 +69,8 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 900px;
     margin: 20px auto;
-    text-align: left;
 }
 
-/* Estilo para la barra de búsqueda */
 .search-container {
     margin-bottom: 20px;
     display: flex;
@@ -93,40 +90,37 @@ main {
 #searchInput:focus {
     border-color: var(--primary-color);
     outline: none;
-    box-shadow: 0 0 5px rgba(0, 91, 153, 0.5); /* Updated to match new primary color */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
 }
 
-/* Lista de definiciones */
 dl {
+    text-align: left;
     line-height: 1.8;
 }
 
-/* Terminos */
 dl dt {
     font-weight: bold;
     margin-top: 20px;
     font-size: 18px;
-    color: var(--primary-color); /* Uses new primary color */
+    color: var(--primary-color);
     display: flex;
     align-items: center;
-    border-left: 4px solid var(--primary-color); /* Uses new primary color */
+    border-left: 4px solid var(--primary-color);
     padding-left: 10px;
 }
 
-/* Definiciones */
 dl dd {
     margin-left: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    line-height: 1.6;
     font-size: 15px;
     position: relative;
-    background-color: #e6f3f7; /* Changed to a light teal for complementary contrast */
-    padding: 15px 20px;
+    background-color: rgba(245, 245, 245, 0.95);
+    padding: 10px 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: var(--text-color);
 }
 
-/* Flecha decorativa antes del texto en la definición */
 dl dd::before {
     content: "↪";
     position: absolute;
@@ -134,51 +128,13 @@ dl dd::before {
     top: 50%;
     transform: translateY(-50%);
     font-size: 18px;
-    color: #4a8ea8; /* Darker teal to match definition background */
+    color: #555;
 }
 
-/* Estilos para listas dentro de las definiciones */
-dl dd ul {
-    margin-left: 20px;
-    margin-bottom: 15px;
-    list-style-type: disc;
-    color: #444;
-}
-
-dl dd ul li {
-    margin-bottom: 6px;
-    font-size: 15px;
-}
-
-/* También para listas numeradas, si usas */
-dl dd ol {
-    margin-left: 20px;
-    margin-bottom: 15px;
-    list-style-type: decimal;
-    color: #444;
-}
-
-dl dd ol li {
-    margin-bottom: 6px;
-    font-size: 15px;
-}
-
-/* Negritas dentro de las definiciones */
-dl dd strong {
-    color: var(--primary-color); /* Updated to match new primary color */
-    font-weight: bold;
-}
-
-/* Para párrafos dentro de definiciones */
-dl dd p {
-    margin-bottom: 12px;
-}
-
-/* Botón volver arriba */
 #volver-arriba a {
     display: inline-block;
     padding: 10px 15px;
-    background-color: var(--primary-color); /* Uses new primary color */
+    background-color: var(--primary-color);
     color: var(--textbotton) !important;  /* Forzar el color del texto */
     text-decoration: none;  /* Elimina el subrayado predeterminado */
     border-radius: 8px;
@@ -187,10 +143,4 @@ dl dd p {
 
 #volver-arriba a:hover {
     background-color: var(--secondary-color);
-}
-
-#volver-arriba {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 60px; /* eleva el botón */
 }

@@ -1,48 +1,98 @@
-/**
- * Función para realizar la búsqueda en tiempo real en el glosario.
- * Obtiene el término de búsqueda, recorre los términos y definiciones,
- * y muestra u oculta los elementos según coincidan con la búsqueda.
- */
-function searchGlossary() {
-    // Obtiene el valor del campo de búsqueda y lo convierte a minúsculas
+function formatoHtml(texto) {
+    const lines = texto.split('\n').map(line => line.trim());
+    let html = '';
+    let inList = false;
+  
+    lines.forEach(line => {
+      // Detectar títulos o negritas si la línea termina con ":" o empieza con palabra clave
+      if (/^(Funciones|Requisitos|Ventajas|Desventajas|Características|Cómo funciona|Proceso de obtención de licencia|Diferencias|Historia|Usos|Características de|Uso en|Dónde se aplica|Ejemplos):?$/.test(line)) {
+        if (inList) {
+          html += '</ul>';
+          inList = false;
+        }
+        html += `<strong>${line.replace(/:$/, '')}</strong><br>`;
+      } 
+      // Detectar listas con guión, asterisco o números (ejemplo: "- texto" o "* texto" o "1. texto")
+      else if (/^(\-|\*|\d+\.)\s+/.test(line)) {
+        if (!inList) {
+          html += '<ul>';
+          inList = true;
+        }
+        // Eliminar el marcador de lista al mostrar
+        const itemText = line.replace(/^(\-|\*|\d+\.)\s+/, '');
+        html += `<li>${itemText}</li>`;
+      } 
+      else if (line === '') {
+        if (inList) {
+          html += '</ul>';
+          inList = false;
+        }
+        html += '<br>';
+      } else {
+        if (inList) {
+          html += '</ul>';
+          inList = false;
+        }
+        // Reemplazar texto entre **negritas**
+        const formattedLine = line.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        html += `<p>${formattedLine}</p>`;
+      }
+    });
+  
+    if (inList) {
+      html += '</ul>';
+    }
+  
+    return html;
+  }
+  
+  
+  function renderGlossary(glosario) {
+    const dl = document.querySelector('dl');
+    dl.innerHTML = '';
+  
+    glosario.forEach(item => {
+      const dt = document.createElement('dt');
+      dt.textContent = item.termino;
+  
+      const dd = document.createElement('dd');
+      dd.innerHTML = formatoHtml(item.significado);
+  
+      dl.appendChild(dt);
+      dl.appendChild(dd);
+    });
+  }
+  
+  function searchGlossary() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-
-    // Obtiene todos los términos (dt) y definiciones (dd) del glosario
     const terms = document.querySelectorAll('dt');
     const definitions = document.querySelectorAll('dd');
-
-    // Recorre todos los términos y definiciones
+  
     terms.forEach((term, index) => {
-        // Obtiene el texto del término y la definición en minúsculas
-        const termText = term.textContent.toLowerCase();
-        const definitionText = definitions[index].textContent.toLowerCase();
-
-        // Verifica si el término o la definición coinciden con la búsqueda
-        if (termText.includes(searchTerm) || definitionText.includes(searchTerm)) {
-            // Si coincide, muestra el término y la definición
-            term.style.display = 'block';
-            definitions[index].style.display = 'block';
-        } else {
-            // Si no coincide, oculta el término y la definición
-            term.style.display = 'none';
-            definitions[index].style.display = 'none';
-        }
+      const termText = term.textContent.toLowerCase();
+      const defText = definitions[index].textContent.toLowerCase();
+  
+      if (termText.includes(searchTerm) || defText.includes(searchTerm)) {
+        term.style.display = 'block';
+        definitions[index].style.display = 'block';
+      } else {
+        term.style.display = 'none';
+        definitions[index].style.display = 'none';
+      }
     });
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-    document.querySelector("#volver-arriba a").addEventListener("click", function (event) {
-        event.preventDefault();
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    });
-});
-
-
-/**
- * Escucha el evento 'input' en el campo de búsqueda.
- * Cada vez que el usuario escribe, se ejecuta la función searchGlossary.
- */
-document.getElementById('searchInput').addEventListener('input', searchGlossary);
+  }
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    renderGlossary(glosario);
+  
+    document.getElementById('searchInput').addEventListener('input', searchGlossary);
+  
+    const volverArriba = document.querySelector("#volver-arriba a");
+    if (volverArriba) {
+      volverArriba.addEventListener('click', e => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  });
+  
