@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mapa Mundial - Intranet</title>
+
+    <!-- Tu CSS local -->
+    <link rel="stylesheet" href="style_mapa.css" />
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+<header>
+    <img src="../Imagenes_y_Archivos/Logo Addinteli 2.png" alt="Logo Addinteli" class="logo" />
+    <nav>
+        <ul id="barradenavegacion">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../Glosario/glosario.html">Glosario</a></li>
+            <li><a href="../Guias Rapidas/guiasrapidas.html">Guias rapidas</a></li>
+            <li><a href="../Procesos y Manuales/procesos y manuales.html">Procesos y Manuales</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="content">
+    <h1>Búsqueda de Países</h1>
+
+    <div class="formulario-busqueda">
+        <label for="pais-input">País:</label>
+        <input type="text" id="pais-input" placeholder="Ej. México" />
+        <button id="btnBuscar">Buscar</button>
+        <button id="btnLimpiar">Limpiar</button>
+    </div>
+
+    <div id="map" style="height: 500px; margin-bottom: 20px;"></div>
+
+    <div class="tabla-resultados-container">
+        <table id="tabla-resultados" border="1">
+            <thead>
+                <tr>
+                    <th>País</th>
+                    <th>TADIG</th>
+                    <th>Connection</th>
+                    <th>Operador</th>
+                    <th>Service Type</th>
+                    <th>Country Code</th>
+                    <th>MCC</th>
+                    <th>IMSI Roamability</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</main>
+
+<!-- Cargar tu archivo JSON externo como variable global -->
+<script src="Paises Roaming Internacional.js"></script>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- GeoJSON del mundo -->
+<script src="https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json"></script>
+
+<!-- Tu JS principal -->
+<script src="app_mapa.js"></script>
+</body>
+</html>

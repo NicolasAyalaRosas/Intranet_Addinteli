@@ -9,8 +9,6 @@ const flujos = {
 };
 
 // Obtener elementos del DOM
-const btn = document.getElementById("chatbot-btn");
-const box = document.getElementById("chatbot-box");
 const input = document.getElementById("chatbot-input");
 const content = document.getElementById("chatbot-content");
 
@@ -18,17 +16,14 @@ const content = document.getElementById("chatbot-content");
 let model;
 async function loadModel() {
   try {
-    model = await transformers.AutoModelForCausalLM.from_pretrained("Felladrin/onnx-Pythia-31M-Chat-v1");
+    model = await transformers.AutoModelForCausalLM.from_pretrained("facebook/blenderbot-400M-distill");
     console.log("Modelo cargado");
+    addLine("🤖", "¡Bienvenido al Asistente Técnico! Escribe 'llamadas', 'mensajes' o 'datos' para soporte guiado, o cualquier consulta técnica para asistencia general.");
   } catch (e) {
     console.error("Error al cargar el modelo:", e);
+    addLine("🤖", "Error al cargar el asistente. Escribe 'llamadas', 'mensajes' o 'datos' para soporte guiado.");
   }
 }
-
-// Mostrar/ocultar el chatbot
-btn.addEventListener("click", () => {
-  box.classList.toggle("hidden");
-});
 
 // Procesar entrada del usuario
 input.addEventListener("keypress", async (e) => {
@@ -47,13 +42,17 @@ input.addEventListener("keypress", async (e) => {
     } else {
       // Usar IA para consultas genéricas
       try {
-        const inputs = await transformers.AutoTokenizer.from_pretrained("Felladrin/onnx-Pythia-31M-Chat-v1").encode(msg);
-        const outputs = await model.generate(inputs, { max_length: 50 });
-        const response = await transformers.AutoTokenizer.from_pretrained("Felladrin/onnx-Pythia-31M-Chat-v1").decode(outputs[0]);
-        addLine("🤖", response || "Por favor escribe: llamadas, mensajes o datos.");
+        const inputs = await transformers.AutoTokenizer.from_pretrained("facebook/blenderbot-400M-distill").encode(msg);
+        const outputs = await model.generate(inputs, { 
+          max_length: 150, 
+          temperature: 0.7, 
+          top_k: 50 
+        });
+        const response = await transformers.AutoTokenizer.from_pretrained("facebook/blenderbot-400M-distill").decode(outputs[0]);
+        addLine("🤖", response || "No entendí tu consulta. Escribe 'llamadas', 'mensajes' o 'datos' para soporte guiado, o intenta de nuevo.");
       } catch (e) {
         console.error("Error con el modelo:", e);
-        addLine("🤖", "Error al procesar la consulta. Escribe: llamadas, mensajes o datos.");
+        addLine("🤖", "Error al procesar la consulta. Escribe 'llamadas', 'mensajes' o 'datos' para soporte guiado.");
       }
     }
   }
@@ -86,4 +85,4 @@ function renderFlujo(nodo) {
 }
 
 // Cargar modelo al iniciar la página
-window.onload = loadModel;
+document.addEventListener("DOMContentLoaded", loadModel);
