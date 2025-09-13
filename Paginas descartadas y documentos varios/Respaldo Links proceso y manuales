@@ -1,0 +1,89 @@
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li>
+                    <button class="accordion" data-section="abd" aria-expanded="false">Manuales Numlex - ABD</button>
+                    <ul class="panel">
+                        <li><a href="../Material_de_Apoyo/ABD/ABD - Guía del Usuario de la Web GUI NUMLEX ABD.pdf" target="viewer">Guía del Usuario de la Web GUI NUMLEX ABD</a></li>
+                        <li><a href="../Material_de_Apoyo/ABD/ABD - Procesos de Portación de Número(s).pdf" target="viewer">Procesos de Portación de Número(s)</a></li>
+                        <li><a href="../Material_de_Apoyo/ABD/ABD - Especificación de las Interfaces de Portabilidad Numérica en México.pdf" target="viewer">Especificación de las Interfaces de Portabilidad Numérica en México</a></li>
+                        <li><a href="../Material_de_Apoyo/ABD/ABD - Código de Error de Portabilidad Numérica México.pdf" target="viewer">Código de Error de Portabilidad Numérica México</a></li>
+                        <li><a href="../Material_de_Apoyo/ABD/Temporizadores ABD.pdf" target="_viewer">Temporizadores ABD</a></li>
+                        <li><a href="../Material_de_Apoyo/ABD/Reglas de Portabilidad.pdf" target="viewer">Reglas de Portabilidad Numerica IFT</a></li>
+            </ul>
+                </li>
+                <li>
+                    <button class="accordion" data-section="altan" aria-expanded="false">Manuales MBB</button>
+                    <ul class="panel">
+                        <li><a href="../Material_de_Apoyo/Manuales_MBB/MANUAL_SELECCION_DE_RED_ANDROID.pdf" target="viewer">Manual - Seleccion de Red Android</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_MBB/MANUAL_SELECCION_RED_IOS.pdf" target="viewer">Manual - Seleccion de Red iOS</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_MBB/MANUAL_HABILITAR_DATOS_ANDROID.pdf" target="viewer">Manual - Habilitar datos Android</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_MBB/MANUAL_HABILITAR_VoLTE_ANDROID.pdf" target="viewer">Manual - Habilitar VoLTE Android</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_MBB/MANUAL_HABILITAR_VOLTE_Y_ROAMING_DE_DATOS_IOS.pdf" target="viewer">Manual - Habilitar VoLTE iOS</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_MBB/MANUAL_APN_ANDROID.pdf" target="viewer">Manual - APN Android</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_MBB/MANUAL_APN_IPHONE.pdf" target="viewer">Manual - APN iOS</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_MBB/MANUAL_ACTUALIZACION_DE_SISTEMA_OPERATIVO_ANDROID.pdf" target="viewer">Manual - Actualizacion de SO Android</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="accordion" data-section="empty" aria-expanded="false">Manuales e-SIM</button>
+                    <ul class="panel">
+                        <li><a href="../Material_de_Apoyo/Manuales_eSIM/MANUAL_ DE_USUARIO_eSIM_V1.pdf" target="viewer">Guia de Usuario e-SIM V1</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_eSIM/MANUAL_DE_EQUIPOS_MBB_APPLE_eSIM.pdf" target="viewer">Manual - E-sim Apple</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_eSIM/MANUAL_DE_EQUIPOS_MBB_HUAWEI_eSIM.pdf" target="viewer">Manual - E-sim Huawei</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_eSIM/MANUAL_DE_EQUIPOS_MBB_MOTOROLA_eSIM.pdf" target="viewer">Manual - E-sim Motorola</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_eSIM/MANUAL_DE_EQUIPOS_MBB_SAMSUNG_eSIM.pdf" target="viewer">Manual - E-sim Samsung</a></li>
+                    </ul>
+                </li>
+                    <button class="accordion" data-section="empty" aria-expanded="false">Manuales Altan</button>
+                    <ul class="panel">
+                        <li><a href="../Material_de_Apoyo/Manuales_Altan/Manual de Usuario - View360 Cliente Marzo 2025.pdf" target="viewer">Manual de Usuario View360 Ver. Mar-2025</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_Altan/20240502 Guía de configuraciones.pdf" target="viewer">Guia de configuraciones VozApp</a></li>
+                        <li><a href="../Material_de_Apoyo/Manuales_Altan/Categorizacion de equipos.pdf" target="viewer">Categorizacion de equipos</a></li>
+                    </ul>
+                <li>
+                    <button class="accordion" data-section="abd" aria-expanded="false">Troubleshooting</button>
+                    <ul class="panel">
+                        <li><a href="../Material_de_Apoyo/Procesos/Validaciones-Basicas-en-sistema-HUB.pdf" target="viewer">Validaciones Basicas en sistema HUB</a></li>
+                        <li><a href="../Material_de_Apoyo/Procesos/Identificacion-y-Eliminacion-de-Estatus-en-DN-por-Sistema-HUB.pdf" target="viewer">Identificacion y Eliminacion de estatus en Sistema HUB</a></li>
+                        <li><a href="../Material_de_Apoyo/Procesos/Eliminar-una-eSIM-en-iPhone.pdf" target="viewer">Como eliminar e-SIM Iphone</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="accordion" data-section="altan" aria-expanded="false">Documentacion de apoyo Addinteli</button>
+                    <ul class="panel">
+                        <li><a href="../Material_de_Apoyo/Addinteli/Planes BYPLUS.pdf" target="viewer">Planes ByPlus</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/Cobertura Roaming Internacional por Solución y Roaming Partner.pdf" target="viewer">Cobertura Roaming Internacional por Solución y Roaming Partner</a></li>                        
+                        <li><a href="../Material_de_Apoyo/Addinteli/RSSS Descripción.pdf" target="viewer">Guia para RRSS</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/SMS-Guia Rapida.pdf" target="viewer">Guia rapida para configuracion de SMS</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/TraficoA2p_AppsPrincipales.pdf" target="viewer">Trafico A2p - App Principales</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/TraficoA2p_OtrasApp.pdf" target="viewer">Trafico A2p - Otras App</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/TraficoA2p_Bancos.pdf" target="viewer">Trafico A2p - Bancos</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/Claves LADA.pdf" target="viewer">Claves LADA Mexico</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/Formato de Portabilidad.pdf" target="viewer">Formato de Portabilidad Addinteli</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/MCC y MNC Mundial.pdf" target="viewer">MCC´s y MNC´s Mundial</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/Números Identificadores de Región de México.pdf" target="viewer">Numeros Identificadores de Region de Mexico</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/Documento de Referencia_RegionesIFT.pdf" target="viewer">Documento de Referencia_Regiones IFT</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/Catálogo numeración por zona.pdf" target="viewer">Catalogo de numeracion por zona</a></li>
+                        <li><a href="../Material_de_Apoyo/Addinteli/Cambio de numeracion ift.pdf" target="viewer">Caambio de numeracion IFT</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <button class="accordion" data-section="empty" aria-expanded="false">Documentos de apoyo Bait</button>
+                    <ul class="panel">
+                        <li><a href="../Material_de_Apoyo/Bait/PARRILLA_DE_PRECIOS_WALMART.pdf" target="viewer">Ofertas Walmart & Módulos Adicionales</a></li>
+                        <li><a href="../Material_de_Apoyo/Bait/Cobertura_Roaming_Internacional.pdf" target="viewer">Cobertura Roaming Internacional</a></li>
+                        <li><a href="../Material_de_Apoyo/Bait/Guía de Asistencia para Roaming Internacional_iPhone_Actualizado.pdf">Guia Roaming Internacional Iphone</a></li>
+                        <li><a href="../Material_de_Apoyo/Bait/Configuraciones Basicas.pdf">Configuracion de APN e IMS - Android</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="accordion" data-section="empty">Sección Vacía</button>
+                    <ul class="panel">
+                        <li><a href="#link1">Enlace vacío 1</a></li>
+                        <li><a href="#link2">Enlace vacío 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>

@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box; /* Asegura que padding/margin no rompan el layout */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,13 +10,18 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    height: 100vh;
+    min-height: 100vh; /* Cubre toda la pantalla */
+    display: flex;
+    flex-direction: column; /* Divide en header, main, footer */
 }
 
-header {
-    position: relative;
+header.static-header {
+    position: relative; /* Estático, se mueve con el scroll */
+    width: 100%;
     padding: 20px 0;
-    text-align: center;
+    background-color: transparent; /* Sin barra gris */
+    z-index: 1000; /* Sobre otros elementos */
+    margin-bottom: 60px; /* Aumentado: De 40px a 60px para más separación del main */
 }
 
 .logo {
@@ -21,39 +30,88 @@ header {
     left: 20px;
     height: 70px;
     width: auto;
+    z-index: 1001; /* Sobre el header */
 }
 
-#barradenavegacion {
+.menu-hamburguesa {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1001; /* Sobre el header */
+}
+
+#menu-toggle {
+    background-color: #13479a;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#menu-toggle:hover {
+    background-color: #0f3678;
+}
+
+.menu-desplegable {
     list-style: none;
-    display: flex;
-    justify-content: right;
-    gap: 20px;
-    padding: 10px 20px;
-    margin: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    min-width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 1002; /* Sobre el mapa */
 }
 
-#barradenavegacion li a {
+.menu-desplegable.mostrar {
+    display: block;
+}
+
+.menu-desplegable li a {
+    display: block;
     color: #13479a;
-    font-size: 17.5px;
+    font-size: 16px;
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: left;
 }
 
-#barradenavegacion li a:hover {
+.menu-desplegable li a:hover {
     color: red;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
 main.content {
-    flex: 1;
-    background-color: rgba(0, 0, 0, 0.5); /* Más oscuro para empatar con el diseño de la intranet */
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 1200px;
+    flex: 1; /* Ocupa el espacio disponible entre header y footer */
+    margin: 20px auto; /* Centrado, espacio vertical */
+    padding: 40px; /* Padding interno para elementos */
+    width: 80%; /* 80% del ancho del viewport, como ajustaste */
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1; /* Debajo del header/menú */
+}
+
+footer.static-footer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: transparent; /* Sin barra gris */
+    color: white;
+    text-align: center;
+    z-index: 1000; /* Sobre el fondo, debajo del menú */
+}
+
+footer.static-footer p {
+    margin: 0;
+    font-size: 14px;
 }
 
 h1 {
@@ -74,7 +132,7 @@ h1 {
 .formulario-busqueda label {
     font-weight: bold;
     margin-right: 5px;
-    color: white; /* Agregado para accesibilidad y consistencia con style_sitios.css */
+    color: white;
 }
 
 .formulario-busqueda input[type="text"] {
@@ -82,10 +140,10 @@ h1 {
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    min-width: 300px; /* Ajustado para consistencia en búsquedas largas (de V1) */
+    min-width: 300px;
 }
 
-.formulario-busqueda select { /* Agregado para soporte a selects (e.g., en páginas como Sitios MBB) */
+.formulario-busqueda select {
     padding: 7px 10px;
     font-size: 16px;
     border-radius: 5px;
@@ -108,7 +166,7 @@ h1 {
     background-color: #0f3678;
 }
 
-#resultados { /* Agregado para mensajes dinámicos (e.g., "No se encontraron resultados") */
+#resultados {
     font-size: 18px;
     color: white;
     text-align: center;
@@ -123,7 +181,7 @@ h1 {
 #tabla-resultados {
     width: 100%;
     border-collapse: collapse;
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco para legibilidad */
+    background-color: rgba(255, 255, 255, 0.9);
     color: black;
 }
 
@@ -144,15 +202,21 @@ h1 {
     background-color: #e6e6e6;
 }
 
-/* Mapa visible y acorde al diseño de la intranet */
 #map {
+    width: 100%; /* Ocupa todo el ancho de main.content (80%) */
     height: 500px;
     border: 2px solid #13479a;
     border-radius: 5px;
+    margin-top: 20px; /* Añadido: Espacio extra encima del mapa */
     margin-bottom: 20px;
+    z-index: 1; /* Debajo del menú */
 }
 
-/* Estilos específicos para resaltar países en el mapa interactivo (Leaflet) */
+.leaflet-container {
+    width: 100%; /* Ajusta al contenedor #map */
+    height: 100%;
+}
+
 .leaflet-interactive.pais-resaltado {
     fill: #ff0000 !important;
     fill-opacity: 0.5 !important;

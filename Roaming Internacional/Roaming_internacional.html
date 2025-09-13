@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roaming Internacional</title>
-    <link rel="stylesheet" href="style_mapa.css"> 
+    <link rel="stylesheet" href="style_mapa.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
-    <header>
-        <img src="../Imagenes_y_Archivos/Logo Addinteli 2.png" alt="Logo de la Intranet" class="logo">
-        <ul id="barradenavegacion">
+    <header class="static-header">
+        <img src="../Imagenes_y_Archivos/Logo_Addinteli_2.png" alt="Logo de la Intranet" class="logo">
+        <div class="menu-hamburguesa">
+            <button id="menu-toggle" aria-label="Abrir menú de navegación">☰ Menú</button>
+            <ul class="menu-desplegable" id="menu-desplegable">
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../Glosario/glosario.html">Glosario</a></li>
-                <li><a href="../Guias Rapidas/guiasrapidas.html">Guias rapidas</a></li>
-                <li><a href="../Procesos y Manuales/procesos y manuales.html">Procesos y Manuales</a></li>
+                <li><a href="../Guias Rapidas/guiasrapidas.html">Guías rápidas</a></li>
+                <li><a href="../Procesos y Manuales/procesos y manuales.html">Documentos de Apoyo</a></li>
                 <li><a href="../Sitios MBB/SitiosMBB.html">Sitios MBB</a></li>
-                <li><a href="../Roaming Internacional/Roaming_internacional.html">Roaming Internacional</a></li>
-        </ul>
+            </ul>
+        </div>
     </header>
 
-    <main class="content"> <!-- Clase para fondo y centrado -->
+    <main class="content">
         <h1>Roaming Internacional</h1>
 
-        <div class="formulario-busqueda"> <!-- Clase para estilos flex -->
-            <label for="pais-input">Buscar país:</label> <!-- Label con for para accesibilidad -->
-            <input type="text" id="pais-input" list="paises-sugeridos" placeholder="Escribe un país para buscar"> <!-- ID y list para JS -->
+        <div class="formulario-busqueda">
+            <label for="pais-input">Buscar país:</label>
+            <input type="text" id="pais-input" list="paises-sugeridos" placeholder="Escribe un país para buscar">
             <datalist id="paises-sugeridos">
                 <!-- Opciones se llenan dinámicamente via JS desde paises_sugerencias.js -->
             </datalist>
-
-            <button type="button" id="btnBuscar">Buscar</button> <!-- type e ID para JS -->
+            <button type="button" id="btnBuscar">Buscar</button>
             <button type="button" id="btnLimpiar">Limpiar</button>
         </div>
 
-        <div id="resultados"></div> <!-- Para mensajes dinámicos, e.g., "No se encontró el país" -->
+        <div id="resultados"></div>
 
-        <div id="map"></div> <!-- Mapa para resaltar países -->
+        <div id="map"></div>
 
-        <div class="tabla-resultados-container"> <!-- Contenedor para overflow -->
-            <table id="tabla-resultados"> <!-- ID para JS y CSS -->
+        <div class="tabla-resultados-container">
+            <table id="tabla-resultados">
                 <thead>
                     <tr>
                         <th>País</th>
@@ -60,10 +61,30 @@
         </div>
     </main>
 
-    <!-- Scripts al final para carga eficiente -->
+    <footer class="static-footer">
+        <p>&copy; 2025 Intranet Corporativa. Todos los derechos reservados.</p>
+    </footer>
+
     <script src="../Roaming Internacional/paises_sugerencias.json"></script>
     <script src="../Roaming Internacional/Paises_Roaming_Internacional.json"></script>
     <script src="../Roaming Internacional/world_geojson.js"></script>
     <script src="../Roaming Internacional/app_mapa.js"></script>
+    <script>
+        // Toggle del menú hamburguesa
+        document.getElementById('menu-toggle').addEventListener('click', (e) => {
+            e.stopPropagation(); // Evita que el clic en el botón cierre el menú
+            const menu = document.getElementById('menu-desplegable');
+            menu.classList.toggle('mostrar');
+        });
+
+        // Cerrar menú al hacer clic fuera
+        document.addEventListener('click', (e) => {
+            const menu = document.getElementById('menu-desplegable');
+            const menuButton = document.getElementById('menu-toggle');
+            if (!menu.contains(e.target) && !menuButton.contains(e.target)) {
+                menu.classList.remove('mostrar');
+            }
+        });
+    </script>
 </body>
 </html>

@@ -1,10 +1,14 @@
 :root {
     --primary-color: #005b99; 
     --secondary-color: rgb(19, 71, 154);
-    --background-color: rgba(255, 255, 255, 0.95);
+    --background-color: rgba(255, 255, 255, 0.95); /* restaurado del original */
     --textbotton: #ffffff;  
     --text-color: #333;
     --hover-color: red;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -15,16 +19,18 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    height: 100vh;
-    padding-bottom: 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     color: var(--text-color);
 }
 
-header {
+header.static-header {
     position: relative;
     padding: 20px 0;
     text-align: center;
     color: white;
+    margin-bottom: 120px;
 }
 
 .logo {
@@ -33,34 +39,74 @@ header {
     left: 20px;
     height: 70px;
     width: auto;
+    z-index: 1001;
 }
 
-#barradenavegacion {
+.menu-hamburguesa {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+}
+
+#menu-toggle {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#menu-toggle:hover {
+    background-color: var(--primary-color);
+}
+
+.menu-desplegable {
     list-style: none;
-    display: flex;
-    justify-content: right;
-    gap: 20px;
-    padding: 10px 0;
-    margin: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    min-width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 1002;
 }
 
-#barradenavegacion li a {
+.menu-desplegable.mostrar {
+    display: block;
+}
+
+.menu-desplegable li a {
+    display: block;
     color: var(--secondary-color);
-    font-weight: normal;
-    font-size: 17.5px;
+    font-size: 16px;
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 5px;
-    transition: color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: left;
 }
 
-#barradenavegacion li a:hover {
+.menu-desplegable li a:hover {
     color: var(--hover-color);
+    background-color: rgba(230, 243, 247, 0.6);
 }
 
-main {
-    padding: 40px 20px;
-    text-align: center;
+main.content {
+    flex: 1;
+    margin: 20px auto;
+    padding: 40px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.207);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
 .glosario-container {
@@ -73,7 +119,7 @@ main {
     text-align: left;
 }
 
-/* Estilo para la barra de búsqueda */
+/* Barra de búsqueda */
 .search-container {
     margin-bottom: 20px;
     display: flex;
@@ -88,89 +134,93 @@ main {
     width: 80%;
     max-width: 500px;
     box-shadow: 0 2px 5px rgba(12, 33, 154, 0.1);
+    margin-right: 15px;
+}
+
+#clearSearch {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: var(--textbotton);
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  display: inline-block; /* necesario para que JS pueda mostrar/ocultar */
+}
+
+#clearSearch:hover {
+  background-color: var(--secondary-color);
 }
 
 #searchInput:focus {
     border-color: var(--primary-color);
     outline: none;
-    box-shadow: 0 0 5px rgba(0, 91, 153, 0.5); /* Updated to match new primary color */
+    box-shadow: 0 0 5px rgba(0, 91, 153, 0.5);
 }
 
-/* Lista de definiciones */
+/* Lista de términos */
 dl {
+    margin: 0;
+    padding: 0;
+    text-align: left;
     line-height: 1.8;
 }
 
-/* Terminos */
-dl dt {
+dt {
     font-weight: bold;
-    margin-top: 20px;
     font-size: 18px;
-    color: var(--primary-color); /* Uses new primary color */
+    color: var(--primary-color);
+    margin-top: 20px;
     display: flex;
     align-items: center;
-    border-left: 4px solid var(--primary-color); /* Uses new primary color */
+    border-left: 4px solid var(--primary-color);
     padding-left: 10px;
 }
 
-/* Definiciones */
-dl dd {
+dd {
     margin-left: 30px;
     margin-bottom: 15px;
     font-size: 15px;
     position: relative;
-    background-color: #e6f3f7; /* Changed to a light teal for complementary contrast */
+    background-color: #e6f3f7; /* restaurado del original */
     padding: 15px 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: var(--text-color);
 }
 
-/* Flecha decorativa antes del texto en la definición */
-dl dd::before {
+/* Flecha decorativa */
+dd::before {
     content: "↪";
     position: absolute;
     left: -20px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 18px;
-    color: #4a8ea8; /* Darker teal to match definition background */
+    color: #4a8ea8;
 }
 
-/* Estilos para listas dentro de las definiciones */
-dl dd ul {
+/* Listas internas */
+dd ul,
+dd ol {
     margin-left: 20px;
     margin-bottom: 15px;
-    list-style-type: disc;
     color: #444;
 }
 
-dl dd ul li {
+dd ul li,
+dd ol li {
     margin-bottom: 6px;
     font-size: 15px;
 }
 
-/* También para listas numeradas, si usas */
-dl dd ol {
-    margin-left: 20px;
-    margin-bottom: 15px;
-    list-style-type: decimal;
-    color: #444;
-}
-
-dl dd ol li {
-    margin-bottom: 6px;
-    font-size: 15px;
-}
-
-/* Negritas dentro de las definiciones */
-dl dd strong {
-    color: var(--primary-color); /* Updated to match new primary color */
+dd strong {
+    color: var(--primary-color);
     font-weight: bold;
 }
 
-/* Para párrafos dentro de definiciones */
-dl dd p {
+dd p {
     margin-bottom: 12px;
 }
 
@@ -178,9 +228,9 @@ dl dd p {
 #volver-arriba a {
     display: inline-block;
     padding: 10px 15px;
-    background-color: var(--primary-color); /* Uses new primary color */
-    color: var(--textbotton) !important;  /* Forzar el color del texto */
-    text-decoration: none;  /* Elimina el subrayado predeterminado */
+    background-color: var(--primary-color);
+    color: var(--textbotton) !important;
+    text-decoration: none;
     border-radius: 8px;
     transition: background 0.3s ease;
 }
@@ -192,5 +242,20 @@ dl dd p {
 #volver-arriba {
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 60px; /* eleva el botón */
+    margin-bottom: 60px;
+}
+
+/* Footer */
+footer.static-footer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+}
+
+footer.static-footer p {
+    margin: 0;
+    font-size: 14px;
 }

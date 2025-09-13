@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Nicolas Ayala Rosas">
-    <title>Intranet Addinteli</title>
+    <title>Intranet Addinteli - Guías Rápidas</title>
     <link rel="stylesheet" href="style_guiasrapidas.css">
 </head>
-
 <body>
     <header>
-        <img src="../Imagenes_y_Archivos/Logo Addinteli 2.png" alt="Logo Addinteli" class="logo">
-        <nav>
-            <ul id="barradenavegacion">
+        <img src="../Imagenes_y_Archivos/Logo_Addinteli_2.png" alt="Logo Addinteli" class="logo">
+        <div class="menu-hamburguesa">
+            <button id="menu-toggle" aria-label="Abrir menú de navegación">☰ Menú</button>
+            <ul class="menu-desplegable" id="menu-desplegable">
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../Glosario/glosario.html">Glosario</a></li>
-                <li><a href="../Procesos y Manuales/procesos y manuales.html">Procesos y Manuales</a></li>
+                <li><a href="../Procesos y Manuales/procesos y manuales.html">Documentos de Apoyo</a></li>
                 <li><a href="../Sitios MBB/SitiosMBB.html">Sitios MBB</a></li>
+                <li><a href="../Roaming Internacional/Roaming_internacional.html">Roaming Internacional</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
 
     <main>
+        <div class="intro-text">
+            <mark>Da click en cada uno de los elementos de la lista para que se muestre el video correspondiente.</mark>
+        </div>
         <div class="video-list">
-            <p class="intro-text"><mark>Da click en cada uno de los elementos de la lista para que se muestre el video correspondiente.</mark></p>
             <ul class="steps-list">
                 <li class="step-item" data-video="jrFbcYfSapM" data-title="Compatibilidad IMEI Altán Redes">
                     <span class="step-title">1.- Verifica la compatibilidad con tu equipo</span>
@@ -51,10 +53,29 @@
                 </li>
             </ul>
         </div>
-
     </main>
 
-    <script src="app.js"></script>
+    <footer>
+        <p>&copy; 2025 Intranet Corporativa. Todos los derechos reservados.</p>
+    </footer>
 
+    <script src="../Guias Rapidas/app.js"></script>
+    <script>
+        // Toggle del menú hamburguesa
+        document.getElementById('menu-toggle').addEventListener('click', (e) => {
+            e.stopPropagation();
+            const menu = document.getElementById('menu-desplegable');
+            menu.classList.toggle('mostrar');
+        });
+
+        // Cerrar menú al hacer clic fuera
+        document.addEventListener('click', (e) => {
+            const menu = document.getElementById('menu-desplegable');
+            const menuButton = document.getElementById('menu-toggle');
+            if (!menu.contains(e.target) && !menuButton.contains(e.target)) {
+                menu.classList.remove('mostrar');
+            }
+        });
+    </script>
 </body>
 </html>
