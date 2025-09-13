@@ -1,0 +1,2492 @@
+var dataPaises = [
+ {
+   "Pais": "Afganistan",
+   "TADIG": "AFGAR",
+   "Connection": "Roamability",
+   "Operador": "Areeba/MTN",
+   "Service Type": "3G",
+   "Country Code": "93",
+   "MCC": 412,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Afganistan",
+   "TADIG": "AFGEA",
+   "Connection": "Roamability",
+   "Operador": "Etisalat",
+   "Service Type": "3G",
+   "Country Code": "93",
+   "MCC": 412,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Albania",
+   "TADIG": "ALBVF",
+   "Connection": "Roamability",
+   "Operador": "Vodafone",
+   "Service Type": "LTE",
+   "Country Code": "355",
+   "MCC": 276,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Albania",
+   "TADIG": "ALBAM",
+   "Connection": "Roamability",
+   "Operador": "TELEKOM ALBANIA SH A",
+   "Service Type": "LTE",
+   "Country Code": "355",
+   "MCC": 276,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Albania",
+   "TADIG": "ALBEM",
+   "Connection": "Roamability",
+   "Operador": "Eagle Mobile",
+   "Service Type": "LTE",
+   "Country Code": "355",
+   "MCC": 276,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Alemania",
+   "TADIG": "DEUD1",
+   "Connection": "Roamability",
+   "Operador": "T-mobile/Telekom",
+   "Service Type": "3G",
+   "Country Code": "49",
+   "MCC": 262,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Alemania",
+   "TADIG": "DEUD2",
+   "Connection": "Roamability",
+   "Operador": "Vodafone GmbH",
+   "Service Type": "LTE",
+   "Country Code": "49",
+   "MCC": 262,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Alemania",
+   "TADIG": "DEUE2",
+   "Connection": "Roamability",
+   "Operador": "O2",
+   "Service Type": "LTE",
+   "Country Code": "49",
+   "MCC": 262,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Anguilla",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Anguilla",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Antigua y Barbuda",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Antigua and Barbuda",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Antigua y Barbuda",
+   "TADIG": "ATGCW",
+   "Connection": "Roamability",
+   "Operador": "C & W",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 344,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Arabia Saudita",
+   "TADIG": "SAUVG",
+   "Connection": "Roamability",
+   "Operador": "STC",
+   "Service Type": "LTE",
+   "Country Code": "966",
+   "MCC": 420,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Arabia Saudita",
+   "TADIG": "SAUZN",
+   "Connection": "Roamability",
+   "Operador": "Zain",
+   "Service Type": "LTE",
+   "Country Code": "966",
+   "MCC": 420,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Argelia",
+   "TADIG": "DZAWT",
+   "Connection": "Roamability",
+   "Operador": "Oreedo/Wataniya / Nedjma",
+   "Service Type": "3G",
+   "Country Code": "213",
+   "MCC": 603,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Argentina",
+   "TADIG": "ARGCM",
+   "Connection": "Directo",
+   "Operador": "AMX Argentina S.A.",
+   "Service Type": "LTE",
+   "Country Code": "54",
+   "MCC": 722,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Armenia",
+   "TADIG": "ARM01",
+   "Connection": "Roamability",
+   "Operador": "ArmenTel",
+   "Service Type": "LTE",
+   "Country Code": "374",
+   "MCC": 283,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Armenia",
+   "TADIG": "ARMOR",
+   "Connection": "Roamability",
+   "Operador": "UCOM LLC",
+   "Service Type": "3G",
+   "Country Code": "374",
+   "MCC": 283,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Aruba",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Aruba",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Australia",
+   "TADIG": "AUSVF",
+   "Connection": "Roamability",
+   "Operador": "Vodafone Hutchison Australia Pty Limited",
+   "Service Type": "LTE",
+   "Country Code": "61",
+   "MCC": 505,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Australia",
+   "TADIG": "AUSOP",
+   "Connection": "Roamability",
+   "Operador": "Singtel Optus",
+   "Service Type": "3G",
+   "Country Code": "61",
+   "MCC": 505,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Australia",
+   "TADIG": "AUSTA",
+   "Connection": "Roamability",
+   "Operador": "Telstra Corporation Limited",
+   "Service Type": "LTE",
+   "Country Code": "61",
+   "MCC": 505,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Austria",
+   "TADIG": "AUTCA",
+   "Connection": "Directo / Hub",
+   "Operador": "Hutchison Drei Austria GmbH",
+   "Service Type": "LTE",
+   "Country Code": "43",
+   "MCC": 232,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Austria",
+   "TADIG": "AUTON",
+   "Connection": "Roamability",
+   "Operador": "A1 Telekom Austria AG ",
+   "Service Type": "LTE",
+   "Country Code": "43",
+   "MCC": 232,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Austria",
+   "TADIG": "AUTTR",
+   "Connection": "Roamability",
+   "Operador": "T-Mobile/Telering",
+   "Service Type": "LTE",
+   "Country Code": "43",
+   "MCC": 232,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Azerbaiyan",
+   "TADIG": "AZEAF",
+   "Connection": "Roamability",
+   "Operador": "Azerfon LLC",
+   "Service Type": "LTE",
+   "Country Code": "994",
+   "MCC": 400,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Banglades",
+   "TADIG": "BGDBL",
+   "Connection": "Roamability",
+   "Operador": "Banglalink Digital Communications Ltd ",
+   "Service Type": "LTE",
+   "Country Code": "880",
+   "MCC": 470,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Barbados",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Barbados",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Barein",
+   "TADIG": "BHRMV",
+   "Connection": "Roamability",
+   "Operador": "Zain Bahrain B S C",
+   "Service Type": "LTE",
+   "Country Code": "973",
+   "MCC": 426,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Barein",
+   "TADIG": "BHRST",
+   "Connection": "Roamability",
+   "Operador": "Viva Bahrain B S C Closed",
+   "Service Type": "3G",
+   "Country Code": "973",
+   "MCC": 426,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Belgica",
+   "TADIG": "BELKO",
+   "Connection": "Directo / Hub",
+   "Operador": "Telenet Group BVBA",
+   "Service Type": "LTE",
+   "Country Code": "32",
+   "MCC": 206,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Belgica",
+   "TADIG": "BELMO",
+   "Connection": "Roamability",
+   "Operador": "ORANGE Belgium nv/SA",
+   "Service Type": "LTE",
+   "Country Code": "32",
+   "MCC": 206,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Belgica",
+   "TADIG": "BELTB",
+   "Connection": "Roamability",
+   "Operador": "Proximus PLC",
+   "Service Type": "LTE",
+   "Country Code": "32",
+   "MCC": 206,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Belice",
+   "TADIG": "BLZ67",
+   "Connection": "Roamability",
+   "Operador": "Belize Telemedia Limited",
+   "Service Type": "3G",
+   "Country Code": "501",
+   "MCC": 702,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Bermuda",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Bermuda",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Bielorrusia",
+   "TADIG": "BLR02",
+   "Connection": "Roamability",
+   "Operador": "JLLC Mobile TeleSystems",
+   "Service Type": "LTE",
+   "Country Code": "375",
+   "MCC": 257,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Bielorrusia",
+   "TADIG": "BLRBT",
+   "Connection": "Roamability",
+   "Operador": "BeST",
+   "Service Type": "3G",
+   "Country Code": "375",
+   "MCC": 257,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Bolivia",
+   "TADIG": "BOLTE",
+   "Connection": "Directo / Hub",
+   "Operador": "Telefonica Celular de Bolivia S.A. (TIGO)",
+   "Service Type": "3G",
+   "Country Code": "591",
+   "MCC": 736,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Bolivia",
+   "TADIG": "BOLNT",
+   "Connection": "Roamability",
+   "Operador": "Nuevatel PCS de Bolivia S A ",
+   "Service Type": "LTE",
+   "Country Code": "591",
+   "MCC": 736,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Bosnia y Herzegovina",
+   "TADIG": "BIHER",
+   "Connection": "Roamability",
+   "Operador": "Public Enterprise Croatian Telecom JSC",
+   "Service Type": "3G",
+   "Country Code": "387",
+   "MCC": 218,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Bosnia y Herzegovina",
+   "TADIG": "BIHPT",
+   "Connection": "Roamability",
+   "Operador": "BH Telecom JSC Sarajevo",
+   "Service Type": "3G",
+   "Country Code": "387",
+   "MCC": 218,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Brasil",
+   "TADIG": "BRACL",
+   "Connection": "Directo",
+   "Operador": "Claro SA",
+   "Service Type": "LTE",
+   "Country Code": "55",
+   "MCC": 724,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Brasil",
+   "TADIG": "BRACS",
+   "Connection": "Directo / Hub",
+   "Operador": "TIM S.A.",
+   "Service Type": "LTE",
+   "Country Code": "55",
+   "MCC": 724,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Brasil",
+   "TADIG": "BRARN",
+   "Connection": "Directo / Hub",
+   "Operador": "TIM S.A.",
+   "Service Type": "LTE",
+   "Country Code": "55",
+   "MCC": 724,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Brasil",
+   "TADIG": "BRASP",
+   "Connection": "Directo / Hub",
+   "Operador": "TIM S.A.",
+   "Service Type": "LTE",
+   "Country Code": "55",
+   "MCC": 724,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Brunei",
+   "TADIG": "BRNDS",
+   "Connection": "Roamability",
+   "Operador": "Datastream Technology Sdn Bhd",
+   "Service Type": "LTE",
+   "Country Code": "673",
+   "MCC": 528,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Bulgaria",
+   "TADIG": "BGR01",
+   "Connection": "Roamability",
+   "Operador": "mtel (Mobiltel EAD)",
+   "Service Type": "LTE",
+   "Country Code": "359",
+   "MCC": 284,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Bulgaria",
+   "TADIG": "BGRCM",
+   "Connection": "Roamability",
+   "Operador": "Telenor Bulgaria EAD",
+   "Service Type": "LTE",
+   "Country Code": "359",
+   "MCC": 284,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Bulgaria",
+   "TADIG": "BGRVA",
+   "Connection": "Roamability",
+   "Operador": "vivacom (Bulgarian Telecommunications Company EAD)",
+   "Service Type": "LTE",
+   "Country Code": "359",
+   "MCC": 284,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Burkina Faso",
+   "TADIG": "BFACT",
+   "Connection": "Roamability",
+   "Operador": "AIRTEL BURKINA FASO S.A.",
+   "Service Type": "3G",
+   "Country Code": "226",
+   "MCC": 613,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Cabo Verde",
+   "TADIG": "CPVCV",
+   "Connection": "Roamability",
+   "Operador": "CV Movel",
+   "Service Type": "3G",
+   "Country Code": "238",
+   "MCC": 625,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Camerun",
+   "TADIG": "CMRMT",
+   "Connection": "Roamability",
+   "Operador": "MTN",
+   "Service Type": "3G",
+   "Country Code": "237",
+   "MCC": 624,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Canada",
+   "TADIG": "CANTS",
+   "Connection": "Directo",
+   "Operador": "TELUS Communications",
+   "Service Type": "LTE",
+   "Country Code": "1",
+   "MCC": 302,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Canada",
+   "TADIG": "CANRW",
+   "Connection": "Directo",
+   "Operador": "Rogers Communications",
+   "Service Type": "LTE",
+   "Country Code": "1",
+   "MCC": 302,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Catar / Qtar",
+   "TADIG": "QATB1",
+   "Connection": "Directo / Hub",
+   "Operador": "Vodafone Qatar Q.S.C. ",
+   "Service Type": "LTE",
+   "Country Code": "974",
+   "MCC": 427,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Catar / Qtar",
+   "TADIG": "QATQT",
+   "Connection": "Roamability",
+   "Operador": "Ooredoo QSC",
+   "Service Type": "3G",
+   "Country Code": "974",
+   "MCC": 427,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Chad",
+   "TADIG": "TCDCT",
+   "Connection": "Roamability",
+   "Operador": "Zain/Airtel/Celtel",
+   "Service Type": "3G",
+   "Country Code": "235",
+   "MCC": 622,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Chile",
+   "TADIG": "CHLB2",
+   "Connection": "Roamability",
+   "Operador": "Telefonica Movistar",
+   "Service Type": "LTE",
+   "Country Code": "56",
+   "MCC": 730,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Chipre",
+   "TADIG": "CYPCT",
+   "Connection": "Roamability",
+   "Operador": "Cyprus Telecommunications Authority (Vodafone)",
+   "Service Type": "LTE",
+   "Country Code": "357",
+   "MCC": 280,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Chipre",
+   "TADIG": "CYPPT",
+   "Connection": "Roamability",
+   "Operador": "PrimeTel PLC ",
+   "Service Type": "LTE",
+   "Country Code": "357",
+   "MCC": 280,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Colombia",
+   "TADIG": "COLCO",
+   "Connection": "Directo / Hub",
+   "Operador": "TIGO Colombia",
+   "Service Type": "3G",
+   "Country Code": "57",
+   "MCC": 732,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Corea del Sur",
+   "TADIG": "KORKF",
+   "Connection": "Roamability",
+   "Operador": "KT Corporation",
+   "Service Type": "LTE",
+   "Country Code": "82",
+   "MCC": 450,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Corea del Sur",
+   "TADIG": "KORSK",
+   "Connection": "Roamability",
+   "Operador": "SK Telecom Co. Ltd",
+   "Service Type": "LTE",
+   "Country Code": "82",
+   "MCC": 450,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Costa de Marfil",
+   "TADIG": "CIVTL",
+   "Connection": "Roamability",
+   "Operador": "MTN C??te d'Ivoire S.A.",
+   "Service Type": "3G",
+   "Country Code": "225",
+   "MCC": 612,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Costa Rica",
+   "TADIG": "CRICR",
+   "Connection": "Directo",
+   "Operador": "Claro CR Telecomunicaciones, S.A.",
+   "Service Type": "LTE",
+   "Country Code": "506",
+   "MCC": 712,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Costa Rica",
+   "TADIG": "CRICL",
+   "Connection": "Directo",
+   "Operador": "Claro CR Telecomunicaciones, S.A.",
+   "Service Type": "LTE",
+   "Country Code": "506",
+   "MCC": 712,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Croacia",
+   "TADIG": "HRVT2",
+   "Connection": "Roamability",
+   "Operador": "Tele2 d o o za telekomunikacijske usluge",
+   "Service Type": "LTE",
+   "Country Code": "385",
+   "MCC": 219,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Croacia",
+   "TADIG": "HRVCN",
+   "Connection": "Roamability",
+   "Operador": "Hrvatski Telekom d d ",
+   "Service Type": "LTE",
+   "Country Code": "385",
+   "MCC": 219,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Croacia",
+   "TADIG": "HRVVI",
+   "Connection": "Roamability",
+   "Operador": "VIPnet d o o ",
+   "Service Type": "LTE",
+   "Country Code": "385",
+   "MCC": 219,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Curazao",
+   "TADIG": "ANTCT",
+   "Connection": "Roamability",
+   "Operador": "Polycom N.V./ Digicel",
+   "Service Type": "3G",
+   "Country Code": "599",
+   "MCC": 362,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Dinamarca",
+   "TADIG": "DNKHU",
+   "Connection": "Roamability",
+   "Operador": "HI3G Denmark ApS",
+   "Service Type": "LTE",
+   "Country Code": "45",
+   "MCC": 238,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Dinamarca",
+   "TADIG": "DNKIA",
+   "Connection": "Roamability",
+   "Operador": "Telia Nattjanster Norden AB",
+   "Service Type": "LTE",
+   "Country Code": "45",
+   "MCC": 238,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Dinamarca",
+   "TADIG": "DNKTD",
+   "Connection": "Roamability",
+   "Operador": "TDC Denmark-DNKTD",
+   "Service Type": "LTE",
+   "Country Code": "45",
+   "MCC": 238,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Dominica",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Dominica",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Ecuador",
+   "TADIG": "ECUOT",
+   "Connection": "Roamability",
+   "Operador": "MOVISTAR/OteCel",
+   "Service Type": "LTE",
+   "Country Code": "593",
+   "MCC": 740,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Egipto",
+   "TADIG": "EGYK9",
+   "Connection": "Roamability",
+   "Operador": "EMS - Mobinil",
+   "Service Type": "LTE",
+   "Country Code": "20",
+   "MCC": 602,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "El Salvador",
+   "TADIG": "SLVTP",
+   "Connection": "Directo",
+   "Operador": "CTE Telecom Personal S A de C V ",
+   "Service Type": "3G",
+   "Country Code": "503",
+   "MCC": 706,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Emiratos Arabes Unidos",
+   "TADIG": "AREDU",
+   "Connection": "Roamability",
+   "Operador": "Emirates Integrated TelecommunicationsCompany PJSC",
+   "Service Type": "LTE",
+   "Country Code": "971",
+   "MCC": 424,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Eslovaquia",
+   "TADIG": "SVKGT",
+   "Connection": "Roamability",
+   "Operador": "Orange Slovensko a s ",
+   "Service Type": "3G",
+   "Country Code": "421",
+   "MCC": 231,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Eslovaquia",
+   "TADIG": "SVKO2",
+   "Connection": "Roamability",
+   "Operador": "O2 Slovakia s r o",
+   "Service Type": "LTE",
+   "Country Code": "421",
+   "MCC": 231,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Eslovaquia",
+   "TADIG": "SVNMT",
+   "Connection": "Roamability",
+   "Operador": "Telekom Slovenije d d ",
+   "Service Type": "3G",
+   "Country Code": "386",
+   "MCC": 293,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Eslovenia",
+   "TADIG": "SVNSM",
+   "Connection": "Roamability",
+   "Operador": "A1 Slovenija d d ",
+   "Service Type": "LTE",
+   "Country Code": "386",
+   "MCC": 293,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Eslovenia",
+   "TADIG": "SVNVG",
+   "Connection": "Roamability",
+   "Operador": "Telemach",
+   "Service Type": "LTE",
+   "Country Code": "386",
+   "MCC": 293,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Espa�a",
+   "TADIG": "ESPRT",
+   "Connection": "Directo",
+   "Operador": "Orange Spain",
+   "Service Type": "LTE",
+   "Country Code": "34",
+   "MCC": 214,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Estados Unidos",
+   "TADIG": "USACG",
+   "Connection": "Directo",
+   "Operador": "AT&T Mobility",
+   "Service Type": "LTE",
+   "Country Code": "1",
+   "MCC": 310,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Estados Unidos",
+   "TADIG": "USAVZ",
+   "Connection": "Directo / Hub",
+   "Operador": "Verizon Wireless",
+   "Service Type": "LTE",
+   "Country Code": "1",
+   "MCC": 311,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Estados Unidos",
+   "TADIG": "USAW6",
+   "Connection": "Directo",
+   "Operador": "T-Mobile",
+   "Service Type": "LTE",
+   "Country Code": "1",
+   "MCC": 310,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Estonia",
+   "TADIG": "ESTRB",
+   "Connection": "Roamability",
+   "Operador": "Tele2 Eesti Aktsiaselts",
+   "Service Type": "LTE",
+   "Country Code": "372",
+   "MCC": 248,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Estonia",
+   "TADIG": "ESTEM",
+   "Connection": "Roamability",
+   "Operador": "Telia Eesti AS",
+   "Service Type": "LTE",
+   "Country Code": "372",
+   "MCC": 248,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Estonia",
+   "TADIG": "ESTRE",
+   "Connection": "Roamability",
+   "Operador": "Elisa Eesti AS",
+   "Service Type": "LTE",
+   "Country Code": "372",
+   "MCC": 248,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Filipinas",
+   "TADIG": "PHLGT",
+   "Connection": "Roamability",
+   "Operador": "Globe Telecom Inc",
+   "Service Type": "LTE",
+   "Country Code": "63",
+   "MCC": 515,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Filipinas",
+   "TADIG": "PHLSR",
+   "Connection": "Roamability",
+   "Operador": "Smart Communications Inc ",
+   "Service Type": "LTE",
+   "Country Code": "63",
+   "MCC": 515,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Finlandia",
+   "TADIG": "FINRL",
+   "Connection": "Roamability",
+   "Operador": "Elisa Corporation",
+   "Service Type": "3G",
+   "Country Code": "358",
+   "MCC": 244,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Finlandia",
+   "TADIG": "FINTF",
+   "Connection": "Roamability",
+   "Operador": "TeliaSonera Finland Oyj",
+   "Service Type": "LTE",
+   "Country Code": "358",
+   "MCC": 244,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Fiyi",
+   "TADIG": "FJIDP",
+   "Connection": "Roamability",
+   "Operador": "DigiCell",
+   "Service Type": "3G",
+   "Country Code": "679",
+   "MCC": 542,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Francia",
+   "TADIG": "FRAF3",
+   "Connection": "Directo / Hub",
+   "Operador": "Bouygues Telecom",
+   "Service Type": "LTE",
+   "Country Code": "33",
+   "MCC": 208,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Gabon",
+   "TADIG": "GABCT",
+   "Connection": "Roamability",
+   "Operador": "ZAIN/Celtel Gabon S.A.",
+   "Service Type": "3G",
+   "Country Code": "241",
+   "MCC": 628,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Georgia",
+   "TADIG": "GEOGC",
+   "Connection": "Roamability",
+   "Operador": "Geocell Ltd",
+   "Service Type": "3G",
+   "Country Code": "995",
+   "MCC": 282,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Georgia",
+   "TADIG": "GEOMT",
+   "Connection": "Roamability",
+   "Operador": "Mobitel LLC",
+   "Service Type": "3G",
+   "Country Code": "995",
+   "MCC": 282,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Ghana",
+   "TADIG": "GHAGT",
+   "Connection": "Roamability",
+   "Operador": "Vodafone",
+   "Service Type": "3G",
+   "Country Code": "233",
+   "MCC": 620,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Gibraltar",
+   "TADIG": "GIBGT",
+   "Connection": "Roamability",
+   "Operador": "Gibtelecom Limited",
+   "Service Type": "3G",
+   "Country Code": "350",
+   "MCC": 266,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Grecia",
+   "TADIG": "GRCCO",
+   "Connection": "Roamability",
+   "Operador": "Cosmote Mobile Telecommunications S A ",
+   "Service Type": "LTE",
+   "Country Code": "30",
+   "MCC": 202,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Grecia",
+   "TADIG": "GRCCT",
+   "Connection": "Roamability",
+   "Operador": "Vodafone",
+   "Service Type": "LTE",
+   "Country Code": "30",
+   "MCC": 202,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Grecia",
+   "TADIG": "GRCSH",
+   "Connection": "Roamability",
+   "Operador": "Tim/Wind-GRCQT",
+   "Service Type": "LTE",
+   "Country Code": "30",
+   "MCC": 202,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Grenada",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Grenada",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Groenlandia",
+   "TADIG": "GRLTG",
+   "Connection": "Roamability",
+   "Operador": "Tele Greenland A/S",
+   "Service Type": "3G",
+   "Country Code": "299",
+   "MCC": 290,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Guam",
+   "TADIG": "GUMDP",
+   "Connection": "Roamability",
+   "Operador": "Docomo",
+   "Service Type": "LTE",
+   "Country Code": "1-671",
+   "MCC": 310,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Guatemala",
+   "TADIG": "GTMCM",
+   "Connection": "Directo / Hub",
+   "Operador": "Comunicaciones Celulares S.A. (TIGO)",
+   "Service Type": "LTE",
+   "Country Code": "502",
+   "MCC": 704,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Guatemala",
+   "TADIG": "GTMSC",
+   "Connection": "Directo",
+   "Operador": "Telecomunicaciones de Guatemala, S.A.\n(Telgua)",
+   "Service Type": "LTE",
+   "Country Code": "502",
+   "MCC": 704,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Guayana Francesa",
+   "TADIG": "FRAF4",
+   "Connection": "Roamability",
+   "Operador": "Bouygues/DigiCel",
+   "Service Type": "3G",
+   "Country Code": "590",
+   "MCC": 340,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Guinea-Bissau",
+   "TADIG": "GNBSB",
+   "Connection": "Roamability",
+   "Operador": "MTN Guinea Bissau",
+   "Service Type": "3G",
+   "Country Code": "245",
+   "MCC": 632,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Guyana",
+   "TADIG": "GUYUM",
+   "Connection": "Roamability",
+   "Operador": "U Mobile Cellular Inc",
+   "Service Type": "3G",
+   "Country Code": "592",
+   "MCC": 738,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Haiti",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Haiti",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Honduras",
+   "TADIG": "HND02",
+   "Connection": "Directo / Hub",
+   "Operador": "Telefonica/CELTEL/Tigo",
+   "Service Type": "LTE",
+   "Country Code": "504",
+   "MCC": 708,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Honduras",
+   "TADIG": "HNDME",
+   "Connection": "Directo",
+   "Operador": "Servicios de Comunicaciones de Honduras,\nS.A. de C.V.",
+   "Service Type": "LTE",
+   "Country Code": "504",
+   "MCC": 708,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Hong Kong (China)",
+   "TADIG": "HKGH3",
+   "Connection": "Roamability",
+   "Operador": "H3G/Hutchinson",
+   "Service Type": "LTE",
+   "Country Code": "852",
+   "MCC": 454,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Hong Kong (China)",
+   "TADIG": "HKGPP",
+   "Connection": "Roamability",
+   "Operador": "China Mobile Hong Kong Company Limited",
+   "Service Type": "LTE",
+   "Country Code": "852",
+   "MCC": 454,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Hungria",
+   "TADIG": "HUNH2",
+   "Connection": "Roamability",
+   "Operador": "T-mobile/Magyar",
+   "Service Type": "LTE",
+   "Country Code": "36",
+   "MCC": 216,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Hungria",
+   "TADIG": "HUNVR",
+   "Connection": "Roamability",
+   "Operador": "Vodafone Hungary Mobile Telecommunications Company Limited",
+   "Service Type": "LTE",
+   "Country Code": "36",
+   "MCC": 216,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Hungria",
+   "TADIG": "HUNH1",
+   "Connection": "Roamability",
+   "Operador": "Pannon/Telenor",
+   "Service Type": "LTE",
+   "Country Code": "36",
+   "MCC": 216,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "India",
+   "TADIG": "CHNCT",
+   "Connection": "Roamability",
+   "Operador": "China Mobile GSM",
+   "Service Type": "3G",
+   "Country Code": "86",
+   "MCC": 460,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "India",
+   "TADIG": "INDHM",
+   "Connection": "Roamability",
+   "Operador": "Vodafone Essar Limited-HM",
+   "Service Type": "LTE",
+   "Country Code": "91",
+   "MCC": 404,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Indonesia",
+   "TADIG": "IDN89",
+   "Connection": "Roamability",
+   "Operador": "PT Hutchison 3 Indonesia",
+   "Service Type": "3G",
+   "Country Code": "62",
+   "MCC": 510,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Indonesia",
+   "TADIG": "IDNEX",
+   "Connection": "Roamability",
+   "Operador": "PT. Excelcom",
+   "Service Type": "LTE",
+   "Country Code": "62",
+   "MCC": 510,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Indonesia",
+   "TADIG": "IDNSL",
+   "Connection": "Roamability",
+   "Operador": "PT Indosat Tbk",
+   "Service Type": "LTE",
+   "Country Code": "62",
+   "MCC": 510,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Indonesia",
+   "TADIG": "IDNTS",
+   "Connection": "Roamability",
+   "Operador": "PT Telekomunikasi Selular",
+   "Service Type": "LTE",
+   "Country Code": "62",
+   "MCC": 510,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Iran",
+   "TADIG": "IRN11",
+   "Connection": "Roamability",
+   "Operador": "Mobile Telecommunication Company of Iran",
+   "Service Type": "3G",
+   "Country Code": "98",
+   "MCC": 432,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Iran",
+   "TADIG": "IRNMI",
+   "Connection": "Roamability",
+   "Operador": "Irancell Telecommunications Services Company",
+   "Service Type": "LTE",
+   "Country Code": "98",
+   "MCC": 432,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Irlanda",
+   "TADIG": "IRLEC",
+   "Connection": "Roamability",
+   "Operador": "Vodafone Ireland Limited",
+   "Service Type": "LTE",
+   "Country Code": "353",
+   "MCC": 272,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Irlanda",
+   "TADIG": "IRLDF",
+   "Connection": "Roamability",
+   "Operador": "Three Ireland (Hutchison)  - IRLDF",
+   "Service Type": "LTE",
+   "Country Code": "353",
+   "MCC": 272,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Islandia",
+   "TADIG": "ISLPS",
+   "Connection": "Directo / Hub",
+   "Operador": "Siminn h.f.",
+   "Service Type": "LTE",
+   "Country Code": "354",
+   "MCC": 274,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Islas Caiman",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Cayman Islands",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Islas Feroe",
+   "TADIG": "FROFT",
+   "Connection": "Roamability",
+   "Operador": "Faroese Telecom",
+   "Service Type": "LTE",
+   "Country Code": "298",
+   "MCC": 288,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Islas Turcas y Caicos",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Turks and Caicos",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Islas Turcas y Caicos",
+   "TADIG": "TCACW",
+   "Connection": "Roamability",
+   "Operador": "Cable & Wireless (TCI) Ltd",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 376,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Islas Virgenes Britanicas",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel BVI",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Israel",
+   "TADIG": "ISRPL",
+   "Connection": "Directo / Hub",
+   "Operador": "Pelephone Communications Ltd",
+   "Service Type": "LTE",
+   "Country Code": "972",
+   "MCC": 425,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Israel",
+   "TADIG": "ISR01",
+   "Connection": "Roamability",
+   "Operador": "Partner",
+   "Service Type": "LTE",
+   "Country Code": "972",
+   "MCC": 425,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Italia",
+   "TADIG": "ITAOM",
+   "Connection": "Roamability",
+   "Operador": "Vodafone Italia S p A",
+   "Service Type": "LTE",
+   "Country Code": "39",
+   "MCC": 222,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Italia",
+   "TADIG": "ITAH3",
+   "Connection": "Roamability",
+   "Operador": "H3G S p A ",
+   "Service Type": "3G",
+   "Country Code": "39",
+   "MCC": 222,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Italia",
+   "TADIG": "ITASI",
+   "Connection": "Roamability",
+   "Operador": "Telecom Italia SpA",
+   "Service Type": "LTE",
+   "Country Code": "39",
+   "MCC": 222,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Italia",
+   "TADIG": "ITAWI",
+   "Connection": "Roamability",
+   "Operador": "Wind Telecomunicazioni S p A",
+   "Service Type": "LTE",
+   "Country Code": "39",
+   "MCC": 222,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Jamaica",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Jamaica",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Japon",
+   "TADIG": "JPNDO",
+   "Connection": "Roamability",
+   "Operador": "NTT Docomo Inc",
+   "Service Type": "LTE",
+   "Country Code": "81",
+   "MCC": 440,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Kazajistan",
+   "TADIG": "KAZKZ",
+   "Connection": "Directo / Hub",
+   "Operador": "Kcell",
+   "Service Type": "LTE",
+   "Country Code": "7",
+   "MCC": 401,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Kenia",
+   "TADIG": "KENTK",
+   "Connection": "Roamability",
+   "Operador": "Telkom Kenya Limited",
+   "Service Type": "LTE",
+   "Country Code": "254",
+   "MCC": 639,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Kirguistan",
+   "TADIG": "KGZ01",
+   "Connection": "Roamability",
+   "Operador": "Sky Mobile LLC",
+   "Service Type": "3G",
+   "Country Code": "996",
+   "MCC": 437,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Kuwait",
+   "TADIG": "KWTMT",
+   "Connection": "Roamability",
+   "Operador": "Mobile Telecommunications Company",
+   "Service Type": "3G",
+   "Country Code": "965",
+   "MCC": 419,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Lesoto",
+   "TADIG": "LSOET",
+   "Connection": "Roamability",
+   "Operador": "Econet/Ezi-cel",
+   "Service Type": "3G",
+   "Country Code": "266",
+   "MCC": 651,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Letonia",
+   "TADIG": "LVABC",
+   "Connection": "Roamability",
+   "Operador": "Tele2 SIA",
+   "Service Type": "LTE",
+   "Country Code": "371",
+   "MCC": 247,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Letonia",
+   "TADIG": "LVABT",
+   "Connection": "Roamability",
+   "Operador": "SIA Bite Mobile",
+   "Service Type": "LTE",
+   "Country Code": "371",
+   "MCC": 247,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Letonia",
+   "TADIG": "LVALM",
+   "Connection": "Roamability",
+   "Operador": "Latvijas Mobilais Telefons",
+   "Service Type": "LTE",
+   "Country Code": "371",
+   "MCC": 247,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Liechtenstein",
+   "TADIG": "LIEMK",
+   "Connection": "Roamability",
+   "Operador": "Telecom Liechtenstein AG",
+   "Service Type": "LTE",
+   "Country Code": "371",
+   "MCC": 295,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Lituania",
+   "TADIG": "LTU03",
+   "Connection": "Roamability",
+   "Operador": "Tele2",
+   "Service Type": "LTE",
+   "Country Code": "370",
+   "MCC": 246,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Lituania",
+   "TADIG": "LTUMT",
+   "Connection": "Roamability",
+   "Operador": "Bite",
+   "Service Type": "LTE",
+   "Country Code": "370",
+   "MCC": 246,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Lituania",
+   "TADIG": "LTUOM",
+   "Connection": "Roamability",
+   "Operador": "Omnitel",
+   "Service Type": "LTE",
+   "Country Code": "370",
+   "MCC": 246,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Luxemburgo",
+   "TADIG": "LUXVM",
+   "Connection": "Roamability",
+   "Operador": "Orange Communications Luxembourg S A ",
+   "Service Type": "3G",
+   "Country Code": "352",
+   "MCC": 270,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Luxemburgo",
+   "TADIG": "LUXTG",
+   "Connection": "Roamability",
+   "Operador": "Tango SA",
+   "Service Type": "LTE",
+   "Country Code": "352",
+   "MCC": 270,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Luxemburgo",
+   "TADIG": "LUXPT",
+   "Connection": "Roamability",
+   "Operador": "POST Luxembourg",
+   "Service Type": "LTE",
+   "Country Code": "352",
+   "MCC": 270,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Macao",
+   "TADIG": "MACHT",
+   "Connection": "Roamability",
+   "Operador": "Hutchison Telephone Macau Company Limited",
+   "Service Type": "LTE",
+   "Country Code": "853",
+   "MCC": 455,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Macedonia",
+   "TADIG": "MKDNO",
+   "Connection": "Roamability",
+   "Operador": "VIP Mobile",
+   "Service Type": "3G",
+   "Country Code": "389",
+   "MCC": 294,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Malasia",
+   "TADIG": "MYSBC",
+   "Connection": "Roamability",
+   "Operador": "Maxis Communications Berhad",
+   "Service Type": "LTE",
+   "Country Code": "60",
+   "MCC": 502,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Malasia",
+   "TADIG": "MYSMT",
+   "Connection": "Roamability",
+   "Operador": "Digi Telecommunications Sdn Bhd",
+   "Service Type": "LTE",
+   "Country Code": "60",
+   "MCC": 502,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Malaui",
+   "TADIG": "MWICT",
+   "Connection": "Roamability",
+   "Operador": "Airtel Malawi Limited",
+   "Service Type": "3G",
+   "Country Code": "265",
+   "MCC": 650,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Mali",
+   "TADIG": "MLI02",
+   "Connection": "Roamability",
+   "Operador": "Orange/IKATEL",
+   "Service Type": "LTE",
+   "Country Code": "223",
+   "MCC": 610,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Malta",
+   "TADIG": "MLTTL",
+   "Connection": "Roamability",
+   "Operador": "Vodafone - MLTTL",
+   "Service Type": "LTE",
+   "Country Code": "356",
+   "MCC": 278,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Malta",
+   "TADIG": "MLTGO",
+   "Connection": "Roamability",
+   "Operador": "GO p l c ",
+   "Service Type": "3G",
+   "Country Code": "356",
+   "MCC": 278,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Malta",
+   "TADIG": "MLTMM",
+   "Connection": "Roamability",
+   "Operador": "Melita plc",
+   "Service Type": "LTE",
+   "Country Code": "356",
+   "MCC": 278,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Moldavia",
+   "TADIG": "MDAMC",
+   "Connection": "Roamability",
+   "Operador": "Moldcell",
+   "Service Type": "3G",
+   "Country Code": "373",
+   "MCC": 259,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Mongolia",
+   "TADIG": "MNGMN",
+   "Connection": "Roamability",
+   "Operador": "Unitel",
+   "Service Type": "3G",
+   "Country Code": "976 ",
+   "MCC": 428,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Montenegro",
+   "TADIG": "MNEMT",
+   "Connection": "Directo / Hub",
+   "Operador": "MTEL d.o.o",
+   "Service Type": "LTE",
+   "Country Code": "382",
+   "MCC": 297,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Montserrat",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel Montserrat",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Mozambique",
+   "TADIG": "MOZVC",
+   "Connection": "Roamability",
+   "Operador": "VM S A ",
+   "Service Type": "3G",
+   "Country Code": "258",
+   "MCC": 643,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Namibia",
+   "TADIG": "NAM03",
+   "Connection": "Roamability",
+   "Operador": "Leo / Orascom",
+   "Service Type": "3G",
+   "Country Code": "264",
+   "MCC": 649,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Nepal",
+   "TADIG": "NPLNM",
+   "Connection": "Roamability",
+   "Operador": "Nepal Doorsanchar Company Ltd",
+   "Service Type": "3G",
+   "Country Code": "977",
+   "MCC": 429,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Nicaragua",
+   "TADIG": "NICEN",
+   "Connection": "Directo",
+   "Operador": "Empresa Nicarag�ense de\nTelecomunicaciones, S.A. (Enitel)",
+   "Service Type": "LTE",
+   "Country Code": "505",
+   "MCC": 710,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Niger",
+   "TADIG": "NEROR",
+   "Connection": "Roamability",
+   "Operador": "Orange/Sahelc.",
+   "Service Type": "3G",
+   "Country Code": "227",
+   "MCC": 614,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Nigeria",
+   "TADIG": "NGAMN",
+   "Connection": "Roamability",
+   "Operador": "MTN",
+   "Service Type": "3G",
+   "Country Code": "234",
+   "MCC": 621,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Nigeria",
+   "TADIG": "NGAET",
+   "Connection": "Roamability",
+   "Operador": "Airtel/ZAIN/Econet",
+   "Service Type": "3G",
+   "Country Code": "234",
+   "MCC": 621,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Noruega",
+   "TADIG": "NORTM",
+   "Connection": "Roamability",
+   "Operador": "Telenor Norge AS",
+   "Service Type": "LTE",
+   "Country Code": "47",
+   "MCC": 242,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Noruega",
+   "TADIG": "NORNC",
+   "Connection": "Roamability",
+   "Operador": "TeliaSonera Norge AS",
+   "Service Type": "3G",
+   "Country Code": "47",
+   "MCC": 242,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Nueva Zelanda",
+   "TADIG": "NZLNH",
+   "Connection": "Roamability",
+   "Operador": "Two Degrees Mobile Limited",
+   "Service Type": "3G",
+   "Country Code": "64",
+   "MCC": 530,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Oman",
+   "TADIG": "OMNGT",
+   "Connection": "Roamability",
+   "Operador": "Oman Telecommunications Company S A O G ",
+   "Service Type": "LTE",
+   "Country Code": "968",
+   "MCC": 422,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Paises Bajos",
+   "TADIG": "NLDDT",
+   "Connection": "Roamability",
+   "Operador": "T-Mobile B.V.",
+   "Service Type": "3G",
+   "Country Code": "31",
+   "MCC": 204,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Paises Bajos",
+   "TADIG": "NLDLT",
+   "Connection": "Roamability",
+   "Operador": "Vodafone Libertel B V",
+   "Service Type": "LTE",
+   "Country Code": "31",
+   "MCC": 204,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Paises Bajos",
+   "TADIG": "NLDPT",
+   "Connection": "Roamability",
+   "Operador": "KPN B V ",
+   "Service Type": "LTE",
+   "Country Code": "31",
+   "MCC": 204,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Pakistan",
+   "TADIG": "PAKMK",
+   "Connection": "Roamability",
+   "Operador": "Pakistan Mobile Company Limited PMCL ",
+   "Service Type": "3G",
+   "Country Code": "92",
+   "MCC": 410,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Panama",
+   "TADIG": "PANCL",
+   "Connection": "Directo",
+   "Operador": "Claro Panama S.A.",
+   "Service Type": "LTE",
+   "Country Code": "507",
+   "MCC": 714,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Papua Nueva Guinea",
+   "TADIG": "PNGDP",
+   "Connection": "Roamability",
+   "Operador": "Digicel (PNG) Limited",
+   "Service Type": "3G",
+   "Country Code": "675",
+   "MCC": 537,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Paraguay",
+   "TADIG": "PRYHT",
+   "Connection": "Directo",
+   "Operador": "AMX Paraguay, S.A.",
+   "Service Type": "LTE",
+   "Country Code": "595",
+   "MCC": 744,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Paraguay",
+   "TADIG": "PRYNP",
+   "Connection": "Directo / Hub",
+   "Operador": "Nucleo S.A. / Paraguay",
+   "Service Type": "LTE",
+   "Country Code": "595",
+   "MCC": 744,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Paraguay",
+   "TADIG": "PRYTC",
+   "Connection": "Directo / Hub",
+   "Operador": "Telefonica Celular de Paraguay S.A. (TIGO)",
+   "Service Type": "3G",
+   "Country Code": "595",
+   "MCC": 744,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Peru",
+   "TADIG": "PERMO",
+   "Connection": "Roamability",
+   "Operador": "Movistar",
+   "Service Type": "LTE",
+   "Country Code": "51",
+   "MCC": 716,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Polonia",
+   "TADIG": "POLKM",
+   "Connection": "Directo / Hub",
+   "Operador": "Polkomtel Sp. z o.o.",
+   "Service Type": "LTE",
+   "Country Code": "48 ",
+   "MCC": 260,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Polonia",
+   "TADIG": "POLP4",
+   "Connection": "Roamability",
+   "Operador": "P4 Sp z o o",
+   "Service Type": "LTE",
+   "Country Code": "48 ",
+   "MCC": 260,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Portugal",
+   "TADIG": "PRTTM",
+   "Connection": "Roamability",
+   "Operador": "TMN",
+   "Service Type": "3G",
+   "Country Code": "351",
+   "MCC": 268,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Portugal",
+   "TADIG": "PRTOP",
+   "Connection": "Roamability",
+   "Operador": "Sonaecom/Optimus",
+   "Service Type": "LTE",
+   "Country Code": "351",
+   "MCC": 268,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Portugal",
+   "TADIG": "PRTTL",
+   "Connection": "Roamability",
+   "Operador": "Vodafone",
+   "Service Type": "LTE",
+   "Country Code": "351",
+   "MCC": 268,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Puerto Rico",
+   "TADIG": "PRICL",
+   "Connection": "Directo",
+   "Operador": "Puerto Rico Telephone Company, Inc.",
+   "Service Type": "LTE",
+   "Country Code": "1-939",
+   "MCC": 330,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Puerto Rico",
+   "TADIG": "USACG",
+   "Connection": "Directo",
+   "Operador": "AT&T Mobility",
+   "Service Type": "LTE",
+   "Country Code": "1-787, 1-939",
+   "MCC": 330,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Reino Unido",
+   "TADIG": "GBRHU",
+   "Connection": "Directo",
+   "Operador": "Hutchison 3G UK Ltd.",
+   "Service Type": "LTE",
+   "Country Code": "44",
+   "MCC": 234,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Republica Checa",
+   "TADIG": "CZERM",
+   "Connection": "Roamability",
+   "Operador": "T Mobile Czech Republic a s ",
+   "Service Type": "3G",
+   "Country Code": "420",
+   "MCC": 230,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Republica Checa",
+   "TADIG": "CZECM",
+   "Connection": "Roamability",
+   "Operador": "Vodafone Czech Republic a s ",
+   "Service Type": "LTE",
+   "Country Code": "420",
+   "MCC": 230,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Republica Checa",
+   "TADIG": "CZEET",
+   "Connection": "Roamability",
+   "Operador": "O2 Czech Republic a s",
+   "Service Type": "LTE",
+   "Country Code": "420",
+   "MCC": 230,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Republica del Congo",
+   "TADIG": "COGCT",
+   "Connection": "Roamability",
+   "Operador": "Airtel SA",
+   "Service Type": "3G",
+   "Country Code": "243",
+   "MCC": 629,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Republica Democratica del Congo",
+   "TADIG": "CODCT",
+   "Connection": "Roamability",
+   "Operador": "ZAIN",
+   "Service Type": "3g",
+   "Country Code": "243",
+   "MCC": 630,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Republica Democratica del Congo",
+   "TADIG": "CODVC",
+   "Connection": "Roamability",
+   "Operador": "Vodacom Congo RDC S A ",
+   "Service Type": "3G",
+   "Country Code": "243",
+   "MCC": 630,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Republica Dominicana",
+   "TADIG": "DOMCL",
+   "Connection": "Roamability",
+   "Operador": "Claro",
+   "Service Type": "LTE",
+   "Country Code": "1-809, 1-829, 1-849",
+   "MCC": 370,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Rumania",
+   "TADIG": "ROM05",
+   "Connection": "Roamability",
+   "Operador": "RCS&RDS Digi Mobile",
+   "Service Type": "3G",
+   "Country Code": "40",
+   "MCC": 226,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Rumania",
+   "TADIG": "ROMMF",
+   "Connection": "Roamability",
+   "Operador": "S C Vodafone Romania S A ",
+   "Service Type": "LTE",
+   "Country Code": "40",
+   "MCC": 226,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Rumania",
+   "TADIG": "ROMMR",
+   "Connection": "Roamability",
+   "Operador": "Orange",
+   "Service Type": "3G",
+   "Country Code": "40",
+   "MCC": 226,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Rusia",
+   "TADIG": "RUST2",
+   "Connection": "Directo / Hub",
+   "Operador": "T2 Mobile LLC",
+   "Service Type": "LTE",
+   "Country Code": "7",
+   "MCC": 250,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Rusia",
+   "TADIG": "RUS27",
+   "Connection": "Directo / Hub",
+   "Operador": "Tvoi Mobil'nye Tekhnologii LLC (TMT)",
+   "Service Type": "LTE",
+   "Country Code": "7",
+   "MCC": 250,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Samoa",
+   "TADIG": "WSMDP",
+   "Connection": "Roamability",
+   "Operador": "DIGICEL WESTERN SAMOA",
+   "Service Type": "3G",
+   "Country Code": "685",
+   "MCC": 549,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "San Cristobal y Nieves",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel St. Kitts and Nevis",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "San Vicente y las Granadinas",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel St. Vincent and the Grenadines",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Santa Lucia",
+   "TADIG": "JAMDC",
+   "Connection": "Directo",
+   "Operador": "Digicel St. Lucia",
+   "Service Type": "LTE",
+   "Country Code": "1-876",
+   "MCC": 338,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Serbia",
+   "TADIG": "YUGMT",
+   "Connection": "Roamability",
+   "Operador": "Telenor d o o ",
+   "Service Type": "LTE",
+   "Country Code": "381",
+   "MCC": 220,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Singapur",
+   "TADIG": "SGPSH",
+   "Connection": "Roamability",
+   "Operador": "Starhub - SH",
+   "Service Type": "LTE",
+   "Country Code": "65",
+   "MCC": 525,
+   "IMSI Roamability": 515
+ },
+ {
+   "Pais": "Sri Lanka",
+   "TADIG": "LKA71",
+   "Connection": "Roamability",
+   "Operador": "Mobitel Pvt Limited",
+   "Service Type": "LTE",
+   "Country Code": "94",
+   "MCC": 413,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Sri Lanka",
+   "TADIG": "LKAHT",
+   "Connection": "Roamability",
+   "Operador": "Hutchison Telecommunications Lanka Pvt Ltd",
+   "Service Type": "LTE",
+   "Country Code": "94",
+   "MCC": 413,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Sri Lanka",
+   "TADIG": "LKADG",
+   "Connection": "Roamability",
+   "Operador": "Dialog Axiata Plc",
+   "Service Type": "LTE",
+   "Country Code": "94",
+   "MCC": 413,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Sudafrica",
+   "TADIG": "ZAFVC",
+   "Connection": "Roamability",
+   "Operador": "Vodacom Group Pty Ltd ",
+   "Service Type": "LTE",
+   "Country Code": "27",
+   "MCC": 655,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Sudafrica",
+   "TADIG": "ZAFCC",
+   "Connection": "Roamability",
+   "Operador": "Cell C Pty Ltd",
+   "Service Type": "LTE",
+   "Country Code": "27",
+   "MCC": 655,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Suecia",
+   "TADIG": "SWEHU",
+   "Connection": "Roamability",
+   "Operador": "Hi3G Access AB",
+   "Service Type": "LTE",
+   "Country Code": "46",
+   "MCC": 240,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Suecia",
+   "TADIG": "SWESM",
+   "Connection": "Roamability",
+   "Operador": "Tele2 Sverige AB",
+   "Service Type": "LTE",
+   "Country Code": "46",
+   "MCC": 240,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Suecia",
+   "TADIG": "SWETR",
+   "Connection": "Roamability",
+   "Operador": "Telia Company AB",
+   "Service Type": "LTE",
+   "Country Code": "46",
+   "MCC": 240,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Suiza",
+   "TADIG": "CHEC1",
+   "Connection": "Roamability",
+   "Operador": "Swisscom Switzerland Ltd",
+   "Service Type": "LTE",
+   "Country Code": "41",
+   "MCC": 228,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Suiza",
+   "TADIG": "CHEDX",
+   "Connection": "Roamability",
+   "Operador": "Sunrise Communications AG",
+   "Service Type": "LTE",
+   "Country Code": "41",
+   "MCC": 228,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Surinam",
+   "TADIG": "SURDC",
+   "Connection": "Roamability",
+   "Operador": "Digicel Suriname N V ",
+   "Service Type": "3G",
+   "Country Code": "597",
+   "MCC": 746,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Tailandia",
+   "TADIG": "THACT",
+   "Connection": "Roamability",
+   "Operador": "Hutch/CAT CDMA",
+   "Service Type": "3G",
+   "Country Code": "66",
+   "MCC": 520,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Tailandia",
+   "TADIG": "THADT",
+   "Connection": "Roamability",
+   "Operador": "dtac TriNet Co Ltd ",
+   "Service Type": "LTE",
+   "Country Code": "66",
+   "MCC": 520,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Taiwan",
+   "TADIG": "TWNLD",
+   "Connection": "Roamability",
+   "Operador": "Chunghwa Telecom",
+   "Service Type": "LTE",
+   "Country Code": "886",
+   "MCC": 466,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Taiwan",
+   "TADIG": "TWNTG",
+   "Connection": "Roamability",
+   "Operador": "VIBO",
+   "Service Type": "LTE",
+   "Country Code": "886",
+   "MCC": 466,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Tanzania",
+   "TADIG": "TZACT",
+   "Connection": "Roamability",
+   "Operador": "ZAIN/Celtel",
+   "Service Type": "3G",
+   "Country Code": "255",
+   "MCC": 640,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Tayikistan",
+   "TADIG": "TJK91",
+   "Connection": "Roamability",
+   "Operador": "Tacom LLC",
+   "Service Type": "3G",
+   "Country Code": "992",
+   "MCC": 436,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Togo",
+   "TADIG": "TGOTL",
+   "Connection": "Roamability",
+   "Operador": "Atlantique Telecom Togo",
+   "Service Type": "3G",
+   "Country Code": "228",
+   "MCC": 615,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Tonga",
+   "TADIG": "TONDP",
+   "Connection": "Roamability",
+   "Operador": "Digicel",
+   "Service Type": "3G",
+   "Country Code": "676",
+   "MCC": 539,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Trinidad y Tobago",
+   "TADIG": "TTODL",
+   "Connection": "Roamability",
+   "Operador": "Digicel",
+   "Service Type": "3G",
+   "Country Code": "1-868",
+   "MCC": 374,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Tunez",
+   "TADIG": "TUNTA",
+   "Connection": "Roamability",
+   "Operador": "Ooredoo Tunisie SA",
+   "Service Type": "LTE",
+   "Country Code": "216",
+   "MCC": 605,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Turquia",
+   "TADIG": "TURIS",
+   "Connection": "Directo",
+   "Operador": "AVEA",
+   "Service Type": "LTE",
+   "Country Code": "90",
+   "MCC": 286,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Ucrania",
+   "TADIG": "UKRUM",
+   "Connection": "Roamability",
+   "Operador": "MTS Ukraine",
+   "Service Type": "3G",
+   "Country Code": "380",
+   "MCC": 255,
+   "IMSI Roamability": 260
+ },
+ {
+   "Pais": "Uganda",
+   "TADIG": "UGAWT",
+   "Connection": "Roamability",
+   "Operador": "Airtel/Warid",
+   "Service Type": "LTE",
+   "Country Code": "256",
+   "MCC": 641,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Uruguay",
+   "TADIG": "URYAM",
+   "Connection": "Directo",
+   "Operador": "AM Wireless Uruguay S.A. ",
+   "Service Type": "LTE",
+   "Country Code": "598",
+   "MCC": 748,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Uruguay",
+   "TADIG": "URYAN",
+   "Connection": "Directo / Hub",
+   "Operador": "Administracion Nacional de Telecomunicaciones",
+   "Service Type": "LTE",
+   "Country Code": "598",
+   "MCC": 748,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Uzbekistan",
+   "TADIG": "UZB00",
+   "Connection": "Directo / Hub",
+   "Operador": "Uzbektelecom Joint-Stock Company",
+   "Service Type": "LTE",
+   "Country Code": "998",
+   "MCC": 434,
+   "IMSI Roamability": null
+ },
+ {
+   "Pais": "Vanuatu",
+   "TADIG": "VUTDP",
+   "Connection": "Roamability",
+   "Operador": "Digicel Vanuatu Ltd",
+   "Service Type": "3G",
+   "Country Code": "678",
+   "MCC": 541,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Venezuela",
+   "TADIG": "VENMS",
+   "Connection": "Roamability",
+   "Operador": "Movistar/TelCel",
+   "Service Type": "3G",
+   "Country Code": "58",
+   "MCC": 734,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Zambia",
+   "TADIG": "ZMBCE",
+   "Connection": "Roamability",
+   "Operador": "Airtel/Zain/Celtel",
+   "Service Type": "3G",
+   "Country Code": "260",
+   "MCC": 645,
+   "IMSI Roamability": 234
+ },
+ {
+   "Pais": "Zimbabue",
+   "TADIG": "ZWEET",
+   "Connection": "Roamability",
+   "Operador": "Econet Wireless Private Limited",
+   "Service Type": "3G",
+   "Country Code": "263",
+   "MCC": 648,
+   "IMSI Roamability": 234
+ }
+];

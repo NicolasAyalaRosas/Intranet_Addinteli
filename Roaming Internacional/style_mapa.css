@@ -33,26 +33,27 @@ header {
 }
 
 #barradenavegacion li a {
-    color: rgb(19, 71, 154);
+    color: #13479a;
     font-size: 17.5px;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #barradenavegacion li a:hover {
     color: red;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 main.content {
     flex: 1;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    background-color: rgba(0, 0, 0, 0.5); /* Más oscuro para empatar con el diseño de la intranet */
     margin: 20px auto;
     padding: 20px;
     max-width: 1200px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -73,10 +74,18 @@ h1 {
 .formulario-busqueda label {
     font-weight: bold;
     margin-right: 5px;
-    color: white;
+    color: white; /* Agregado para accesibilidad y consistencia con style_sitios.css */
 }
 
 .formulario-busqueda input[type="text"] {
+    padding: 7px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 300px; /* Ajustado para consistencia en búsquedas largas (de V1) */
+}
+
+.formulario-busqueda select { /* Agregado para soporte a selects (e.g., en páginas como Sitios MBB) */
     padding: 7px 10px;
     font-size: 16px;
     border-radius: 5px;
@@ -99,15 +108,14 @@ h1 {
     background-color: #0f3678;
 }
 
-/* Mapa */
-#map {
-    height: 500px;
-    border: 2px solid #13479a;
-    border-radius: 5px;
-    margin-bottom: 20px;
+#resultados { /* Agregado para mensajes dinámicos (e.g., "No se encontraron resultados") */
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
-/* Tabla de resultados */
 .tabla-resultados-container {
     overflow-x: auto;
 }
@@ -115,11 +123,12 @@ h1 {
 #tabla-resultados {
     width: 100%;
     border-collapse: collapse;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco para legibilidad */
     color: black;
 }
 
-#tabla-resultados th, #tabla-resultados td {
+#tabla-resultados th,
+#tabla-resultados td {
     padding: 8px 12px;
     border: 1px solid #bbb;
     text-align: center;
@@ -135,8 +144,18 @@ h1 {
     background-color: #e6e6e6;
 }
 
-/* Resalte del país buscado */
-.leaflet-interactive {
-    transition: fill-opacity 0.3s ease, color 0.3s ease;
+/* Mapa visible y acorde al diseño de la intranet */
+#map {
+    height: 500px;
+    border: 2px solid #13479a;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
+/* Estilos específicos para resaltar países en el mapa interactivo (Leaflet) */
+.leaflet-interactive.pais-resaltado {
+    fill: #ff0000 !important;
+    fill-opacity: 0.5 !important;
+    stroke: #ff0000 !important;
+    stroke-width: 2 !important;
+}

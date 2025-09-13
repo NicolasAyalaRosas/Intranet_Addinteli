@@ -1,70 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mapa Mundial - Intranet</title>
-
-    <!-- Tu CSS local -->
-    <link rel="stylesheet" href="style_mapa.css" />
-
-    <!-- Leaflet CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roaming Internacional</title>
+    <link rel="stylesheet" href="style_mapa.css"> 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
-<header>
-    <img src="../Imagenes_y_Archivos/Logo Addinteli 2.png" alt="Logo Addinteli" class="logo" />
-    <nav>
+    <header>
+        <img src="../Imagenes_y_Archivos/Logo Addinteli 2.png" alt="Logo de la Intranet" class="logo">
         <ul id="barradenavegacion">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../Glosario/glosario.html">Glosario</a></li>
-            <li><a href="../Guias Rapidas/guiasrapidas.html">Guias rapidas</a></li>
-            <li><a href="../Procesos y Manuales/procesos y manuales.html">Procesos y Manuales</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="glosario.html">Glosario</a></li>
+            <li><a href="guias_rapidas.html">Guias rapidas</a></li>
+            <li><a href="procesos_manuales.html">Procesos y Manuales</a></li>
+            <li><a href="sitios_mbb.html">Sitios MBB</a></li> 
         </ul>
-    </nav>
-</header>
+    </header>
 
-<main class="content">
-    <h1>Búsqueda de Países</h1>
+    <main class="content"> <!-- Clase para fondo y centrado -->
+        <h1>Roaming Internacional</h1>
 
-    <div class="formulario-busqueda">
-        <label for="pais-input">País:</label>
-        <input type="text" id="pais-input" placeholder="Ej. México" />
-        <button id="btnBuscar">Buscar</button>
-        <button id="btnLimpiar">Limpiar</button>
-    </div>
+        <div class="formulario-busqueda"> <!-- Clase para estilos flex -->
+            <label for="pais-input">Buscar país:</label> <!-- Label con for para accesibilidad -->
+            <input type="text" id="pais-input" list="paises-sugeridos" placeholder="Escribe un país para buscar"> <!-- ID y list para JS -->
+            <datalist id="paises-sugeridos">
+                <!-- Opciones se llenan dinámicamente via JS desde paises_sugerencias.js -->
+            </datalist>
 
-    <div id="map" style="height: 500px; margin-bottom: 20px;"></div>
+            <button type="button" id="btnBuscar">Buscar</button> <!-- type e ID para JS -->
+            <button type="button" id="btnLimpiar">Limpiar</button>
+        </div>
 
-    <div class="tabla-resultados-container">
-        <table id="tabla-resultados">
-            <thead>
-                <tr>
-                    <th>País</th>
-                    <th>TADIG</th>
-                    <th>Connection</th>
-                    <th>Operador</th>
-                    <th>Service Type</th>
-                    <th>Country Code</th>
-                    <th>MCC</th>
-                    <th>IMSI Roamability</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
-</main>
+        <div id="resultados"></div> <!-- Para mensajes dinámicos, e.g., "No se encontró el país" -->
 
-<!-- Cargar tu archivo JSON externo como variable global -->
-<script src="../Roaming Internacional/Roaming_Int.json"></script>
+        <div id="map"></div> <!-- Mapa para resaltar países -->
 
-<!-- Leaflet JS -->
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <div class="tabla-resultados-container"> <!-- Contenedor para overflow -->
+            <table id="tabla-resultados"> <!-- ID para JS y CSS -->
+                <thead>
+                    <tr>
+                        <th>País</th>
+                        <th>TADIG</th>
+                        <th>Connection</th>
+                        <th>Operador</th>
+                        <th>Service Type</th>
+                        <th>Country Code</th>
+                        <th>MCC</th>
+                        <th>IMSI Roamability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filas se poblarán dinámicamente via app_mapa.js -->
+                </tbody>
+            </table>
+        </div>
+    </main>
 
-<!-- GeoJSON del mundo -->
-<script src="https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json"></script>
-
-<!-- Tu JS principal -->
-<script src="app_mapa.js"></script>
+    <!-- Scripts al final para carga eficiente -->
+    <script src="../Roaming Internacional/paises_sugerencias.json"></script>
+    <script src="../Roaming Internacional/Paises_Roaming_Internacional.json"></script>
+    <script src="../Roaming Internacional/world_geojson.js"></script>
+    <script src="../Roaming Internacional/app_mapa.js"></script>
 </body>
 </html>
