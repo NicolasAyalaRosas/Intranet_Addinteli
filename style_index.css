@@ -149,7 +149,7 @@ main {
     padding: 10px;
     border-radius: 5px;
     width: 300px;
-    text-align: left;  /* ✅ Ahora alineado a la izquierda */
+    text-align: center;  /* ✅ Ahora alineado a la izquierda */
     transition: background-color 0.3s ease;
 }
 

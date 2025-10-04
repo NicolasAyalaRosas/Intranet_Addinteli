@@ -166,7 +166,7 @@ main.content {
 
 .pdf-viewer {
     width: 100%;
-    height: 600px; /* Tamaño fijo para PDFs */
+    height: 800px; /* Tamaño fijo para PDFs */
     border: none;
     display: block;
     background-color: rgba(255, 255, 255, 0.8);
