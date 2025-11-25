@@ -89,12 +89,11 @@ function mostrarResultadosTabla(antenas) {
             <td>${a.TX || ""}</td>
             <td>${a["En Huella MBB"] || a["EN HUELLA MBB"] || ""}</td>
             <td>${a["Usuarios activos MBB"] || a["USUARIOS ACTIVOS MBB"] || ""}</td>
-            <td>${a["THP MBB (Mbps)"] || ""}</td>
             <td>${a.distancia.toFixed(3)}</td>
         `;
         tbody.appendChild(fila);
     });
-}
+} // En caso de ser necesario volver a agregar <td>${a["THP MBB (Mbps)"] || ""}</td>
 
 function mostrarResultadosMapa(antenas, lat, lng, radio) {
     // Limpiar marcadores previos y círculo
