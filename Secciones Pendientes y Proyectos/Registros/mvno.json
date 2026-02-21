@@ -1,0 +1,212 @@
+const MVNO_OPCIONES = [
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_0",
+    "hija_texto": "Alphacel"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_1",
+    "hija_texto": "Avanti"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_2",
+    "hija_texto": "Ayutel"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_3",
+    "hija_texto": "Bait"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_4",
+    "hija_texto": "Bee Mobile"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_5",
+    "hija_texto": "Blackfon"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_6",
+    "hija_texto": "Blacknet"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_7",
+    "hija_texto": "Budo Movil"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_8",
+    "hija_texto": "Byplus"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_9",
+    "hija_texto": "Cel Laguna"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_10",
+    "hija_texto": "Cosmic"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_11",
+    "hija_texto": "Criptophone"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_12",
+    "hija_texto": "Dire Movil"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_13",
+    "hija_texto": "Easter Egg"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_14",
+    "hija_texto": "Eav Mobile"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_15",
+    "hija_texto": "Fangio"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_16",
+    "hija_texto": "Inbtel"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_17",
+    "hija_texto": "Intercel"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_18",
+    "hija_texto": "Ip Fonica"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_19",
+    "hija_texto": "Mexared"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_20",
+    "hija_texto": "Mobe"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_21",
+    "hija_texto": "Mobix"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_22",
+    "hija_texto": "Monkey Phone"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_23",
+    "hija_texto": "Netbull"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_24",
+    "hija_texto": "Paguifon"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_25",
+    "hija_texto": "Red Blakk"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_26",
+    "hija_texto": "Signal"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_27",
+    "hija_texto": "Sindmovil"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_28",
+    "hija_texto": "Smooth"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_29",
+    "hija_texto": "Tufon"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_30",
+    "hija_texto": "Unity"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_31",
+    "hija_texto": "Vg-Redes"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_32",
+    "hija_texto": "Wimx"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_33",
+    "hija_texto": "Wispmx"
+  },
+  {
+    "padre_key": "mvno",
+    "padre_texto": "MVNO",
+    "hija_key": "mvno_34",
+    "hija_texto": "XCS Movil"
+  }
+];

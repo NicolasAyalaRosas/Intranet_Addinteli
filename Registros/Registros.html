@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Plantillas CRM - Intranet</title>
+    <link rel="stylesheet" href="../Registros/style_index.css">
+</head>
+<body>
+
+<header>
+    <img src="../Registros/Imagenes_y_Archivos/Logo_Addinteli_2.png" 
+         alt="Logo Addinteli" 
+         class="logo">
+</header>
+
+<main>
+    <div class="container">
+
+        <h1>Plantillas IRM</h1>
+
+        <!-- MENÚ 1 -->
+        <label for="tipoRegistro">Tipo de Registro:</label>
+        <select id="tipoRegistro">
+            <option value="">Selecciona...</option>
+            <option value="callcenter">Plantillas Call Center</option>
+            <option value="correo">Plantillas Correo</option>
+            <option value="tickets">Plantillas Tickets</option>
+        </select>
+
+        <!-- MENÚ 2 -->
+        <label for="categoriaPlantilla">Categoría:</label>
+        <select id="categoriaPlantilla" disabled>
+            <option value="">Selecciona...</option>
+        </select>
+
+        <!-- MENÚ 3 -->
+        <label for="plantillaFinal">Plantilla:</label>
+        <select id="plantillaFinal" disabled>
+            <option value="">Selecciona...</option>
+        </select>
+
+        <!-- CONTENEDOR EDITABLE -->
+        <label>Contenido de la plantilla:</label>
+        <div id="editorPlantilla" contenteditable="true"></div>
+
+        <div class="botones-container">
+            <button id="limpiarBtn">Limpiar</button>
+            <button id="copiarBtn">Copiar Plantilla</button>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    <p>© 2025 Intranet Addinteli</p>
+</footer>
+
+<!-- =========================
+     INICIALIZADOR GLOBAL
+========================= -->
+<script>
+window.PLANTILLAS = {
+    callcenter: {},
+    correo: {},
+    tickets: {}
+};
+</script>
+
+<!-- =========================
+     ARCHIVOS CALL CENTER
+========================= -->
+<script src="../Registros/Plantillas/Call Center/Callback.js"></script>
+<script src="../Registros/Plantillas/Call Center/Informacion.js"></script>
+<script src="../Registros/Plantillas/Call Center/Fallas de Voz.js"></script>
+<script src="../Registros/Plantillas/Call Center/Fallas de Navegacion.js"></script>
+<script src="../Registros/Plantillas/Call Center/Falla Total Voz y Datos.js"></script>
+<script src="../Registros/Plantillas/Call Center/Migracion Interna.js"></script>
+<script src="../Registros/Plantillas/Call Center/Recargas.js"></script>
+<script src="../Registros/Plantillas/Call Center/Reactivacion y Reanudacion.js"></script>
+<script src="../Registros/Plantillas/Call Center/Seguimiento a correo.js"></script>
+<script src="../Registros/Plantillas/Call Center/Otros.js"></script>
+
+<!-- =========================
+     ARCHIVOS TICKETS
+========================= -->
+
+
+<!-- =========================
+     ARCHIVOS CORREO
+========================= -->
+<script src="../Registros/Plantillas/Correo.js"></script>
+<script src="../Registros/Plantillas/Tickets.js"></script>
+
+
+
+
+
+<!-- =========================
+     SCRIPT PRINCIPAL
+========================= -->
+<script src="../Registros/script.js"></script>
+
+</body>
+</html>

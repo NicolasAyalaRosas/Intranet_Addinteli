@@ -1,0 +1,56 @@
+const MENU_OPCIONES = [
+  {
+    "padre_key": "tipo_contacto",
+    "padre_texto": "Tipo de Contacto",
+    "hija_key": "llamada_cc",
+    "hija_texto": "Llamada entrante CC"
+  },
+  {
+    "padre_key": "tipo_contacto",
+    "padre_texto": "Tipo de Contacto",
+    "hija_key": "llamada_de_salida",
+    "hija_texto": "Llamada de salida"
+  },
+  {
+    "padre_key": "tipo_contacto",
+    "padre_texto": "Tipo de Contacto",
+    "hija_key": "atencion_a_correo",
+    "hija_texto": "Atencion a correo"
+  },
+  {
+    "padre_key": "tipo_contacto",
+    "padre_texto": "Tipo de Contacto",
+    "hija_key": "otro",
+    "hija_texto": "Otro"
+  },
+  {
+    "padre_key": "motivo_contacto",
+    "padre_texto": "Motivo del contacto",
+    "hija_key": "sin_voz",
+    "hija_texto": "Sin llamadas"
+  },
+  {
+    "padre_key": "motivo_contacto",
+    "padre_texto": "Motivo del contacto",
+    "hija_key": "sin_sms",
+    "hija_texto": "Sin mensajes"
+  },
+  {
+    "padre_key": "motivo_contacto",
+    "padre_texto": "Motivo del contacto",
+    "hija_key": "sin_datos",
+    "hija_texto": "Sin navegacion"
+  },
+  {
+    "padre_key": "motivo_contacto",
+    "padre_texto": "Motivo del contacto",
+    "hija_key": "sin_red",
+    "hija_texto": "Sin red"
+  },
+  {
+    "padre_key": "motivo_contacto",
+    "padre_texto": "Motivo del contacto",
+    "hija_key": "otros",
+    "hija_texto": "Informacion"
+  }
+];

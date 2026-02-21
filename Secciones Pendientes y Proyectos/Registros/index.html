@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Plantillas CRM - Intranet</title>
+    <link rel="stylesheet" href="../Registros/style_index.css">
+</head>
+<body>
+
+<header>
+    <img src="../Registros/Imagenes_y_Archivos/Logo_Addinteli_2.png" 
+         alt="Logo Addinteli" 
+         class="logo">
+</header>
+
+<main>
+    <div class="container">
+
+        <h1>Plantillas IRM</h1>
+
+        <!-- MENÚ 1 -->
+        <label for="tipoRegistro">Tipo de Registro:</label>
+        <select id="tipoRegistro">
+            <option value="">Selecciona...</option>
+            <option value="callcenter">Plantillas Call Center</option>
+            <option value="correo">Plantillas Correo</option>
+            <option value="tickets">Plantillas Tickets</option>
+        </select>
+
+        <!-- MENÚ 2 -->
+        <label for="categoriaPlantilla">Categoría:</label>
+        <select id="categoriaPlantilla" disabled>
+            <option value="">Selecciona...</option>
+        </select>
+
+        <!-- MENÚ 3 -->
+        <label for="plantillaFinal">Plantilla:</label>
+        <select id="plantillaFinal" disabled>
+            <option value="">Selecciona...</option>
+        </select>
+
+        <!-- CONTENEDOR EDITABLE -->
+        <label>Contenido de la plantilla:</label>
+        <div id="editorPlantilla" contenteditable="true"></div>
+
+        <button id="copiarBtn">Copiar Plantilla</button>
+
+    </div>
+</main>
+
+<footer>
+    <p>© 2025 Intranet Addinteli</p>
+</footer>
+
+<script src="../Registros/nuevo_script.js"></script>
+
+</body>
+</html>
