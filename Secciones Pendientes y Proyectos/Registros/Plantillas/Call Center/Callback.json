@@ -1,8 +1,0 @@
-[
- {
-   "Callback - LLamada desde terminal afectada": [
-      "Nombre:  \nOMV y DN: \nReporte:  Se comunica Usuario-Distribuidor reportando falla en el servicio de xxxxxx.\n\nValidaciones sistema:\n\n-Se valida en plataforma HUB, que la linea se encuentra en estado xxxxxx.\n-Paquete: xxxxxx\n-Bolsas:\n\nRoaming xxxxxx \nTN xxxxxx \nRRSS xxxxxx\n\nValidaciones teléfono\n\n-IMEI: xxxxxx\n-Equipo: xxxxxx\n\nPosible causa:\n\n- Al no detectarse alteraciones que pudieran afectar el servicio, y estando la línea activa, con paquete y bolsas disponibles, se requiere ejecutar TS en la terminal afectada.\n\nSolución:\n\nSe confirma con el Usuario-Distribuidor que se está comunicando de la terminal afectada, por lo que le solicitamos un re-llamado desde equipo alterno para manipular la terminal afectada y dar soporte.",
-      "Nombre:  \nOMV y DN: \nReporte:  Se comunica Distribuidor reportando falla en el servicio de xxxxxx.\n\nValidaciones sistema:\n\n-Se valida en plataforma HUB, que la línea se encuentra en estado xxxxxx.\n-Paquete: xxxxxx\n-Bolsas:\n\nRoaming xxxxxx\nTN xxxxxx\nRRSS xxxxxx\n\nValidaciones teléfono\n\n-IMEI: xxxxxx\n-Equipo: xxxxxx\n\nPosible causa:\n\n- Al no detectarse alteraciones que pudieran afectar el servicio, y estando la línea activa, con paquete y bolsas disponibles, se requiere ejecutar TS en la terminal afectada.\n\nSolución:\n\nSe comenta con distribuidor la situación y se confirma que el usuario afectado no se encuentra en el lugar, por lo que solicitamos un re-llamado por parte del usuario, especificándole que se requiere sea desde un numero o equipo diferente al que se reporta para poder realizar ajustes en este."
-   ]
-}
-]

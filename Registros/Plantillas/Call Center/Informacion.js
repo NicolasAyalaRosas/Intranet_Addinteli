@@ -87,6 +87,6 @@ Validaciones en teléfono: - N/A
 Posible causa: - N/A
 
 Solución:
-- Se comparte con el cliente la información disponible acerca del proceso de compra y quedamos al pendiente de sus comentarios.
+- Se comparte con el Usuario-Distribuidor la información disponible acerca del proceso y quedamos al pendiente de sus comentarios.
 
 Se da por terminada la atención.`,};
