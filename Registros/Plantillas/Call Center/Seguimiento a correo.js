@@ -36,7 +36,7 @@ Reporte:
 Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
 
 Validaciones en sistema:
-- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB, que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
@@ -64,7 +64,7 @@ Reporte:
 Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
 
 Validaciones en sistema:
-- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB, que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
@@ -100,7 +100,7 @@ Reporte:
 Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
 
 Validaciones en sistema:
-- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB, que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx

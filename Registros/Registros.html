@@ -2,15 +2,31 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Plantillas CRM - Intranet</title>
-    <link rel="stylesheet" href="../Registros/style_index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intranet Addinteli</title>
+    <link rel="stylesheet" href="../Registros/style_registros.css">
 </head>
 <body>
 
 <header>
-    <img src="../Registros/Imagenes_y_Archivos/Logo_Addinteli_2.png" 
-         alt="Logo Addinteli" 
+    <img src="../Imagenes_y_Archivos/Logo_Addinteli_2.png"
+         alt="Logo Addinteli"
          class="logo">
+
+    <div class="menu-hamburguesa">
+        <button id="menu-toggle" aria-label="Abrir menú de navegación">
+            ☰ Menú
+        </button>
+
+        <ul class="menu-desplegable" id="menu-desplegable">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../Glosario/glosario.html">Glosario</a></li>
+            <li><a href="../Guias Rapidas/guiasrapidas.html">Guias Rápidas</a></li>
+            <li><a href="../Procesos y Manuales/procesos y manuales.html">Documentos de Apoyo</a></li>
+            <li><a href="../Sitios MBB/SitiosMBB.html">Sitios MBB</a></li>
+            <li><a href="../Roaming Internacional/Roaming_internacional.html">Roaming Internacional</a></li>
+        </ul>
+    </div>
 </header>
 
 <main>
@@ -18,28 +34,28 @@
 
         <h1>Plantillas IRM</h1>
 
-        <!-- MENÚ 1 -->
+        <!-- MENU 1 -->
         <label for="tipoRegistro">Tipo de Registro:</label>
         <select id="tipoRegistro">
             <option value="">Selecciona...</option>
             <option value="callcenter">Plantillas Call Center</option>
             <option value="correo">Plantillas Correo</option>
             <option value="tickets">Plantillas Tickets</option>
+            <option value="escalamiento">Plantillas Escalamiento</option>
         </select>
 
-        <!-- MENÚ 2 -->
+        <!-- MENU 2 -->
         <label for="categoriaPlantilla">Categoría:</label>
         <select id="categoriaPlantilla" disabled>
             <option value="">Selecciona...</option>
         </select>
 
-        <!-- MENÚ 3 -->
+        <!-- MENU 3 -->
         <label for="plantillaFinal">Plantilla:</label>
         <select id="plantillaFinal" disabled>
             <option value="">Selecciona...</option>
         </select>
 
-        <!-- CONTENEDOR EDITABLE -->
         <label>Contenido de la plantilla:</label>
         <div id="editorPlantilla" contenteditable="true"></div>
 
@@ -52,7 +68,7 @@
 </main>
 
 <footer>
-    <p>© 2025 Intranet Addinteli</p>
+    <p>&copy; 2025 Intranet Corporativa. Todos los derechos reservados.</p>
 </footer>
 
 <!-- =========================
@@ -62,7 +78,8 @@
 window.PLANTILLAS = {
     callcenter: {},
     correo: {},
-    tickets: {}
+    tickets: {},
+    escalamiento: {}
 };
 </script>
 
@@ -83,22 +100,48 @@ window.PLANTILLAS = {
 <!-- =========================
      ARCHIVOS TICKETS
 ========================= -->
-
+<script src="../Registros/Plantillas/Tickets/Activacion.js"></script>
+<script src="../Registros/Plantillas/Tickets/Compra de adicionales.js"></script>
+<script src="../Registros/Plantillas/Tickets/Cambio de zona.js"></script>
+<script src="../Registros/Plantillas/Tickets/Renovacion.js"></script>
+<script src="../Registros/Plantillas/Tickets/Reactivacion.js"></script>
+<script src="../Registros/Plantillas/Tickets/Reactivacion y Renovacion.js"></script>
+<script src="../Registros/Plantillas/Tickets/Suspension.js"></script>
+<script src="../Registros/Plantillas/Tickets/SIM Swap.js"></script>
+<script src="../Registros/Plantillas/Tickets/Otros.js"></script>
 
 <!-- =========================
      ARCHIVOS CORREO
 ========================= -->
-<script src="../Registros/Plantillas/Correo.js"></script>
-<script src="../Registros/Plantillas/Tickets.js"></script>
+<script src="../Registros/Plantillas/Correo/Correos.js"></script>
 
-
-
-
+<!-- =========================
+     ARCHIVOS ESCALAMIENTO (si ya existen)
+========================= -->
+<!-- ejemplo -->
+<!-- <script src="../Registros/Plantillas/Escalamiento/Altan.js"></script> -->
 
 <!-- =========================
      SCRIPT PRINCIPAL
 ========================= -->
+
 <script src="../Registros/script.js"></script>
+
+<script>
+/* MENÚ HAMBURGUESA */
+document.getElementById('menu-toggle').addEventListener('click', function(e){
+    e.stopPropagation();
+    document.getElementById('menu-desplegable').classList.toggle('mostrar');
+});
+
+document.addEventListener('click', function(e){
+    const menu = document.getElementById('menu-desplegable');
+    const button = document.getElementById('menu-toggle');
+    if(!menu.contains(e.target) && !button.contains(e.target)){
+        menu.classList.remove('mostrar');
+    }
+});
+</script>
 
 </body>
 </html>

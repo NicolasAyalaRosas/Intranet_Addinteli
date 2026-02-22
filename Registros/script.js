@@ -7,9 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const copiarBtn = document.getElementById("copiarBtn");
     const limpiarBtn = document.getElementById("limpiarBtn");
 
-    /* =========================
-       MENU 1 → CATEGORIAS
-    ========================= */
     tipoRegistro.addEventListener("change", function () {
 
         const tipo = this.value;
@@ -20,11 +17,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
         plantillaFinal.disabled = true;
 
-        if (!tipo || !window.PLANTILLAS[tipo]) {
+        if (!tipo) {
             categoriaPlantilla.disabled = true;
             return;
         }
 
+        /* 🔥 CASO ESPECIAL */
+        if (tipo === "tickets" || tipo === "escalamiento") {
+
+            categoriaPlantilla.disabled = true;
+            plantillaFinal.disabled = false;
+
+            const plantillas = window.PLANTILLAS[tipo];
+
+            Object.keys(plantillas).forEach(nombre => {
+                const option = document.createElement("option");
+                option.value = nombre;
+                option.textContent = nombre;
+                plantillaFinal.appendChild(option);
+            });
+
+            return;
+        }
+
+        /* NORMAL */
         categoriaPlantilla.disabled = false;
 
         const categorias = Object.keys(window.PLANTILLAS[tipo]);
@@ -38,10 +54,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
-
-    /* =========================
-       MENU 2 → PLANTILLAS
-    ========================= */
     categoriaPlantilla.addEventListener("change", function () {
 
         const tipo = tipoRegistro.value;
@@ -59,85 +71,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const plantillas = window.PLANTILLAS[tipo][categoria];
 
-        Object.keys(plantillas).forEach(nombrePlantilla => {
+        Object.keys(plantillas).forEach(nombre => {
             const option = document.createElement("option");
-            option.value = nombrePlantilla;
-            option.textContent = nombrePlantilla;
+            option.value = nombre;
+            option.textContent = nombre;
             plantillaFinal.appendChild(option);
         });
 
     });
 
-
-    /* =========================
-       MENU 3 → CONTENIDO
-    ========================= */
     plantillaFinal.addEventListener("change", function () {
 
         const tipo = tipoRegistro.value;
         const categoria = categoriaPlantilla.value;
-        const nombrePlantilla = this.value;
+        const nombre = this.value;
 
-        if (!nombrePlantilla) {
+        if (!nombre) {
             editorPlantilla.innerHTML = "";
             return;
         }
 
-        editorPlantilla.innerText =
-            window.PLANTILLAS[tipo][categoria][nombrePlantilla];
-
-    });
-
-
-    /* =========================
-       BOTON COPIAR
-    ========================= */
-    copiarBtn.addEventListener("click", function () {
-
-        const texto = editorPlantilla.innerText;
-
-        if (!texto.trim()) return;
-
-        navigator.clipboard.writeText(texto)
-            .then(() => {
-
-                const textoOriginal = copiarBtn.innerText;
-
-                copiarBtn.innerText = "¡Copiado!";
-                copiarBtn.disabled = true;
-
-                setTimeout(() => {
-                    copiarBtn.innerText = textoOriginal;
-                    copiarBtn.disabled = false;
-                }, 1500);
-
-            })
-            .catch(() => {
-
-                copiarBtn.innerText = "Error";
-                setTimeout(() => {
-                    copiarBtn.innerText = "Copiar Plantilla";
-                }, 1500);
-
-            });
-
-    });
-
-
-    /* =========================
-       BOTON LIMPIAR
-    ========================= */
-    limpiarBtn.addEventListener("click", function () {
-
-        editorPlantilla.innerHTML = "";
-
-        tipoRegistro.selectedIndex = 0;
-
-        categoriaPlantilla.innerHTML = '<option value="">Selecciona...</option>';
-        plantillaFinal.innerHTML = '<option value="">Selecciona...</option>';
-
-        categoriaPlantilla.disabled = true;
-        plantillaFinal.disabled = true;
+        if (tipo === "tickets" || tipo === "escalamiento") {
+            editorPlantilla.innerText =
+                window.PLANTILLAS[tipo][nombre];
+        } else {
+            editorPlantilla.innerText =
+                window.PLANTILLAS[tipo][categoria][nombre];
+        }
 
     });
 
