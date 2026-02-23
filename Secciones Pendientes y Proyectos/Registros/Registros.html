@@ -34,39 +34,31 @@
 
         <h1>Plantillas IRM</h1>
 
-        <!-- =========================
-             BLOQUE BOTONES TIPO
-        ========================== -->
-        <div class="bloque-tipos">
-            <button class="btn-tipo" data-tipo="callcenter">Call Center</button>
-            <button class="btn-tipo" data-tipo="tickets">Tickets</button>
-            <button class="btn-tipo" data-tipo="correo">Correo</button>
-            <button class="btn-tipo" data-tipo="escalamiento">Escalamiento</button>
-        </div>
+        <!-- MENU 1 -->
+        <label for="tipoRegistro">Tipo de Registro:</label>
+        <select id="tipoRegistro">
+            <option value="">Selecciona...</option>
+            <option value="callcenter">Plantillas Call Center</option>
+            <option value="correo">Plantillas Correo</option>
+            <option value="tickets">Plantillas Tickets</option>
+            <option value="escalamiento">Plantillas Escalamiento</option>
+        </select>
 
-        <!-- =========================
-            BLOQUE CATEGORIAS
-        ========================= -->
-        <div id="bloqueCategorias" class="bloque-secundario oculto">
-            <h3>Categoría</h3>
-            <div id="contenedorCategorias" class="grid-botones"></div>
-        </div>
+        <!-- MENU 2 -->
+        <label for="categoriaPlantilla">Categoría:</label>
+        <select id="categoriaPlantilla" disabled>
+            <option value="">Selecciona...</option>
+        </select>
 
-        <!-- =========================
-            BLOQUE PLANTILLAS
-        ========================= -->
-        <div id="bloquePlantillas" class="bloque-secundario oculto">
-            <h3>Plantilla</h3>
-            <div id="contenedorPlantillas" class="grid-botones"></div>
-        </div>
+        <!-- MENU 3 -->
+        <label for="plantillaFinal">Plantilla:</label>
+        <select id="plantillaFinal" disabled>
+            <option value="">Selecciona...</option>
+        </select>
 
-        <div class="separador-seccion"></div>
-        <label class="label-editor">Contenido de la plantilla:</label>
+        <label>Contenido de la plantilla:</label>
         <div id="editorPlantilla" contenteditable="true"></div>
 
-        <!-- =========================
-             BOTONES ACCIÓN
-        ========================== -->
         <div class="botones-container">
             <button id="limpiarBtn">Limpiar</button>
             <button id="copiarBtn">Copiar Plantilla</button>
@@ -80,24 +72,24 @@
 </footer>
 
 <!-- =========================
-     INICIALIZADOR GLOBAL SEGURO
+     INICIALIZADOR GLOBAL
 ========================= -->
 <script>
-window.PLANTILLAS = window.PLANTILLAS || {};
-window.PLANTILLAS.callcenter = window.PLANTILLAS.callcenter || {};
-window.PLANTILLAS.correo = window.PLANTILLAS.correo || {};
-window.PLANTILLAS.tickets = window.PLANTILLAS.tickets || {};
-window.PLANTILLAS.escalamiento = window.PLANTILLAS.escalamiento || {};
+window.PLANTILLAS = {
+    callcenter: {},
+    correo: {},
+    tickets: {},
+    escalamiento: {}
+};
 </script>
 
 <!-- =========================
-     CALL CENTER
+     ARCHIVOS CALL CENTER
 ========================= -->
 <script src="../Registros/Plantillas/Call Center/Callback.js"></script>
 <script src="../Registros/Plantillas/Call Center/Informacion.js"></script>
 <script src="../Registros/Plantillas/Call Center/Fallas de Voz.js"></script>
 <script src="../Registros/Plantillas/Call Center/Fallas de Navegacion.js"></script>
-<script src="../Registros/Plantillas/Call Center/Fallas en SMS.js"></script>
 <script src="../Registros/Plantillas/Call Center/Falla Total Voz y Datos.js"></script>
 <script src="../Registros/Plantillas/Call Center/Migracion Interna.js"></script>
 <script src="../Registros/Plantillas/Call Center/Recargas.js"></script>
@@ -106,7 +98,7 @@ window.PLANTILLAS.escalamiento = window.PLANTILLAS.escalamiento || {};
 <script src="../Registros/Plantillas/Call Center/Otros.js"></script>
 
 <!-- =========================
-     TICKETS
+     ARCHIVOS TICKETS
 ========================= -->
 <script src="../Registros/Plantillas/Tickets/Activacion.js"></script>
 <script src="../Registros/Plantillas/Tickets/Compra de adicionales.js"></script>
@@ -119,24 +111,24 @@ window.PLANTILLAS.escalamiento = window.PLANTILLAS.escalamiento || {};
 <script src="../Registros/Plantillas/Tickets/Otros.js"></script>
 
 <!-- =========================
-     CORREO
+     ARCHIVOS CORREO
 ========================= -->
 <script src="../Registros/Plantillas/Correo/Correos.js"></script>
 
 <!-- =========================
-     ESCALAMIENTO
+     ARCHIVOS ESCALAMIENTO 
 ========================= -->
-<!-- Cuando agregues archivos aquí, no olvides que si es directo, debe ser estructura plana -->
+
+<!-- <script src="../Registros/Plantillas/Escalamiento/Altan.js"></script> -->
 
 <!-- =========================
-     SCRIPT PRINCIPAL (SIEMPRE AL FINAL)
+     SCRIPT PRINCIPAL
 ========================= -->
+
 <script src="../Registros/script.js"></script>
 
-<!-- =========================
-     MENÚ HAMBURGUESA
-========================= -->
 <script>
+/* MENÚ HAMBURGUESA */
 document.getElementById('menu-toggle').addEventListener('click', function(e){
     e.stopPropagation();
     document.getElementById('menu-desplegable').classList.toggle('mostrar');

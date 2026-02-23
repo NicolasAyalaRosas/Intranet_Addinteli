@@ -8,7 +8,7 @@ Reporte:
 Se comunica Usuario-Distribuidor solicitando cambio de OMV de forma interna.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
 - Paquete: N/A
 - Bolsas:
   • Roaming: N/A
@@ -38,7 +38,7 @@ Reporte:
 Se comunica Usuario-Distribuidor solicitando información sobre una migración previamente solicitada.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
 - Paquete: N/A
 - Bolsas:
   • Roaming: N/A

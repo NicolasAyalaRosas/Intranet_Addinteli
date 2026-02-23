@@ -8,7 +8,7 @@ Reporte:
 Se comunica Usuario-Distribuidor reportando una recarga no aplicada.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado xxxxxx.
+- Se valida en plataforma HUB que la línea se encuentra en estado xxxxxx.
 - Paquete: Sin paquete vigente.
 - Bolsas:
   • Roaming: N/A
@@ -37,7 +37,7 @@ Reporte:
 Se comunica Usuario-Distribuidor reportando una recarga no aplicada.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado xxxxxx.
+- Se valida en plataforma HUB que la línea se encuentra en estado xxxxxx.
 - Paquete: Sin paquete vigente.
 - Bolsas:
   • Roaming: N/A
@@ -64,7 +64,7 @@ Reporte:
 Se comunica Usuario-Distribuidor reportando una recarga no aplicada.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Suspendido (B2W).
+- Se valida en plataforma HUB que la línea se encuentra en estado Suspendido (B2W).
 - Paquete: Sin paquete vigente.
 - Bolsas:
   • Roaming: N/A
@@ -95,7 +95,7 @@ Reporte:
 Se comunica Usuario-Distribuidor reportando una recarga no aplicada.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Inactive.
+- Se valida en plataforma HUB que la línea se encuentra en estado Inactive.
 - Se confirma que no tuvo recargas en un periodo superior a 180 días.
 - Paquete: Sin paquete vigente.
 - Bolsas:

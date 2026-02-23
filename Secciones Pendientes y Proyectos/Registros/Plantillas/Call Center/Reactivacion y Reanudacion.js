@@ -8,7 +8,7 @@ Reporte:
 Se comunica Usuario-Distribuidor solicitando apoyo para reanudar una línea.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Suspend B2W.
+- Se valida en plataforma HUB que la línea se encuentra en estado Suspend B2W.
 - Paquete: N/A
 - Bolsas:
   • Roaming: N/A
@@ -36,7 +36,7 @@ Reporte:
 Se comunica Usuario-Distribuidor solicitando apoyo para reactivar una línea.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Predeactive.
+- Se valida en plataforma HUB que la línea se encuentra en estado Predeactive.
 - Paquete: N/A
 - Bolsas:
   • Roaming: N/A
@@ -64,7 +64,7 @@ Reporte:
 Se comunica Usuario-Distribuidor solicitando apoyo para reactivar una línea.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Inactive.
+- Se valida en plataforma HUB que la línea se encuentra en estado Inactive.
 - Se confirma que el número ha permanecido sin recargas de T.A. durante un periodo superior a 180 días.
 - Paquete: N/A
 - Bolsas:

@@ -1,14 +1,14 @@
-window.PLANTILLAS.callcenter["Fallas de Voz"] = {
+window.PLANTILLAS.callcenter["Fallas de Navegacion"] = {
 
-  "Falla en Voz - Sin recarga vigente":
+  "Falla en Datos - Sin recarga vigente": 
 `Nombre:
 OMV y DN:
 
 Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
+Se comunica Usuario-Distribuidor reportando falla con el servicio de datos móviles.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB que la línea se encuentra en estado xxxxxx.
 - Paquete: Sin paquete vigente.
 - Bolsas:
   • Roaming: N/A
@@ -20,22 +20,22 @@ Validaciones en teléfono:
 - Equipo: N/A
 
 Posible causa:
-No se cuenta con recarga vigente, por lo que el usuario no contará con voz saliente.
+No se cuenta con recarga vigente, por lo que el usuario no contará con navegación libre.
 
 Solución:
 Se solicita a Usuario-Distribuidor genere una recarga para que cuente con servicio.`,
 
 
 
-  "Falla en Voz - Sin bolsas disponibles":
+  "Falla en Datos - Sin bolsas disponibles":
 `Nombre:
 OMV y DN:
 
 Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
+Se comunica Usuario-Distribuidor reportando falla con el servicio de datos móviles.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
 - Paquete: Activo y vigente.
 - Bolsas:
   • Roaming: xxxxxx
@@ -50,19 +50,19 @@ Posible causa:
 El Usuario-Distribuidor agotó las bolsas incluidas en su recarga vigente.
 
 Solución:
-Se informa a Usuario-Distribuidor que agotó las bolsas de minutos incluidas en su paquete vigente. Puede realizar una nueva recarga para recuperar el servicio de forma total si así lo prefiere.`,
+Se informa a Usuario-Distribuidor que agotó las bolsas de MB incluidas en su paquete vigente y se le comenta que puede agregar una nueva recarga para recuperar el servicio de forma total si así lo prefiere.`,
 
 
 
-  "Falla en Voz - Terminal no configurada correctamente":
+  "Falla en Datos - Terminal no configurada correctamente":
 `Nombre:
 OMV y DN:
 
 Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
+Se comunica Usuario-Distribuidor reportando falla con el servicio de datos móviles.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
 - Paquete: Activo y vigente.
 - Bolsas:
   • Roaming: xxxxxx
@@ -74,7 +74,7 @@ Validaciones en teléfono:
 - Equipo: xxxxxx
 
 Posible causa:
-No se detectan alteraciones que pudieran afectar el servicio. La línea se encuentra activa, con paquete y bolsas disponibles, por lo que se procede a brindar soporte a la terminal.
+No se detectan alteraciones que pudieran afectar el servicio. La línea se encuentra activa, con paquete y bolsas disponibles, por lo que se procede a dar soporte a la terminal.
 
 TS realizado:
 • Reset de valores de red.
@@ -87,16 +87,16 @@ Se realiza reinicio de la terminal y pruebas posteriores, confirmando funcionami
 
 
 
-  "Falla en Voz - Línea escalada":
+  "Falla en Datos - Línea escalada":
 `Nombre:
 OMV y DN:
 DN de Contacto:
 
 Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
+Se comunica Usuario-Distribuidor reportando falla con el servicio de datos móviles.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
 - Paquete: Activo y vigente.
 - Bolsas:
   • Roaming: xxxxxx
@@ -117,5 +117,5 @@ TS realizado:
 • Configuración de APN (internet) e IMS.
 
 Solución:
-Después de realizar pruebas y persistir la falla, se procede a escalamiento con folio xxxxxx. Se dará seguimiento mediante el DN de contacto o correo del cliente.`
+Tras realizar pruebas y persistir la falla, se realiza escalamiento con folio xxxxxx. Se dará seguimiento mediante el DN de contacto o correo del cliente.`
 };

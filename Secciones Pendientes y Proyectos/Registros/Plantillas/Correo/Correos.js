@@ -177,28 +177,6 @@ Solicitamos de su apoyo para validar con el usuario.
 
 Quedamos al pendiente de sus comentarios.
 
-Saludos.`, 
+Saludos.`
 
-
-
-    "Seguimiento a reporte - REQ atendido": `Estimado Cliente,
-
-Le informamos que, tras la validación del caso, nuestro proveedor comparte los siguientes comentarios:
-
-
-Derivado a lo anterior, solicitamos de su apoyo para aplicar las validaciones solicitadas y realizar pruebas.
-
-Quedamos al pendiente de sus comentarios
-
-Saludos.`,
-
-
-
-
-    "Suspension de DN y Bloqueo de equipo": `Estimado cliente, 
-
-Conforme a lo solicitado, se realizó la suspensión del número xxxxxx de manera correcta, adicional se realiza el bloqueo del equipo asociado que al revisar en sistema correspondía a una terminal Marca: xxxxxx Modelo: xxxxxx con IMEI: xxxxxx.
-
-Quedamos al pendiente de sus comentarios.
-Saludos.`,
 };

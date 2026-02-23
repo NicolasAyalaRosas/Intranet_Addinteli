@@ -8,7 +8,7 @@ Reporte:
 Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado xxxxxx.
+- Se valida en plataforma HUB que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
@@ -36,7 +36,7 @@ Reporte:
 Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB, que la línea se encuentra en estado xxxxxx.
+- Se valida en plataforma HUB, que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
@@ -48,7 +48,7 @@ Validaciones en teléfono:
 - Equipo: xxxxxx
 
 Posible causa:
-No se detectan alteraciones que pudieran afectar el servicio. La línea se encuentra activa, con paquete y bolsas disponibles.
+N/A
 
 Solución:
 Se realizan pruebas correspondientes; sin embargo, al persistir la falla, se procede a escalamiento con folio xxxxxx.
@@ -64,7 +64,7 @@ Reporte:
 Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB, que la línea se encuentra en estado xxxxxx.
+- Se valida en plataforma HUB, que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
@@ -100,7 +100,7 @@ Reporte:
 Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB, que la línea se encuentra en estado xxxxxx.
+- Se valida en plataforma HUB, que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx

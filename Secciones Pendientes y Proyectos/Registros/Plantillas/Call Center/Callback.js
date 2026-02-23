@@ -8,7 +8,7 @@ Reporte:
 Se comunica Usuario-Distribuidor reportando falla en el servicio de xxxxxx.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado xxxxxx.
+- Se valida en plataforma HUB que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
@@ -34,7 +34,7 @@ Reporte:
 Se comunica Distribuidor reportando falla en el servicio de xxxxxx.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado xxxxxx.
+- Se valida en plataforma HUB que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx

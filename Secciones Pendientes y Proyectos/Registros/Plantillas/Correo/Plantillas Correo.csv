@@ -1,0 +1,96 @@
+﻿Atención de Tickets - Solucionado,Atención de Tickets -No Solucionado,Compra de adicionales,Desactivación de Linea,Portabilidad - 1 Línea,Portabilidad - 2 o más líneas,Portabilidad - Confirmacion Retrasada,Reactivación de Línea,Reactivación de Líneas,Seguimiento inicial,Seguimiento a correo - Escalamiento directo,Seguimiento a correo - Resuelto en línea,Seguimiento a correo - Sin contacto efectivo,SIM Swap 
+"Estimado Cliente,
+
+Le informamos que el Ticket xxxxxx fue atendido de manera correcta y la evidencia debidamente documentada.
+
+Sin otro particular quedamos al pendiente de sus comentarios.
+
+Saludos.
+","Estimado Cliente,
+
+Le informamos que el Ticket xxxxxx se atendió de manera parcial derivado a falta de evidencia - falta de la documentación necesaria. Una vez contemos con la información faltante, daremos seguimiento al caso.
+
+Sin otro particular quedamos al pendiente de sus comentarios.
+
+Saludos.
+","Estimado Cliente,
+
+Le informamos, que se realizo la compra del adicional solicitado de manera correcta.
+
+Solicitamos de su apoyo para validar con el usuario.
+
+Sin otro particular quedamos al pendiente de sus comentarios.
+Saludos.
+","Estimado Cliente,
+
+Conforme a lo solicitado, hemos realizado la desactivación del Número xxxxxx, de manera correcta.
+
+Sin otro particular quedamos al pendiente de sus comentarios.
+
+Saludos.","Estimado Cliente,
+
+Le informamos que la portabilidad de la línea se realizó de manera correcta y las líneas ya impactaron en nuestro sistema. Solicitamos de su valioso apoyo para validar con el usuario.
+
+Quedo al pendiente de sus comentarios.
+Saludos.","Estimado Cliente,
+
+Le informamos que las portabilidades solicitadas finalizaron de manera correcta, las líneas ya impactaron en nuestro sistema, por lo que solicitamos de su valioso apoyo para confirmar con los usuarios.
+
+Quedo al pendiente de sus comentarios.
+Saludos.","Estimado Cliente,
+
+Le informamos que derivado a la validación por parte del ente regulador y el operador donante, las portabilidades no pudieron ser confirmadas hasta el día de hoy, una vez confirmemos que el proceso finalizo correctamente y las líneas hayan impactado en nuestro sistema les notificaremos por este medio.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.","Estimado Cliente,
+
+Conforme a lo solicitado, hemos realizado la reactivación de la línea de manera correcta, solicitamos de su apoyo para validar con el usuario.
+
+Importante: El usuario deberá realizar una recarga de TA el día de hoy, para evitar que la línea sea desactivada.
+
+Sin otro particular quedamos al pendiente de sus comentarios.
+
+Saludos.","Estimado Cliente,
+
+Conforme a lo solicitado, hemos realizado la reactivación de las lineas de manera correcta, solicitamos de su apoyo para validar con los usuarios.
+
+Importante: Los usuarios deberán realizar una recarga de TA el día de hoy, para evitar que las lineas sean desactivadas.
+
+Sin otro particular quedamos al pendiente de sus comentarios.
+
+Saludos.
+","Estimado cliente,
+
+Hemos recibido su petición y ya nos encontramos trabajando en ella. En cuanto tengamos avances, le notificaremos a la brevedad por este medio.
+
+Saludos cordiales.","Estimado cliente, 
+
+Tras la validación del DN xxxxxx, de nuestra parte no se detectan alteraciones que pudieran afectar el servicio del cliente. 
+
+Respecto al equipo, se validar que la terminal Marca: xxxxxx Modelo: xxxxxx se muestra como xxxxxx.
+
+Se realiza escalamiento del caso reportado y en cuanto contemos con avances de este, se brindará retroalimentación por este medio.
+
+Quedo pendiente de sus comentarios.
+Saludos.","Estimado Cliente,
+
+En seguimiento al reporte recibido, le informamos que se realizó contacto usuario afectado al número: xxxxxx, de manera exitosa, durante la llamada nos indica lo siguiente: 
+
+Tras la validación del escenario descrito y ajustes en la terminal afectada, se confirma recuperación completa del servicio.
+
+Derivado al anterior se da por atendido el tema.
+Quedamos al pendiente de sus comentarios.
+Saludos.
+	","Estimado cliente, 
+
+Tras la validación del DN xxxxxx, de nuestra parte no se detectan alteraciones que pudieran afectar el servicio del cliente. 
+
+Se intentó contactar con él usuario afectado, sin embargo, no hemos recibido respuesta, derivado a lo anterior, solicitamos de su valioso apoyo para comentar la situación con el usuario, y, de ser posible, nos puedan proveer de un horario en que puedan tomar nuestra llamada.
+
+Quedo pendiente de sus comentarios.
+Saludos.","Estimado Cliente,
+
+Le informamos que se realizó el reemplazo solicitado, solicitamos de su valioso apoyo para validar con el usuario.
+
+Quedamos al pendiente de sus comentarios.
+Saludos."

@@ -8,7 +8,7 @@ Reporte:
 Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
 - Paquete: Sin paquete vigente.
 - Bolsas:
   • Roaming: N/A
@@ -35,7 +35,7 @@ Reporte:
 Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
 - Paquete: Activo y vigente.
 - Bolsas:
   • Roaming: xxxxxx
@@ -62,7 +62,7 @@ Reporte:
 Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
 - Paquete: Activo y vigente.
 - Bolsas:
   • Roaming: xxxxxx
@@ -96,7 +96,7 @@ Reporte:
 Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
+- Se valida en plataforma HUB que la línea se encuentra en estado Activo.
 - Paquete: Activo y vigente.
 - Bolsas:
   • Roaming: xxxxxx

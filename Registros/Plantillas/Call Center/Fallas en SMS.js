@@ -1,11 +1,11 @@
-window.PLANTILLAS.callcenter["Fallas de Voz"] = {
+window.PLANTILLAS.callcenter["Fallas en SMS"] = {
 
-  "Falla en Voz - Sin recarga vigente":
+  "Falla en SMS - Sin recarga vigente":
 `Nombre:
 OMV y DN:
 
 Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
+Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
 
 Validaciones en sistema:
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
@@ -20,19 +20,19 @@ Validaciones en teléfono:
 - Equipo: N/A
 
 Posible causa:
-No se cuenta con recarga vigente, por lo que el usuario no contará con voz saliente.
+No se cuenta con recarga vigente, por lo que el usuario no contará con SMS salientes.
 
 Solución:
 Se solicita a Usuario-Distribuidor genere una recarga para que cuente con servicio.`,
 
 
 
-  "Falla en Voz - Sin bolsas disponibles":
+  "Falla en SMS - Sin bolsas disponibles":
 `Nombre:
 OMV y DN:
 
 Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
+Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
 
 Validaciones en sistema:
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
@@ -54,12 +54,12 @@ Se informa a Usuario-Distribuidor que agotó las bolsas de minutos incluidas en 
 
 
 
-  "Falla en Voz - Terminal no configurada correctamente":
+  "Falla en SMS - Terminal no configurada correctamente":
 `Nombre:
 OMV y DN:
 
 Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
+Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
 
 Validaciones en sistema:
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
@@ -81,19 +81,21 @@ TS realizado:
 • Validación de VoLTE y roaming activos.
 • Modo de red en LTE (4G) / 3G / 2G (auto).
 • Configuración de APN (internet) e IMS.
+• Configuración manual del Centro de Mensajes.
+
 
 Solución:
 Se realiza reinicio de la terminal y pruebas posteriores, confirmando funcionamiento correcto del servicio. Se da por concluida la atención.`,
 
 
 
-  "Falla en Voz - Línea escalada":
+  "Falla en SMS - Línea escalada":
 `Nombre:
 OMV y DN:
 DN de Contacto:
 
 Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de voz.
+Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
 
 Validaciones en sistema:
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
@@ -115,6 +117,8 @@ TS realizado:
 • Validación de VoLTE y roaming activos.
 • Modo de red en LTE (4G) / 3G / 2G (auto).
 • Configuración de APN (internet) e IMS.
+• Configuración manual del Centro de Mensajes.
+
 
 Solución:
 Después de realizar pruebas y persistir la falla, se procede a escalamiento con folio xxxxxx. Se dará seguimiento mediante el DN de contacto o correo del cliente.`

@@ -1,7 +1,7 @@
 window.PLANTILLAS.callcenter["Otros"] = {
 
-    "Otros - Llamada Cortada": `Nombre: N/A 
-OMV y DN: N/A 
+    "Otros - Llamada Cortada": `Nombre: N/A -
+OMV y DN: N/A -
 
 Reporte:
 Llamada cortada.

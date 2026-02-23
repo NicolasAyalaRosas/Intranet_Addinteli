@@ -5,7 +5,7 @@ OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
 Validaciones en sistema:
-- Se revisa en plataforma HUB que la línea se encuentra en estado xxxxxx.
+- Se valida en plataforma HUB que la línea se encuentra en estado xxxxxx.
 - Paquete: Sin paquete vigente.
 - Bolsas:
   Roaming: N/A
