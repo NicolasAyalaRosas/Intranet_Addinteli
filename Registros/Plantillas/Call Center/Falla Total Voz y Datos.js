@@ -113,7 +113,31 @@ Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de 
 
 Validaciones en sistema:
 - Línea en estado Suspendido (B2W).
-- Paquete activo y vigente.
+- Paquete: N/A
+- Bolsas: N/A
+
+Validaciones teléfono:
+- IMEI: xxxxxx
+- Equipo: xxxxxx
+
+Posible causa:
+- La línea mantiene estatus B1W, por lo que se encuentra bloqueada y sin servicios.
+
+Solución:
+- Se comenta con el Usuario-Distribuidor el escenario presentado, solicitando cambiar la SIM a una terminal que figure en sistema como COMPATIBLE PROBADO u COMPATIBLE HOMOLOGADO.
+- Se confirma con el Usuario-Distribuidor que la SIM se encuentra instalada en una terminal COMPATIBLE.
+- Se aplica proceso de Unbarring desde plataforma HUB.
+- Se confirma con el usuario que el servicio quedó restablecido.`,
+
+
+
+  "Falla Total Voz y Datos - Terminal NO Compatible": `Nombre:
+OMV y DN:
+Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
+
+Validaciones en sistema:
+- Línea en estado Barring (B1W).
+- Paquete: xxxxxx
 - Bolsas:
   Roaming: N/A
   TN: N/A
@@ -124,10 +148,34 @@ Validaciones teléfono:
 - Equipo: N/A
 
 Posible causa:
-- La línea mantiene estatus B2W, por lo que se encuentra bloqueada y sin servicios.
+- La línea mantiene estatus B1W, por lo que se encuentra bloqueada y sin servicios.
 
 Solución:
 - Se realiza proceso de Reanudación desde plataforma HUB.
-- Se confirma con el usuario que el servicio queda restablecido.`
+- Se confirma con el usuario que el servicio queda restablecido.`,
 
+
+
+"Falla Total Voz y Datos - Línea WM sin paquete": `Nombre: N/A 
+OMV y DN: 
+
+Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
+
+Validaciones en sistema:
+- Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
+- Paquete: Sin paquete vigente.
+- Bolsas:
+• Roaming: N/A
+• TN: N/A
+• RRSS: N/A
+
+Validaciones en teléfono:
+- IMEI: N/A
+- Equipo: N/A
+
+Posible causa:
+No se cuenta con recarga vigente, por lo que el usuario no contará con voz saliente.
+
+Solución:
+Se solicita a Colaborador envié correo a TelefonicaCorporativa@wal-mart.com solicitando la renovación de la linea.`
 };

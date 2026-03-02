@@ -1,5 +1,28 @@
 window.PLANTILLAS.correo = {
 
+    "Activación - 1 Línea": `Estimado cliente, 
+
+Le informamos que se llevó a cabo la activación solicitada, se comparte detalle:
+
+Por favor tomar en cuenta que, pese a la correcta activación del servicio, es necesario el cliente realice el proceso de vinculación al RNU conforme a la normativa vigente, esto para que el usuario cuente con acceso a sus beneficios, y/o aplicar cualquier movimiento productivo sobre la(s) línea(s).
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Activación - 2 o más Líneas": `Estimado cliente, 
+
+Le informamos que se han llevado a cabo las activaciones solicitadas, se comparte detalle:
+
+
+Por favor tomar en cuenta que, pese a la correcta activación del servicio, es necesario el cliente realice el proceso de vinculación al RNU conforme a la normativa vigente, esto para que el usuario cuente con acceso a sus beneficios, y/o aplicar cualquier movimiento productivo sobre la(s) línea(s).
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
     "Compra de saldo - Recarga NO aplicada": `Estimado cliente, 
 
 Conforme a lo solicitado, hemos aplicado la recarga pendiente, solicitamos de su apoyo para validar.
@@ -27,6 +50,24 @@ Conforme a lo solicitado, se realizó la desactivación del número xxxxxx de ma
 
 Sin otro particular, quedamos al pendiente de sus comentarios.
 
+Saludos.`,
+
+
+
+    "Migracion de DN": `Estimado cliente, 
+
+Conforme a lo solicitado, se realizó la migración del número xxxxxx de manera correcta, solicitamos de su valioso apoyo para validar con el usuario.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Migracion de DN - 2 o más líneas": `Estimado cliente, 
+
+Conforme a lo solicitado, se realizó la migración de los números xxxxxx y xxxxxx de manera correcta, solicitamos de su valioso apoyo para validar con el usuario.
+
+Quedamos al pendiente de sus comentarios.
 Saludos.`,
 
 
@@ -95,6 +136,18 @@ Sin otro particular, quedamos al pendiente de sus comentarios.
 
 Saludos.`,
 
+
+
+    "Seguimiento inicial": `Estimado Cliente,
+
+Hemos recibido su petición y ya nos encontramos trabajando en ella.
+
+En cuanto tengamos avances, le notificaremos a la brevedad por este medio.
+
+Saludos cordiales.`,
+
+
+
     "Seguimiento a Tickets - Resuelto": `Estimado Cliente,
 
 Le informamos que el Ticket xxxxxx fue atendido de manera correcta y la evidencia quedó debidamente documentada.
@@ -114,16 +167,6 @@ Una vez contemos con la información faltante, daremos seguimiento puntual al ca
 Sin otro particular, quedamos al pendiente de sus comentarios.
 
 Saludos.`,
-
-
-
-    "Seguimiento inicial": `Estimado Cliente,
-
-Hemos recibido su petición y ya nos encontramos trabajando en ella.
-
-En cuanto tengamos avances, le notificaremos a la brevedad por este medio.
-
-Saludos cordiales.`,
 
 
 
@@ -152,6 +195,18 @@ Derivado de lo anterior, se da por atendido el caso.
 Quedamos al pendiente de sus comentarios.
 
 Saludos.`,
+
+
+
+    "Seguimiento a correo - Sin numero de contacto": `Estimado Cliente,
+
+Tras la validación del DN xxxxxx, no se detectan alteraciones que pudieran afectar el servicio.
+
+Derivado a lo anterior, solicitamos de su valioso apoyo para solicitar un numero alterno de contacto, y, de ser posible, un horario en que podamos contactar con el - los usuario - s y así validar directamente la terminal afectada.
+
+Quedamos al pendiente de sus comentarios.
+
+Saludos.`,    
 
 
 
@@ -201,4 +256,28 @@ Conforme a lo solicitado, se realizó la suspensión del número xxxxxx de maner
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
+
+
+
+    "Suspension de DN": `Estimado cliente, 
+
+Conforme a lo solicitado, se realizó la suspensión del número xxxxxx de manera correcta.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Seguimiento a recarga - Pantera": `Estimado cliente, 
+
+Le informamos que la recarga fue correctamente aplicada a su línea con Numero xxxxxx, solicitamos de su apoyo para corroborar que ya cuente con sus beneficios activos.
+
+Adicional conforme a lo conversado en llamada le hacemos llegar el link de nuestro portal de recargas, y así pueda procesar sus recargas de forma directa y sencilla, con cargo a su tarjeta.
+
+Youcel Recargas: https://pantera-recargas.com/
+Bigcel Recargas: https://recargas.bigcel.mx/
+
+Ante cualquier duda quedamos a sus órdenes.
+Saludos.`
+
 };

@@ -95,6 +95,21 @@ Sin otro particular, quedamos al pendiente de sus comentarios.
 
 Saludos.`,
 
+
+
+    "Seguimiento a recarga - Pantera": `Estimado cliente, 
+
+Le informamos que la recarga fue correctamente aplicada a su línea con Numero xxxxxx, solicitamos de su apoyo para corroborar que ya cuente con sus beneficios activos.
+
+Adicional conforme a lo conversado en llamada le hacemos llegar el link de nuestro portal de recargas, y así pueda procesar sus recargas de forma directa y sencilla, con cargo a su tarjeta.
+
+Youcel Recargas: https://pantera-recargas.com/
+Bicel Recargas: https://recargas.bigcel.mx/
+
+Ante cualquier duda quedamos a sus órdenes.
+Saludos.`,
+
+
     "Seguimiento a Tickets - Resuelto": `Estimado Cliente,
 
 Le informamos que el Ticket xxxxxx fue atendido de manera correcta y la evidencia quedó debidamente documentada.
@@ -177,6 +192,6 @@ Solicitamos de su apoyo para validar con el usuario.
 
 Quedamos al pendiente de sus comentarios.
 
-Saludos.`
+Saludos.`,
 
 };
