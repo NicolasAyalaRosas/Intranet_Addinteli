@@ -36,7 +36,7 @@ Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
 
 Validaciones en sistema:
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
-- Paquete: Activo y vigente.
+Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
   • TN: xxxxxx
@@ -63,7 +63,7 @@ Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
 
 Validaciones en sistema:
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
-- Paquete: Activo y vigente.
+Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
   • TN: xxxxxx
@@ -99,7 +99,7 @@ Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
 
 Validaciones en sistema:
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
-- Paquete: Activo y vigente.
+Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
   • TN: xxxxxx

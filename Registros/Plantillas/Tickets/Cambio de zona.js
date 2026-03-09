@@ -11,7 +11,7 @@ Favor de validar.`,
 
     "Cambio de numero - 2 o más Líneas": `Estimados,
 
-Se realiza el cambio de zona a xxxxxx números con el identificador de zona (X).
+Se realiza el cambio de zona a los xxxxxx números con el identificador de zona (X).
 Se comparten los números asignados en sistema.
 
 Solicitamos de su apoyo validar con los usuarios.`

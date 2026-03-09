@@ -56,7 +56,7 @@ Saludos.`,
 
     "Migracion de DN": `Estimado cliente, 
 
-Conforme a lo solicitado, se realizó la migración del número xxxxxx de manera correcta, solicitamos de su valioso apoyo para validar con el usuario.
+Conforme a lo solicitado, se realizó la migración del número xxxxxx de manera correcta, solicitamos de su valioso apoyo para revisar con el usuario.
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
@@ -65,7 +65,7 @@ Saludos.`,
 
     "Migracion de DN - 2 o más líneas": `Estimado cliente, 
 
-Conforme a lo solicitado, se realizó la migración de los números xxxxxx y xxxxxx de manera correcta, solicitamos de su valioso apoyo para validar con el usuario.
+Conforme a lo solicitado, se realizó la migración de los números xxxxxx y xxxxxx de manera correcta, solicitamos de su valioso apoyo para revisar con el usuario.
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
@@ -131,6 +131,20 @@ Solicitamos de su apoyo para validar con los usuarios.
 
 Importante:
 Los usuarios deberán realizar una recarga de TA el día de hoy para evitar que las líneas sean desactivadas.
+
+Sin otro particular, quedamos al pendiente de sus comentarios.
+
+Saludos.`,
+
+
+
+    "Reactivación de Líneas - Numero desactivado": `Estimado Cliente,
+
+Le informamos que, tras validar el DN xxxxxx, se ha detectado que este se encuentra inactivo, por lo que no es posible recuperar esta línea.
+
+Este DN se desactivo ya que el ultimo evento de recarga registrado fue el xxxxxx, superando el máximo permitido que es de 180 días.
+
+Solicitamos de su apoyo para informar al usuario.
 
 Sin otro particular, quedamos al pendiente de sus comentarios.
 
@@ -270,14 +284,33 @@ Saludos.`,
 
     "Seguimiento a recarga - Pantera": `Estimado cliente, 
 
-Le informamos que la recarga fue correctamente aplicada a su línea con Numero xxxxxx, solicitamos de su apoyo para corroborar que ya cuente con sus beneficios activos.
+Le informamos que la recarga pendiente fue correctamente aplicada a su línea con Numero xxxxxx, solicitamos de su apoyo para validar que ya cuente con sus beneficios.
 
-Adicional conforme a lo conversado en llamada le hacemos llegar el link de nuestro portal de recargas, y así pueda procesar sus recargas de forma directa y sencilla, con cargo a su tarjeta.
+Adicional conforme a lo conversado en llamada le hacemos llegar la liga de nuestro portal de recargas, en donde podrá aplicar sus compras de forma directa y sencilla, con cargo a su tarjeta.
 
 Youcel Recargas: https://pantera-recargas.com/
 Bigcel Recargas: https://recargas.bigcel.mx/
 
 Ante cualquier duda quedamos a sus órdenes.
-Saludos.`
+Saludos.`,
 
+
+
+"Cambio de Oferta - WM": `Estimado cliente, 
+
+Conforme a lo solicitado, se aplicó cambio de oferta al número xxxxxx de manera correcta, solicitamos de su valioso apoyo para revisar con el usuario.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+"Informacion para aplicar recarga - Pantera": `Estimado cliente,
+
+Le hacemos llegar la liga de nuestro portal de recargas, para que pueda aplicar su compra de forma directa y sencilla, con cargo a su tarjeta.
+
+Bigcel Recargas: https://recargas.bigcel.mx/
+
+Ante cualquier duda quedamos a sus órdenes.
+Saludos.`
 };

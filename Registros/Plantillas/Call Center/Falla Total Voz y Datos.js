@@ -29,7 +29,7 @@ Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de 
 
 Validaciones en sistema:
 - Línea en estado Activo.
-- Paquete activo y vigente.
+- Paquete: xxxxxx.
 - Bolsas:
   Roaming: N/A
   TN: N/A
@@ -52,7 +52,7 @@ Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de 
 
 Validaciones en sistema:
 - Línea en estado Activo.
-- Paquete activo y vigente.
+- Paquete: xxxxxx.
 - Bolsas:
   Roaming: xxxxxx
   TN: xxxxxx
@@ -82,7 +82,7 @@ Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de 
 
 Validaciones en sistema:
 - Línea en estado Activo.
-- Paquete activo y vigente.
+- Paquete: xxxxxx.
 - Bolsas:
   Roaming: xxxxxx
   TN: xxxxxx
