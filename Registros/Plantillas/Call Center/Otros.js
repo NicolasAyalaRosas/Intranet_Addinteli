@@ -61,6 +61,17 @@ Posible causa:
 
 Solución:
 
-- N/A`
+- N/A`,
+
+
+
+    "Otros - Incidencia Masiva": `Nombre:
+OMV y DN:
+
+Reporte:
+Se comunica Usuario-Distribuidor reportando falla de servicio.
+
+Solución:
+- Se le explica al Usuario-Distribuidor que en este momento se esta presentando una afectación masiva que genera afectación al servicio, se le indica que no hay un ETR hasta el momento por lo que deberá estar al pendiente durante el transcurso del día.`,
 
 };

@@ -99,4 +99,12 @@ DN a Portar:
 ICCID:
 IMSI:
 PortID: `,
+
+
+
+    "Escalamiento - Solicitud de Optimizacion de zona": `Estimados, 
+
+Solicitamos de su apoyo para validar y en su caso Optimizar la zona que brinda servicio a la zona de xxxxxx, ya que los usuarios refieren constantes desconexiones de la red, así como lentitud en Navegación y la necesidad de múltiples intentos para generar o recibir eventos de Voz.
+
+El usuario que nos refiere estos problemas cuenta con el DN xxxxxx e IMSI xxxxxx.`,
 }

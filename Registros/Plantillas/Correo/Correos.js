@@ -44,6 +44,28 @@ Saludos.`,
 
 
 
+    "Cambio de Numero": `Estimado Cliente,
+
+Le informamos que se realizó el cambio de zona solicitado de forma correcta.
+
+El nuevo numero asignado por el sistema es: xxxxxx
+
+Solicitamos de su apoyo para validar con el usuario.
+
+Saludos.`,
+
+
+
+"Cambio de Oferta - WM": `Estimado cliente, 
+
+Conforme a lo solicitado, se aplicó cambio de oferta al número xxxxxx de manera correcta, solicitamos de su valioso apoyo para revisar con el usuario.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+
     "Desactivación de Línea": `Estimado Cliente,
 
 Conforme a lo solicitado, se realizó la desactivación del número xxxxxx de manera correcta.
@@ -65,7 +87,55 @@ Saludos.`,
 
     "Migracion de DN - 2 o más líneas": `Estimado cliente, 
 
-Conforme a lo solicitado, se realizó la migración de los números xxxxxx y xxxxxx de manera correcta, solicitamos de su valioso apoyo para revisar con el usuario.
+Conforme a lo solicitado, se realizó la migración de los números xxxxxx y xxxxxx de manera correcta, solicitamos de su valioso apoyo para revisar con los usuarios.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Portabilidad - Solicitud": `Estimado Cliente,
+
+Le informamos que se ha recibido su petición y ya nos encontramos trabajando en ella, por lo que una vez logremos generar la carga y en su determinado caso la confirmación del trámite, les notificaremos por este medio.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Portabilidad - Confirmación": `Estimado Cliente,
+
+Le informamos que ya se cuenta con el Visto Bueno para proceder con la portabilidad requerida, hemos confirmado el trámite, y una vez validemos que este finalizo correctamente y la línea replica en nuestro sistema les notificaremos por este medio. 
+
+Comparto detalle:
+
+
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Portabilidad - Finalizada": `Estimado Cliente,
+
+Le informamos que el proceso de portabilidad solicitado ha finalizado correctamente, la línea requerida ha impactado correctamente en nuestro sistema, por lo que pedimos de su apoyo para validar con el usuario.
+
+Comparto detalle:
+
+
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Portabilidad - Finalizada 2 o más líneas": `Estimado Cliente,
+
+Le informamos que el proceso de portabilidad solicitado ha finalizado correctamente, las líneas requeridas han impactado correctamente en nuestro sistema, por lo que pedimos de su apoyo para validar con los usuarios.
+
+Comparto detalle:
+
+
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
@@ -79,7 +149,6 @@ Le informamos que la portabilidad solicitada se realizó de manera correcta y la
 Solicitamos de su apoyo para validar con el usuario.
 
 Quedamos al pendiente de sus comentarios.
-
 Saludos.`,
 
 
@@ -91,7 +160,6 @@ Le informamos que las portabilidades solicitadas finalizaron de manera correcta 
 Solicitamos de su apoyo para confirmar con los usuarios.
 
 Quedamos al pendiente de sus comentarios.
-
 Saludos.`,
 
 
@@ -103,7 +171,6 @@ Derivado de la validación por parte del ente regulador y del operador donante, 
 Una vez confirmemos que el proceso finalizó correctamente y las líneas hayan impactado en nuestro sistema, se les notificará por este medio.
 
 Quedamos al pendiente de sus comentarios.
-
 Saludos.`,
 
 
@@ -118,7 +185,6 @@ Importante:
 El usuario deberá realizar una recarga de TA el día de hoy para evitar que la línea sea desactivada.
 
 Sin otro particular, quedamos al pendiente de sus comentarios.
-
 Saludos.`,
 
 
@@ -133,7 +199,6 @@ Importante:
 Los usuarios deberán realizar una recarga de TA el día de hoy para evitar que las líneas sean desactivadas.
 
 Sin otro particular, quedamos al pendiente de sus comentarios.
-
 Saludos.`,
 
 
@@ -147,7 +212,6 @@ Este DN se desactivo ya que el ultimo evento de recarga registrado fue el xxxxxx
 Solicitamos de su apoyo para informar al usuario.
 
 Sin otro particular, quedamos al pendiente de sus comentarios.
-
 Saludos.`,
 
 
@@ -167,7 +231,6 @@ Saludos cordiales.`,
 Le informamos que el Ticket xxxxxx fue atendido de manera correcta y la evidencia quedó debidamente documentada.
 
 Sin otro particular, quedamos al pendiente de sus comentarios.
-
 Saludos.`,
 
 
@@ -179,7 +242,6 @@ Le informamos que el Ticket xxxxxx fue atendido de manera parcial, derivado de l
 Una vez contemos con la información faltante, daremos seguimiento puntual al caso.
 
 Sin otro particular, quedamos al pendiente de sus comentarios.
-
 Saludos.`,
 
 
@@ -193,7 +255,6 @@ Respecto al equipo, se valida que la terminal Marca: xxxxxx, Modelo: xxxxxx, se 
 Se realiza el escalamiento del caso reportado y, en cuanto contemos con avances, se brindará retroalimentación por este medio.
 
 Quedamos al pendiente de sus comentarios.
-
 Saludos.`,
 
 
@@ -207,7 +268,6 @@ Tras la validación del escenario descrito y los ajustes realizados en la termin
 Derivado de lo anterior, se da por atendido el caso.
 
 Quedamos al pendiente de sus comentarios.
-
 Saludos.`,
 
 
@@ -216,10 +276,9 @@ Saludos.`,
 
 Tras la validación del DN xxxxxx, no se detectan alteraciones que pudieran afectar el servicio.
 
-Derivado a lo anterior, solicitamos de su valioso apoyo para solicitar un numero alterno de contacto, y, de ser posible, un horario en que podamos contactar con el - los usuario - s y así validar directamente la terminal afectada.
+Derivado a lo anterior, solicitamos de su valioso apoyo para solicitar un numero alterno de contacto, y, de ser posible, un horario en que podamos contactar con el-los usuario-s y así validar directamente la terminal afectada.
 
 Quedamos al pendiente de sus comentarios.
-
 Saludos.`,    
 
 
@@ -233,7 +292,6 @@ Se intentó contactar con el usuario afectado; sin embargo, no se obtuvo respues
 Solicitamos de su apoyo para informar la situación al usuario y, de ser posible, proporcionarnos un horario en el que pueda tomar nuestra llamada.
 
 Quedamos al pendiente de sus comentarios.
-
 Saludos.`,
 
 
@@ -245,7 +303,6 @@ Le informamos que se realizó el reemplazo solicitado de manera correcta.
 Solicitamos de su apoyo para validar con el usuario.
 
 Quedamos al pendiente de sus comentarios.
-
 Saludos.`, 
 
 
@@ -258,7 +315,6 @@ Le informamos que, tras la validación del caso, nuestro proveedor comparte los 
 Derivado a lo anterior, solicitamos de su apoyo para aplicar las validaciones solicitadas y realizar pruebas.
 
 Quedamos al pendiente de sus comentarios
-
 Saludos.`,
 
 
@@ -292,15 +348,6 @@ Youcel Recargas: https://pantera-recargas.com/
 Bigcel Recargas: https://recargas.bigcel.mx/
 
 Ante cualquier duda quedamos a sus órdenes.
-Saludos.`,
-
-
-
-"Cambio de Oferta - WM": `Estimado cliente, 
-
-Conforme a lo solicitado, se aplicó cambio de oferta al número xxxxxx de manera correcta, solicitamos de su valioso apoyo para revisar con el usuario.
-
-Quedamos al pendiente de sus comentarios.
 Saludos.`,
 
 
