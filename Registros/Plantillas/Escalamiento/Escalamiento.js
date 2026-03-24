@@ -51,6 +51,40 @@ Se realiza de forma posterior reinicio de terminal y pruebas sobre la misma pero
 
 
 
+    "Escalamiento - Falla en SMS A2p - Apple": `Estimados, 
+
+Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx con IMSI xxxxxx, sobre el cual el usuario refiere falla en recepción de SMS A2p desde xxxxxx, de nuestra parte se aplico TS completo:
+
+* RESET DE VALORES DE RED.
+* SE CONFIRMA QUE CUENTE CON VOLTE Y ROAMING ACTIVOS.
+* EL MODO DE RED SE ENCUENTRA SELECCIONADO COMO "LTE(4G)/3G/2G (AUTO)".
+* SE CONFIGURA APN (INTERNET) E IMS.
+* SE CONFIGURA MANUALMENTE CENTRO DE MENSAJES:
+- Con marcación **5005 * 7672 * + 525584611810 #, NO se ejecutan ni se visualizan cambios.
+- Se prueba enviar o recibir SMS, intentando “activar” iMessage mediante la cuenta de Apple ID., sin efecto.
+
+Se realiza de forma posterior reinicio de terminal y pruebas sobre la misma pero persiste fallo.`,
+
+
+
+    "Escalamiento - Falla en SMS A2p - Android": `Estimados, 
+
+Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx con IMSI xxxxxx, sobre el cual el usuario refiere falla en recepción de SMS A2p desde xxxxxx, de nuestra parte se aplico TS completo:
+
+* RESET DE VALORES DE RED.
+* SE CONFIRMA QUE CUENTE CON VOLTE Y ROAMING ACTIVOS.
+* EL MODO DE RED SE ENCUENTRA SELECCIONADO COMO "LTE(4G)/3G/2G (AUTO)".
+* SE CONFIGURA APN (INTERNET) E IMS.
+* SE CONFIGURA MANUALMENTE CENTRO DE MENSAJES:
+- Con marcación *#*#4636#*#*, NO se ejecutan ni se visualizan cambios.
+- Se realiza configuracion manual desde la App de Mensajes:
+ - Apagando los Chat RCS
+ - Editando "centro de servicio" e ingresando +525584611810
+
+Se realiza de forma posterior reinicio de terminal y pruebas sobre la misma pero persiste fallo.`,
+
+
+
     "Escalamiento - Sin conexion a red": `Estimados, 
 
 Solicitamos de su apoyo para validar el DN xxxxxx con IMSI xxxxxx la terminal no cuenta con conexión a red.
@@ -107,4 +141,14 @@ PortID: `,
 Solicitamos de su apoyo para validar y en su caso Optimizar la zona que brinda servicio a la zona de xxxxxx, ya que los usuarios refieren constantes desconexiones de la red, así como lentitud en Navegación y la necesidad de múltiples intentos para generar o recibir eventos de Voz.
 
 El usuario que nos refiere estos problemas cuenta con el DN xxxxxx e IMSI xxxxxx.`,
+
+
+
+    "Escalamiento - Vinculacion NO exitosa": `Estimados, 
+
+Solicitamos de su apoyo para validar el DN xxxxxx con IMSI xxxxxx ya que al intentar realizar el proceso de vinculación al RNU la plataforma devuelve el aviso: xxxxxx.
+
+Se ha comprobado ante la CRT que la linea figura como parte de nuestro OMV, y en sistema se ha corroborado que esa fue correctamente activada.
+
+Se comparte evidencia y quedamos en espera de corrección de su lado.`,
 }

@@ -104,12 +104,10 @@ Saludos.`,
 
 
     "Portabilidad - Confirmación": `Estimado Cliente,
-
+    
 Le informamos que ya se cuenta con el Visto Bueno para proceder con la portabilidad requerida, hemos confirmado el trámite, y una vez validemos que este finalizo correctamente y la línea replica en nuestro sistema les notificaremos por este medio. 
 
 Comparto detalle:
-
-
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
@@ -272,6 +270,32 @@ Saludos.`,
 
 
 
+"Seguimiento a correo - Linea Sin Bolsas": `Estimado Cliente,
+
+Tras la validación del ICCID xxxxxx, hemos detectado que se ha agotado el total de las bolsas de xxxxxx asignadas al paquete, de ahí el fallo reportado que reporta nuestro usuario.
+
+Derivado a lo anterior, dejamos a su consideración la posibilidad de agregar un adicional a la linea afectada con el fin de que el usuario recupere el servicio de forma completa.
+
+En caso de requerir se aplique algún adicional a las líneas antes mencionadas, agradeceremos nos informen de antemano.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+"Seguimiento a correo - Lineas Sin Bolsas 2 o más líneas ": `Estimado Cliente,
+
+Tras la validación de los ICCID xxxxxx, hemos detectado que se ha agotado el total de las bolsas de xxxxxx asignadas al paquete, de ahí el fallo reportado por los usuarios.
+
+Derivado a lo anterior, dejamos a su consideración la posibilidad de agregar un adicional a las líneas afectadas con el fin de que los usuarios recuperen servicio en su totalidad.
+
+En caso de requerir se aplique algún adicional a las líneas antes mencionadas, agradeceremos nos informen de antemano.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
     "Seguimiento a correo - Sin numero de contacto": `Estimado Cliente,
 
 Tras la validación del DN xxxxxx, no se detectan alteraciones que pudieran afectar el servicio.
@@ -301,6 +325,18 @@ Saludos.`,
 Le informamos que se realizó el reemplazo solicitado de manera correcta.
 
 Solicitamos de su apoyo para validar con el usuario.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`, 
+
+
+
+    "SIM Swap - 2 o más Líneas": `Estimado Cliente,
+
+Le informamos que se han realizado los reemplazos solicitados de manera correcta, se comparte detalle:
+
+
+Solicitamos de su apoyo para validar con los usuarios.
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`, 

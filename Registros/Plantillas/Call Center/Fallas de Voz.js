@@ -163,5 +163,5 @@ Posible causa:
 No se cuenta con recarga vigente, por lo que el usuario no contará con voz saliente.
 
 Solución:
-Se solicita a Colaborador envié correo a TelefonicaCorporativa@wal-mart.com solicitando la renovación de la linea.`,
+Se solicita a Colaborador envié correo a TelefoniaCorporativa@wal-mart.com solicitando la renovación de la linea.`,
 };

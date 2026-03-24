@@ -3,7 +3,9 @@ window.PLANTILLAS.tickets["Activacion"] = {
     "Activación - 1 Línea": `Estimados,
 
 Se realiza activación del ICCID xxxxxx de forma correcta.
+
 Se asigna paquete xxxxxx.
+
 El DN asignado a la SIM es: xxxxxx.
 
 Se comparte evidencia.
@@ -13,9 +15,11 @@ Favor de validar.`,
 
     "Activación - 2 o más Líneas": `Estimados,
 
-Se realiza activación de los ICCID xxxxxx de forma correcta.
+Se realiza activación de los xxxxxx ICCID proporcionados de forma correcta.
+
 Se asigna paquete xxxxxx.
-Se comparten los DN asignados a las SIM.
+
+Y se comparten los DN asignados a las SIM.
 
 Se comparte evidencia.
 Favor de validar.`,

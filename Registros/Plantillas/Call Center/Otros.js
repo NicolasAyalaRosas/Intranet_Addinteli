@@ -74,4 +74,25 @@ Se comunica Usuario-Distribuidor reportando falla de servicio.
 Solución:
 - Se le explica al Usuario-Distribuidor que en este momento se esta presentando una afectación masiva que genera afectación al servicio, se le indica que no hay un ETR hasta el momento por lo que deberá estar al pendiente durante el transcurso del día.`,
 
+
+
+    "Otros - SIM Swap": `Nombre:
+OMV y DN:
+
+Reporte:
+Se comunica Usuario-Distribuidor solicitando apoyo para generar un SIM Swap al numero antes indicado ya que menciona su SIM anterior fue Extraviada-Robada.
+
+Validaciones en sistema: - N/A
+
+Validaciones en teléfono: - N/A
+
+Posible causa: - N/A
+
+Solución:
+- Se comparte con el Usuario-Distribuidor el proceso para la obtención de una nueva SIM, el Usuario-Distribuidor confirma ya tenerla a mano y comparte el DN-ICCID xxxxxx, con el cual se valida en plataforma y se confirma estatus IDLE, por lo que se genera reemplazo en el momento.
+
+- Se confirma con el Usuario-Distribuidor que el cambio fue correctamente impactado, y se solicita validar servicio.
+
+Se da por terminada la atención.`,
+
 };
