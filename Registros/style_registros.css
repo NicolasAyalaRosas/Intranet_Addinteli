@@ -229,6 +229,7 @@ h1 {
     transition: 0.25s ease;
     font-weight: 500;
     box-shadow: var(--sombra-suave);
+    text-align: left;
 }
 
 .grid-botones button:hover {
