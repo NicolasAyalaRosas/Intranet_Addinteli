@@ -37,6 +37,18 @@ Saludos.`,
 
 
 
+    "Seguimiento a reporte - REQ atendido": `Estimado Cliente,
+
+Le informamos que, tras la validación del caso, nuestro proveedor comparte los siguientes comentarios:
+
+
+Derivado a lo anterior, solicitamos de su apoyo para aplicar las validaciones solicitadas y realizar pruebas.
+
+Quedamos al pendiente de sus comentarios
+Saludos.`,
+
+
+
     "Seguimiento a correo - Resuelto en línea": `Estimado Cliente,
 
 En seguimiento al reporte recibido, se realizó contacto con el usuario afectado al número: xxxxxx de manera exitosa.
@@ -94,7 +106,19 @@ Tras la validación del DN xxxxxx, no se detectan alteraciones que pudieran afec
 Derivado a lo anterior, solicitamos de su valioso apoyo para informar al usuario y solicitar contacte a nuestro Centro de Atención, en donde un asesor podrá asistirle y validar directamente la terminal afectada.
 
 Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Seguimiento a correo - Solicitud de contacto a CC 2 o más Líneas": `Estimado Cliente,
+
+Tras la validación de los DN xxxxxx y xxxxxx, no se detectan alteraciones que pudieran afectar el servicio.
+
+Derivado a lo anterior, solicitamos de su valioso apoyo para informar a los usuarios y solicitar contacten a nuestro Centro de Atención, en donde un asesor podrá asistirles y validar directamente las terminales afectadas.
+
+Quedamos al pendiente de sus comentarios.
 Saludos.`,    
+
 
 
 
@@ -105,6 +129,19 @@ Tras la validación del DN xxxxxx, no se detectan alteraciones que pudieran afec
 Se intentó contactar con el usuario afectado; sin embargo, no se obtuvo respuesta.
 
 Solicitamos de su apoyo para informar la situación al usuario y, de ser posible, proporcionarnos un horario en el que pueda tomar nuestra llamada.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Seguimiento a correo - Terminal NO Compatible": `Estimado Cliente,
+
+Tras la validación del DN xxxxxx, de nuestra parte no se detectan alteraciones que pudieran afectar el servicio.
+
+Sin embargo, si se ha detectado que la terminal en uso Marca: xxxxxx, Modelo: xxxxxx, se muestra como xxxxxx.
+
+Derivado a lo anterior, solicitamos de su valioso apoyo para comentar el tema con el usuario y realizar un cambio de equipo para recuperar el servicio. En caso de que posterior a este cambio el tema persista pedimos se nos indique para brindar el seguimiento adecuado.
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
