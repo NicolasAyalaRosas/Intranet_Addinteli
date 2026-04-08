@@ -1,4 +1,24 @@
-window.PLANTILLAS.tickets["Reactivacion"] = {
+window.PLANTILLAS.tickets["Reanudacion y Reactivacion"] = {
+
+
+
+    "Reanudación - 1 Línea": `Estimados,
+
+Se realiza la reanudación del DN: xxxxxx de manera correcta.
+
+Se comparte evidencia.
+Favor de validar.`,
+
+
+
+    "Reanudación - 2 o más Líneas": `Estimados,
+
+Se aplica la reanudación de las xxxxxx líneas indicadas de manera correcta.
+
+Se comparte evidencia.
+Favor de validar.`,
+
+
 
     "Reactivación - 1 Línea": `Estimados,
 

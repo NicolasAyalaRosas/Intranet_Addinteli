@@ -25,6 +25,7 @@ Se realiza búsqueda de la operación en la plataforma Openpay-Conekta y se conf
 Solución:
 - Se solicita revisión con N2/N3 para validar que la recarga no se encuentre en estatus "En proceso" y pueda aplicarse mediante la plataforma CRM.
 - Se aplica recarga promocional y compra de paquete desde la plataforma CRM.
+- Se solicita tiempo de espera para que N3 confirme que podemos aplicar la recarga de forma manual.
 - Se confirma con el Usuario-Distribuidor que ya cuenta con los beneficios correspondientes.`,
 
 

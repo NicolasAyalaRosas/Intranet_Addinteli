@@ -4,7 +4,7 @@ window.PLANTILLAS.correo["Cambio de Numero"] = {
 
 Le informamos que se realizó el cambio de zona solicitado de forma correcta.
 
-El nuevo numero asignado por el sistema es: xxxxxx
+El nuevo número asignado por el sistema es: xxxxxx
 
 Solicitamos de su apoyo para validar con el usuario.
 
@@ -14,7 +14,7 @@ Saludos.`,
 
     "Cambio de Numero - 2 o más líneas": `Estimado Cliente,
 
-Le informamos que se realizó el cambio de zona solicitado de forma correcta para los xxxxxx numeros proporcionados.
+Le informamos que se realizó el cambio de zona solicitado de forma correcta para los xxxxxx números proporcionados.
 
 Se comparte detalle de los nuevo DN asignados por el sistema:
 
