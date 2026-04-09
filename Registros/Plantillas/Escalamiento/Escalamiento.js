@@ -186,4 +186,20 @@ Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx c
 }
     
 Cabe destacar que el DN ya se encuentra vinculado al RNU por lo que desconocemos el motivo del error antes indicado. `,
+
+
+
+    "Escalamiento - Bono de Portabilidad no aplicado": `Estimados, 
+
+Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx con IMSI xxxxxx el cual no ha recibido su bono de portabilidad, pese a haber concluido correctamente el tramite de Port-In con fecha del xxxxxx.
+
+Se comparten los datos con los que se efectuo la portabilidad ya que el usuario es viable para aplicar la bonificacion antes indicada. `,
+
+
+
+    "Escalamiento - Bono de Portabilidad mal aplicado": `Estimados, 
+
+Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx con IMSI xxxxxx sobre el cual tiene una boficiacion de datos por portabilidad de forma incompleta.
+
+Al validar el "paquete" adquirido, al usuario le corresponderia el xxxxxx de Gigas, sin embargo, hasta el momento cuenta con solo xxxxxx Gb aplicados.`,
 }
