@@ -103,7 +103,7 @@ TS realizado:
 
 Solución:
 - Se realizan pruebas posteriores, sin éxito.
-- Se escala el caso con folio xxxxxx.
+- Se escala el caso con Remedy # xxxxxx.
 - Se dará seguimiento mediante DN de contacto o correo del cliente.`,
 
 

@@ -117,7 +117,7 @@ TS realizado:
 • Configuración de APN (internet) e IMS.
 
 Solución:
-Después de realizar pruebas y persistir la falla, se procede a escalamiento con folio xxxxxx. Se dará seguimiento mediante el DN de contacto o correo del cliente.`,
+Después de realizar pruebas y persistir la falla, se procede a escalamiento con Remedy # xxxxxx. Se dará seguimiento mediante el DN de contacto o correo del cliente.`,
 
 
 

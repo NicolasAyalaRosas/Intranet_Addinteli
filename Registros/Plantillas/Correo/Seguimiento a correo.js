@@ -92,10 +92,23 @@ Saludos.`,
 
 Tras la validación del DN xxxxxx, no se detectan alteraciones que pudieran afectar el servicio.
 
-Derivado a lo anterior, solicitamos de su valioso apoyo para solicitar un numero alterno de contacto, y, de ser posible, un horario en que podamos contactar con el-los usuario-s y así validar directamente la terminal afectada.
+Derivado a lo anterior, solicitamos de su valioso apoyo para solicitar un numero alterno de contacto, y, de ser posible, un horario en que podamos contactar con el usuario y así validar directamente la terminal afectada.
 
 Quedamos al pendiente de sus comentarios.
-Saludos.`,    
+Saludos.`,
+
+
+
+    "Seguimiento a correo - Sin numero de contacto 2 o más líneas": `Estimado Cliente,
+
+Tras la validación de los DN xxxxxx, no se detectan alteraciones que pudieran afectar el servicio.
+
+Se ha intentado contactar con los usuarios a los números reportados, sin embargo, no xxxxxx.
+
+Derivado a lo anterior, solicitamos de su valioso apoyo para solicitar un numero alterno de contacto, y, de ser posible, un horario en que podamos contactar con los usuarios y así validar directamente las terminales afectadas.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
 
 
 
