@@ -1,6 +1,6 @@
-window.PLANTILLAS.correo["Cambio de Numero"] = {
+window.PLANTILLAS.correo["Cambio de Zona"] = {
 
-    "Cambio de Numero": `Estimado Cliente,
+    "Cambio de zona para 1 DN": `Estimado Cliente,
 
 Le informamos que se realizó el cambio de zona solicitado de forma correcta.
 
@@ -12,7 +12,7 @@ Saludos.`,
 
 
 
-    "Cambio de Numero - 2 o más líneas": `Estimado Cliente,
+    "Cambio de zona para 2 o más DN": `Estimado Cliente,
 
 Le informamos que se realizó el cambio de zona solicitado de forma correcta para los xxxxxx números proporcionados.
 

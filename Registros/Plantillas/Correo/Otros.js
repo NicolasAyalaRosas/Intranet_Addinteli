@@ -9,6 +9,15 @@ Saludos.`,
 
 
 
+    "Compra de Adicionales": `Estimado cliente, 
+
+Se aplica la compra solicitada, de su apoyo para validar con el usuario.
+
+Quedamos al pendiente.
+Saludos.`,
+
+
+
     "Recarga NO aplicada DN Pantera - Seguimiento": `Estimado cliente, 
 
 Le informamos que la recarga pendiente fue correctamente aplicada a su línea con Numero xxxxxx, solicitamos de su apoyo para validar que ya cuente con sus beneficios.
