@@ -1,6 +1,6 @@
 window.PLANTILLAS.correo["Activacion de Lineas"] = {
 
-    "Activación - 1 Línea": `Estimado cliente, 
+    "Activación de 1 DN": `Estimado cliente, 
 
 Le informamos que se llevó a cabo la activación solicitada, se comparte detalle:
 
@@ -11,7 +11,7 @@ Saludos.`,
 
 
 
-    "Activación - 2 o más Líneas": `Estimado cliente, 
+    "Activación de 2 o más DN": `Estimado cliente, 
 
 Le informamos que se han llevado a cabo las activaciones solicitadas, se comparte detalle:
 

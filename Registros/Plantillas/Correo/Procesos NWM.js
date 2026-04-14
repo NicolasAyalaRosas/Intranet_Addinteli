@@ -11,7 +11,7 @@ Sin otro particular, quedamos al pendiente de sus comentarios.
 Saludos.`,
 
 
-    "Cambio de Oferta - WM": `Estimado cliente, 
+    "Cambio de Oferta DN Nueva WalMart o Externos": `Estimado cliente, 
 
 Conforme a lo solicitado, se aplicó cambio de oferta al número xxxxxx de manera correcta, solicitamos de su valioso apoyo para revisar con el usuario.
 
@@ -20,7 +20,7 @@ Saludos.`,
 
 
 
-    "Migracion de DN": `Estimado cliente, 
+    "Migración 1 DN": `Estimado cliente, 
 
 Conforme a lo solicitado, se realizó la migración del número xxxxxx de manera correcta, solicitamos de su valioso apoyo para revisar con el usuario.
 
@@ -29,7 +29,7 @@ Saludos.`,
 
 
 
-    "Migracion de DN - 2 o más líneas": `Estimado cliente, 
+    "Migración 2 o más DN": `Estimado cliente, 
 
 Conforme a lo solicitado, se realizó la migración de los números xxxxxx y xxxxxx de manera correcta, solicitamos de su valioso apoyo para revisar con los usuarios.
 

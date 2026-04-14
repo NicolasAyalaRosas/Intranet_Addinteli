@@ -1,6 +1,6 @@
 window.PLANTILLAS.correo["SIM Swap"] = {
     
-    "SIM Swap": `Estimado Cliente,
+    "Reemplazo de 1 DN": `Estimado Cliente,
 
 Le informamos que se realizó el reemplazo solicitado de manera correcta.
 
@@ -11,7 +11,7 @@ Saludos.`,
 
 
 
-    "SIM Swap - 2 o más Líneas": `Estimado Cliente,
+    "Reemplazo de 2 o más DN": `Estimado Cliente,
 
 Le informamos que se han realizado los reemplazos solicitados de manera correcta, se comparte detalle:
 
@@ -23,7 +23,7 @@ Saludos.`,
 
 
 
-    "SIM Swap - NO realizado - SIM Destino Acitva": `Estimado Cliente,
+    "Reemplazo NO aplicado - SIM Destino Acitva": `Estimado Cliente,
 
 Le informamos que, tras la validación del ICCID xxxxxx, se detecta que este se encuentra activo, por lo que no es posible llevar a cabo su petición.
 

@@ -9,17 +9,7 @@ Saludos.`,
 
 
 
-    "Desactivación de Línea": `Estimado Cliente,
-
-Conforme a lo solicitado, se realizó la desactivación del número xxxxxx de manera correcta.
-
-Sin otro particular, quedamos al pendiente de sus comentarios.
-
-Saludos.`,
-
-
-
-    "Seguimiento a recarga - Pantera": `Estimado cliente, 
+    "Recarga NO aplicada DN Pantera - Seguimiento": `Estimado cliente, 
 
 Le informamos que la recarga pendiente fue correctamente aplicada a su línea con Numero xxxxxx, solicitamos de su apoyo para validar que ya cuente con sus beneficios.
 

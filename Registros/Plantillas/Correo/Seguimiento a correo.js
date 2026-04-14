@@ -51,9 +51,9 @@ Saludos.`,
 
     "Seguimiento a correo - Resuelto en línea": `Estimado Cliente,
 
-En seguimiento al reporte recibido, se realizó contacto con el usuario afectado al número: xxxxxx de manera exitosa.
+En seguimiento al reporte recibido, se realizó genero una llamada de salida al número de contacto: xxxxxx contactando con el usuario de manera correcta.
 
-Tras la validación del escenario descrito y los ajustes realizados en la terminal afectada, se confirma la recuperación completa del servicio.
+Se realiza la validación del numero afectado xxxxxx, asi como el escenario descrito, se confirmaron y aplicaron los ajustes pertinentes en la terminal en uso y posteriormente se realizaron pruebas en la misma confirmando la recuperación completa del servicio.
 
 Derivado de lo anterior, se da por atendido el caso.
 

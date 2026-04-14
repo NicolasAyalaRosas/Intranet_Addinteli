@@ -1,6 +1,6 @@
 window.PLANTILLAS.correo["Reactivación"] = {
 
-        "Reactivación de Línea": `Estimado Cliente,
+    "Reactivación de Línea": `Estimado Cliente,
 
 Conforme a lo solicitado, se realizó la reactivación de la línea de manera correcta.
 
@@ -14,7 +14,7 @@ Saludos.`,
 
 
 
-    "Reactivación de Líneas": `Estimado Cliente,
+    "Reactivación de 2 o más DN": `Estimado Cliente,
 
 Conforme a lo solicitado, se realizó la reactivación de las líneas de manera correcta.
 
@@ -28,7 +28,7 @@ Saludos.`,
 
 
 
-    "Reactivación de Líneas - Numero desactivado": `Estimado Cliente,
+    "Reactivación inviable por Numero desactivado": `Estimado Cliente,
 
 Le informamos que, tras validar el DN xxxxxx, se ha detectado que este se encuentra inactivo, por lo que no es posible recuperar esta línea.
 

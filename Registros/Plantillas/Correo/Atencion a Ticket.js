@@ -1,6 +1,6 @@
 window.PLANTILLAS.correo["Atencion a Tickets"] = {
 
-        "Seguimiento a Tickets - Resuelto": `Estimado Cliente,
+        "Tickets Resuelto": `Estimado Cliente,
 
 Le informamos que el Ticket xxxxxx fue atendido de manera correcta y la evidencia quedó debidamente documentada.
 
@@ -9,7 +9,7 @@ Saludos.`,
 
 
 
-    "Seguimiento a Tickets - No resuelto": `Estimado Cliente,
+    "Ticket No resuelto": `Estimado Cliente,
 
 Le informamos que el Ticket xxxxxx fue atendido de manera parcial, derivado de la falta de evidencia o documentación necesaria.
 

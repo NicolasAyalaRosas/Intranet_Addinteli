@@ -1,6 +1,6 @@
 window.PLANTILLAS.correo ["Portabilidad"] = {
 
-        "Portabilidad - Solicitud": `Estimado Cliente,
+    "Portabilidad solicitada": `Estimado Cliente,
 
 Le informamos que se ha recibido su petición y ya nos encontramos trabajando en ella, por lo que una vez logremos generar la carga y en su determinado caso la confirmación del trámite, les notificaremos por este medio.
 
@@ -9,7 +9,7 @@ Saludos.`,
 
 
 
-    "Portabilidad - Confirmación": `Estimado Cliente,
+    "Portabilidad confirmada 1 DN": `Estimado Cliente,
     
 Le informamos que ya se cuenta con el Visto Bueno para proceder con la portabilidad requerida y por nuestra parte se ha realizado la confirmación del proceso.
 
@@ -22,7 +22,7 @@ Saludos.`,
 
 
 
-    "Portabilidad - Confirmación 2 o más líneas": `Estimado Cliente,
+    "Portabilidad confirmada 2 o más DN": `Estimado Cliente,
     
 Le informamos que ya se cuenta con el Visto Bueno para proceder con las portabilidades requeridas y por nuestra parte se ha realizado la confirmación del proceso.
 
@@ -35,7 +35,7 @@ Saludos.`,
 
 
 
-    "Portabilidad - Finalizada": `Estimado Cliente,
+    "Portabilidad Finalizada": `Estimado Cliente,
 
 Le informamos que el proceso de portabilidad solicitado ha finalizado correctamente, la línea requerida ha impactado correctamente en nuestro sistema, por lo que pedimos de su apoyo para validar con el usuario.
 
@@ -48,7 +48,7 @@ Saludos.`,
 
 
 
-    "Portabilidad - Finalizada 2 o más líneas": `Estimado Cliente,
+    "Portabilidad Finalizada 2 o más DN": `Estimado Cliente,
 
 Le informamos que el proceso de portabilidad solicitado ha finalizado correctamente, las líneas requeridas han impactado correctamente en nuestro sistema, por lo que pedimos de su apoyo para validar con los usuarios.
 
@@ -62,7 +62,7 @@ Saludos.`,
 
 
 
-    "Portabilidad - Confirmación Retrasada": `Estimado Cliente,
+    "Portabilidad NO confirmada": `Estimado Cliente,
 
 Derivado de la validación por parte del ente regulador y del operador donante, las portabilidades no pudieron ser confirmadas oportunamente.
 
@@ -73,7 +73,7 @@ Saludos.`,
 
 
 
-    "Portabilidad - Rechazada por Documentación Invalida o Incompleta": `Estimado cliente, 
+    "Portabilidad Rechazada por Documentación Invalida o Incompleta": `Estimado cliente, 
 
 Le informamos que, tras la revisión de los documentos que se nos comparten, se ha determinado que no procede la solicitud al encontrar discrepancias en la información.
 
@@ -87,7 +87,7 @@ Saludos.`,
 
 
 
-    "Portabilidad - Rechazada NIP Incorrecto - Vencido": `Estimado cliente, 
+    "Portabilidad Rechazada NIP Incorrecto ó Vencido": `Estimado cliente, 
 
 Le informamos que, tras la revisión del número que nos comparte, la portabilidad de este ha sido rechazada, esto derivado a que el Nip proporcionado xxxxxx.
 
