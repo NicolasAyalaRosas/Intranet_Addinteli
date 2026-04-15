@@ -11,7 +11,7 @@ Saludos cordiales.`,
 
 
 
-    "Seguimiento a correo - Escalamiento directo": `Estimado Cliente,
+    "Reporte escalado directamente": `Estimado Cliente,
 
 Tras la validación del DN xxxxxx, de nuestra parte no se detectan alteraciones que pudieran afectar el servicio.
 
@@ -24,7 +24,7 @@ Saludos.`,
 
 
 
-    "Seguimiento a correo - Llamada de Salida No resuelto": `Estimado Cliente,
+    "Llamada de Salida - No resuelto": `Estimado Cliente,
 
 Le informamos que se realizó llamada de salida al número alterno xxxxxx, teniendo contacto con el usuario de la linea, con su apoyo se validaron las correctas configuraciones de la terminal en uso, sin embargo, el fallo reportado persiste.
 
@@ -37,7 +37,7 @@ Saludos.`,
 
 
 
-    "Seguimiento a reporte - REQ atendido": `Estimado Cliente,
+    "REQ atendido": `Estimado Cliente,
 
 Le informamos que, tras la validación del caso, nuestro proveedor comparte los siguientes comentarios:
 
@@ -49,7 +49,7 @@ Saludos.`,
 
 
 
-    "Seguimiento a correo - Resuelto en línea": `Estimado Cliente,
+    "Reporte eesuelto en línea": `Estimado Cliente,
 
 En seguimiento al reporte recibido, se realizó genero una llamada de salida al número de contacto: xxxxxx contactando con el usuario de manera correcta.
 
@@ -62,7 +62,7 @@ Saludos.`,
 
 
 
-"Seguimiento a correo - Linea Sin Bolsas": `Estimado Cliente,
+"Linea Sin Bolsas": `Estimado Cliente,
 
 Tras la validación del ICCID xxxxxx, hemos detectado que se ha agotado el total de las bolsas de xxxxxx asignadas al paquete, de ahí el fallo reportado que reporta nuestro usuario.
 
@@ -75,7 +75,7 @@ Saludos.`,
 
 
 
-"Seguimiento a correo - Lineas Sin Bolsas 2 o más líneas ": `Estimado Cliente,
+"Lineas Sin Bolsas 2 o más DN": `Estimado Cliente,
 
 Tras la validación de los ICCID xxxxxx, hemos detectado que se ha agotado el total de las bolsas de xxxxxx asignadas al paquete, de ahí el fallo reportado por los usuarios.
 
@@ -88,7 +88,7 @@ Saludos.`,
 
 
 
-    "Seguimiento a correo - Sin numero de contacto": `Estimado Cliente,
+    "Sin numero de contacto": `Estimado Cliente,
 
 Tras la validación del DN xxxxxx, no se detectan alteraciones que pudieran afectar el servicio.
 
@@ -99,7 +99,7 @@ Saludos.`,
 
 
 
-    "Seguimiento a correo - Sin numero de contacto 2 o más líneas": `Estimado Cliente,
+    "Sin numero de contacto 2 o más DN": `Estimado Cliente,
 
 Tras la validación de los DN xxxxxx, no se detectan alteraciones que pudieran afectar el servicio.
 
@@ -112,7 +112,7 @@ Saludos.`,
 
 
 
-    "Seguimiento a correo - Solicitud de contacto a CC": `Estimado Cliente,
+    "Solicitud de contacto a CC": `Estimado Cliente,
 
 Tras la validación del DN xxxxxx, no se detectan alteraciones que pudieran afectar el servicio.
 
@@ -123,7 +123,7 @@ Saludos.`,
 
 
 
-    "Seguimiento a correo - Solicitud de contacto a CC 2 o más Líneas": `Estimado Cliente,
+    "Solicitud de contacto a CC 2 o más DN": `Estimado Cliente,
 
 Tras la validación de los DN xxxxxx y xxxxxx, no se detectan alteraciones que pudieran afectar el servicio.
 
@@ -135,11 +135,11 @@ Saludos.`,
 
 
 
-    "Seguimiento a correo - Sin contacto efectivo": `Estimado Cliente,
+    "Sin contacto efectivo": `Estimado Cliente,
 
 Tras la validación del DN xxxxxx, no se detectan alteraciones que pudieran afectar el servicio.
 
-Se intentó contactar con el usuario afectado; sin embargo, no se obtuvo respuesta.
+Se intentó contactar con el usuario afectado al número alterno xxxxxx; sin embargo, no se obtuvo respuesta.
 
 Solicitamos de su apoyo para informar la situación al usuario y, de ser posible, proporcionarnos un horario en el que pueda tomar nuestra llamada.
 
@@ -148,13 +148,22 @@ Saludos.`,
 
 
 
-    "Seguimiento a correo - Terminal NO Compatible": `Estimado Cliente,
+    "Terminal NO Compatible": `Estimado Cliente,
 
 Tras la validación del DN xxxxxx, de nuestra parte no se detectan alteraciones que pudieran afectar el servicio.
 
 Sin embargo, si se ha detectado que la terminal en uso Marca: xxxxxx, Modelo: xxxxxx, se muestra como xxxxxx.
 
 Derivado a lo anterior, solicitamos de su valioso apoyo para comentar el tema con el usuario y realizar un cambio de equipo para recuperar el servicio. En caso de que posterior a este cambio el tema persista pedimos se nos indique para brindar el seguimiento adecuado.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Pre-desactivacion 2 o más DN": `Estimado Cliente,
+
+Conforme a lo solicitado, se realiza predesactivacion de las líneas proporcionadas.
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,

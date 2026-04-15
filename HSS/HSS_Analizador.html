@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizador HSS</title>
+    <link rel="stylesheet" href="style_hss.css">
+</head>
+<body>
+
+<header class="header">
+    <img src="../Imagenes_y_Archivos/Logo_Addinteli_2.png" class="logo">
+
+    <div class="menu-hamburguesa">
+        <button id="menu-toggle">☰ Menú</button>
+
+        <ul class="menu-desplegable" id="menu-desplegable">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../Glosario/glosario.html">Glosario</a></li>
+            <li><a href="../Guias Rapidas/guiasrapidas.html">Guias Rápidas</a></li>
+            <li><a href="../Procesos y Manuales/procesos y manuales.html">Documentos</a></li>
+            <li><a href="../Sitios MBB/SitiosMBB.html">Sitios MBB</a></li>
+            <li><a href="../Roaming Internacional/Roaming_internacional.html">Roaming</a></li>
+        </ul>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container">
+
+        <h1>🔍 Analizador de Perfil HSS</h1>
+
+        <div class="bloque">
+
+            <label>Pegar perfil HSS</label>
+
+            <textarea id="inputHSS" class="hss-input"
+                placeholder="Pega aquí el perfil HSS..."></textarea>
+
+            <div class="botones">
+                <button onclick="analizarHSS()">Analizar</button>
+                <button onclick="limpiarHSS()">Limpiar</button>
+                <button id="btnModo" onclick="toggleModo()">Modo rápido: OFF</button>
+            </div>
+
+            <!-- Espacio para resumen futuro -->
+            <div id="estadoGeneral"></div>
+
+            <div id="resultadoHSS"></div>
+
+        </div>
+
+    </div>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2025 Intranet Corporativa</p>
+</footer>
+
+<!-- Scripts -->
+<script src="hss_diccionario.js"></script>
+<script src="hss.js"></script>
+
+<script>
+// ===============================
+// MENÚ
+// ===============================
+document.getElementById('menu-toggle').addEventListener('click', function(e){
+    e.stopPropagation();
+    document.getElementById('menu-desplegable').classList.toggle('mostrar');
+});
+
+document.addEventListener('click', function(e){
+    const menu = document.getElementById('menu-desplegable');
+    const button = document.getElementById('menu-toggle');
+    if(!menu.contains(e.target) && !button.contains(e.target)){
+        menu.classList.remove('mostrar');
+    }
+});
+
+// ===============================
+// ATAJO CTRL + ENTER
+// ===============================
+document.getElementById("inputHSS").addEventListener("keydown", function(e) {
+    if (e.ctrlKey && e.key === "Enter") {
+        analizarHSS();
+    }
+});
+</script>
+
+</body>
+</html>
