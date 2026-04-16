@@ -37,7 +37,7 @@ Saludos.`,
 
 
 
-    "REQ atendido": `Estimado Cliente,
+    "REQ Atendido": `Estimado Cliente,
 
 Le informamos que, tras la validación del caso, nuestro proveedor comparte los siguientes comentarios:
 
@@ -49,7 +49,7 @@ Saludos.`,
 
 
 
-    "Reporte eesuelto en línea": `Estimado Cliente,
+    "Reporte resuelto en línea": `Estimado Cliente,
 
 En seguimiento al reporte recibido, se realizó genero una llamada de salida al número de contacto: xxxxxx contactando con el usuario de manera correcta.
 
@@ -64,9 +64,9 @@ Saludos.`,
 
 "Linea Sin Bolsas": `Estimado Cliente,
 
-Tras la validación del ICCID xxxxxx, hemos detectado que se ha agotado el total de las bolsas de xxxxxx asignadas al paquete, de ahí el fallo reportado que reporta nuestro usuario.
+Tras la validación del ICCID xxxxxx, hemos detectado que se ha agotado el total de las bolsas de xxxxxx asignadas al paquete, de ahí el fallo que comenta nuestro usuario.
 
-Derivado a lo anterior, dejamos a su consideración la posibilidad de agregar un adicional a la linea afectada con el fin de que el usuario recupere el servicio de forma completa.
+Derivado a lo anterior, dejamos a su consideración la posibilidad de agregar un adicional a la línea afectada con el fin de que el usuario recupere el servicio de forma completa.
 
 En caso de requerir se aplique algún adicional a las líneas antes mencionadas, agradeceremos nos informen de antemano.
 

@@ -1,6 +1,22 @@
 window.PLANTILLAS.escalamiento = { 
 
-    "Escalamiento - Falla de Voz MT y MO": `Estimados, 
+    "Bono de Portabilidad no aplicado": `Estimados, 
+
+Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx con IMSI xxxxxx el cual no ha recibido su bono de portabilidad, pese a haber concluido correctamente el tramite de Port-In con fecha del xxxxxx.
+
+Se comparten los datos con los que se efectuo la portabilidad ya que el usuario es viable para aplicar la bonificacion antes indicada. `,
+
+
+
+    "Bono de Portabilidad mal aplicado": `Estimados, 
+
+Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx con IMSI xxxxxx sobre el cual tiene una bonificiacion de datos por portabilidad de forma incompleta.
+
+Al validar el "paquete" adquirido, al usuario le corresponderia el xxxxxx de Gigas, sin embargo, hasta el momento cuenta con solo xxxxxx Gb aplicados.`,
+
+
+
+    "Falla de Voz MT y MO": `Estimados, 
 Solicitamos de su apoyo para validar el DN xxxxxx con IMSI xxxxxx la terminal no cuenta con voz MT ni MO.
 
 En eventos de Voz Saliente, xxxxxx
@@ -17,7 +33,7 @@ Se realiza de forma posterior reinicio de terminal y pruebas sobre la misma pero
 
 
 
-    "Escalamiento - Falla de Voz MO": `Estimados, 
+    "Falla de Voz MO": `Estimados, 
 
 Solicitamos de su apoyo para validar el DN xxxxxx con IMSI xxxxxx la linea no cuenta con voz MO.
 
@@ -34,7 +50,7 @@ Se realiza de forma posterior reinicio de terminal y pruebas sobre la misma pero
 
 
 
-    "Escalamiento - Falla de Voz MT": `Estimados, 
+    "Falla de Voz MT": `Estimados, 
 
 Solicitamos de su apoyo para validar el DN xxxxxx con IMSI xxxxxx la la linea no cuenta con voz MT.
 
@@ -51,7 +67,7 @@ Se realiza de forma posterior reinicio de terminal y pruebas sobre la misma pero
 
 
 
-    "Escalamiento - Falla en SMS A2p - Apple": `Estimados, 
+    "Falla en SMS A2p - Apple": `Estimados, 
 
 Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx con IMSI xxxxxx, sobre el cual el usuario refiere falla en recepción de SMS A2p desde xxxxxx, de nuestra parte se aplico TS completo:
 
@@ -67,7 +83,7 @@ Se realiza de forma posterior reinicio de terminal y pruebas sobre la misma pero
 
 
 
-    "Escalamiento - Falla en SMS A2p - Android": `Estimados, 
+    "Falla en SMS A2p - Android": `Estimados, 
 
 Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx con IMSI xxxxxx, sobre el cual el usuario refiere falla en recepción de SMS A2p desde xxxxxx, de nuestra parte se aplico TS completo:
 
@@ -85,7 +101,7 @@ Se realiza de forma posterior reinicio de terminal y pruebas sobre la misma pero
 
 
 
-    "Escalamiento - Sin conexion a red": `Estimados, 
+    "Sin conexion a red": `Estimados, 
 
 Solicitamos de su apoyo para validar el DN xxxxxx con IMSI xxxxxx la terminal no cuenta con conexión a red.
 
@@ -100,7 +116,7 @@ Se realiza de forma posterior reinicio de terminal y pruebas sobre la misma pero
 
 
 
-    "Escalamiento - Portabildad NO Realizada": `Estimados, 
+    "Portabildad NO Realizada": `Estimados, 
 
 Solicitamos de su apoyo para validar y regularizar la siguiente portabilidad, que para Numlex (ABD) fue correctamente procesada, pero misma que aun no replica en nuestro sistema. Se comparte detalle.
 
@@ -112,7 +128,7 @@ PortID: `,
 
 
 
-    "Escalamiento - Portabildad NO Realizada 2 o más líneas": `Estimados, 
+    "Portabildad NO Realizada 2 o más DN": `Estimados, 
 
 Solicitamos de su apoyo para validar y regularizar las siguientes portabilidades, que para Numlex (ABD) fueron correctamente procesadas, pero mismas que aun no replican en nuestro sistema. Se comparte detalle.
 
@@ -124,7 +140,7 @@ PortID: `,
 
 
 
-    "Escalamiento - Pendiente de DN Transitorio": `Estimados, 
+    "Portabilidad pendiente de DN Transitorio": `Estimados, 
 
 Solicitamos de su apoyo para validar y regularizar la siguiente portabilidad, misma que nos han notificado se encuentra pendiente de DN Transitorio. Se comparten los detalles del DN donde se requiere impactar el numero xxxxxx.
 
@@ -136,7 +152,7 @@ PortID: `,
 
 
 
-    "Escalamiento - Reverso de Portabilidad": `Estimados, 
+    "Reverso de Portabilidad": `Estimados, 
 
 Solicitamos de su apoyo para aprovisionar la siguiente tripleta, debido a que se ha solicitado el reverso de portabilidad del siguiente DN, mismo que ha finalizado su proceso con fecha del xxxxxx. 
 
@@ -149,8 +165,16 @@ PortID: `,
 
 
 
+    "Reporte de Consumos": `Estimados, 
 
-    "Escalamiento - Solicitud de Optimizacion de zona": `Estimados, 
+Solicitamos de su apoyo para proveer el detalle de consumos para los servicios de xxxxxx, para el DN xxxxxx de las siguientes fechas: 
+
+Fecha Inicial: xxxxxx
+Fecha Final: xxxxxx.`,
+
+
+
+    "Solicitud de Optimizacion de zona": `Estimados, 
 
 Solicitamos de su apoyo para validar y en su caso Optimizar la zona que brinda servicio a la zona de xxxxxx, ya que los usuarios refieren constantes desconexiones de la red, así como lentitud en Navegación y la necesidad de múltiples intentos para generar o recibir eventos de Voz.
 
@@ -158,7 +182,7 @@ El usuario que nos refiere estos problemas cuenta con el DN xxxxxx e IMSI xxxxxx
 
 
 
-    "Escalamiento - Vinculacion NO exitosa": `Estimados, 
+    "Vinculacion NO exitosa": `Estimados, 
 
 Solicitamos de su apoyo para validar el DN xxxxxx con IMSI xxxxxx ya que al intentar realizar el proceso de vinculación al RNU la plataforma devuelve el aviso: xxxxxx.
 
@@ -168,7 +192,7 @@ Se comparte evidencia y quedamos en espera de corrección de su lado.`,
 
 
 
-    "Escalamiento - Error en instalcion e-SIM": `Estimados,
+    "Error en instalcion e-SIM": `Estimados,
 
 Solicitamos de su apoyo para validar el ICCID xxxxxx con DN xxxxxx ya que al momento de escanear el código QR para realizar la activación, este devuelve el Error: xxxxxx
 
@@ -176,7 +200,7 @@ Se ha validado que la terminal con IMEI xxxxxx , figura como xxxxxx en sistema y
 
 
 
-    "Escalamiento - Error 403 en movimientos productivos": `Estimados, 
+    "Error 403 en movimientos productivos": `Estimados, 
 
 Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx con IMSI xxxxxx el cual al intentar ejecutar xxxxxx nos devuelve el siguiente error:
 
@@ -186,20 +210,4 @@ Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx c
 }
     
 Cabe destacar que el DN ya se encuentra vinculado al RNU por lo que desconocemos el motivo del error antes indicado. `,
-
-
-
-    "Escalamiento - Bono de Portabilidad no aplicado": `Estimados, 
-
-Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx con IMSI xxxxxx el cual no ha recibido su bono de portabilidad, pese a haber concluido correctamente el tramite de Port-In con fecha del xxxxxx.
-
-Se comparten los datos con los que se efectuo la portabilidad ya que el usuario es viable para aplicar la bonificacion antes indicada. `,
-
-
-
-    "Escalamiento - Bono de Portabilidad mal aplicado": `Estimados, 
-
-Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx con IMSI xxxxxx sobre el cual tiene una bonificiacion de datos por portabilidad de forma incompleta.
-
-Al validar el "paquete" adquirido, al usuario le corresponderia el xxxxxx de Gigas, sin embargo, hasta el momento cuenta con solo xxxxxx Gb aplicados.`,
 }
