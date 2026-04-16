@@ -64,7 +64,7 @@ Saludos.`,
 
 "Linea Sin Bolsas": `Estimado Cliente,
 
-Tras la validación del ICCID xxxxxx, hemos detectado que se ha agotado el total de las bolsas de xxxxxx asignadas al paquete, de ahí el fallo que comenta nuestro usuario.
+Tras la validación del ICCID xxxxxx, hemos detectado que se agotó el total de xxxxxx asignados al paquete, de ahí el fallo que comenta nuestro usuario.
 
 Derivado a lo anterior, dejamos a su consideración la posibilidad de agregar un adicional a la línea afectada con el fin de que el usuario recupere el servicio de forma completa.
 
@@ -77,7 +77,7 @@ Saludos.`,
 
 "Lineas Sin Bolsas 2 o más DN": `Estimado Cliente,
 
-Tras la validación de los ICCID xxxxxx, hemos detectado que se ha agotado el total de las bolsas de xxxxxx asignadas al paquete, de ahí el fallo reportado por los usuarios.
+Tras la validación de los ICCID xxxxxx, hemos detectado que estos han agotado el total de las bolsas de xxxxxx asignadas a los paquetes, de ahí lo comentado por los usuarios.
 
 Derivado a lo anterior, dejamos a su consideración la posibilidad de agregar un adicional a las líneas afectadas con el fin de que los usuarios recuperen servicio en su totalidad.
 
