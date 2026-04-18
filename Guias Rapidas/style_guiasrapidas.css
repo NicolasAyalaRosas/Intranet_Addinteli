@@ -1,5 +1,5 @@
 /* =========================================
-   📦 MAIN (ALINEADO A GLOBAL)
+   📦 MAIN (RESPETA GLOBAL)
 ========================================= */
 
 main {
@@ -9,6 +9,7 @@ main {
     flex-direction: column;
     align-items: center; /* 🔥 centrado real */
 }
+
 
 /* =========================================
    🧾 INTRO
@@ -21,22 +22,25 @@ main {
     color: var(--blanco);
     padding: 20px;
     border-radius: 10px;
+    width: 80%;
     max-width: 900px;
-    width: 100%;
     margin-bottom: 40px;
+    text-align: center;
 }
+
 
 /* =========================================
    📋 GRID DE GUÍAS
 ========================================= */
 
 .guides-grid {
+    width: 80%;                /* 🔥 alineado con todo tu sistema */
+    max-width: 1100px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     gap: 28px;
-    width: 80%;              /* 🔥 igual que el sistema */
-    max-width: 1100px;
 }
+
 
 /* =========================================
    🎴 TARJETAS
@@ -47,7 +51,7 @@ main {
     border-radius: 14px;
     overflow: hidden;
     box-shadow: var(--sombra-suave);
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
     cursor: pointer;
 }
 
@@ -56,15 +60,15 @@ main {
     box-shadow: var(--sombra-hover);
 }
 
+
 /* =========================================
    🖼️ THUMBNAIL
 ========================================= */
 
 .card-thumbnail {
     position: relative;
-    padding-top: 56.25%; /* 16:9 */
+    padding-top: 56.25%;
     background: #000;
-    overflow: hidden;
 }
 
 .card-thumbnail img {
@@ -74,15 +78,11 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.4s ease;
 }
 
-.guide-card:hover .card-thumbnail img {
-    transform: scale(1.08);
-}
 
 /* =========================================
-   ▶️ PLAY OVERLAY
+   ▶ PLAY
 ========================================= */
 
 .play-overlay {
@@ -91,30 +91,29 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(35, 102, 196, 0.9);
-    color: var(--blanco);
-    width: 70px;
-    height: 70px;
+    color: white;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 36px;
-    box-shadow: var(--sombra-suave);
+    font-size: 34px;
     transition: 0.3s ease;
-    z-index: 2;
 }
 
 .guide-card:hover .play-overlay {
     background: var(--azul-activo);
-    transform: translate(-50%, -50%) scale(1.12);
+    transform: translate(-50%, -50%) scale(1.15);
 }
 
+
 /* =========================================
-   🧾 CONTENIDO TARJETA
+   📄 CONTENIDO TARJETA
 ========================================= */
 
 .card-content {
-    padding: 20px;
+    padding: 18px;
     text-align: center;
 }
 
@@ -122,8 +121,8 @@ main {
     font-size: 16px;
     color: var(--blanco);
     font-weight: 600;
-    line-height: 1.4;
 }
+
 
 /* =========================================
    🎬 MODAL
@@ -133,40 +132,31 @@ main {
     display: none;
     position: fixed;
     z-index: 2000;
-    inset: 0; /* 🔥 shorthand moderno */
+    inset: 0;
     background-color: rgba(0, 0, 0, 0.88);
-    display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-/* 🔥 IMPORTANTE: esto evita conflicto con display:none */
-.modal.oculto {
-    display: none;
+    align-items: center;
 }
 
 .modal-content {
-    background: var(--blanco);
-    max-width: 1000px;
+    background: white;
     width: 90%;
+    max-width: 1000px;
     border-radius: 12px;
-    position: relative;
     padding: 20px;
-    box-shadow: var(--sombra-hover);
+    position: relative;
 }
 
-/* =========================================
-   ❌ BOTÓN CERRAR
-========================================= */
+
+/* BOTON CERRAR */
 
 .modal-close {
     position: absolute;
     top: 10px;
     right: 15px;
-    font-size: 36px;
-    background: none;
+    font-size: 32px;
     border: none;
-    color: var(--negro);
+    background: none;
     cursor: pointer;
 }
 
@@ -174,20 +164,17 @@ main {
     color: var(--rojo);
 }
 
-/* =========================================
-   🏷️ TITULO MODAL
-========================================= */
+
+/* TITULO */
 
 #modal-title {
+    text-align: center;
     margin-bottom: 15px;
     color: var(--azul-oscuro);
-    text-align: center;
-    padding-right: 40px;
 }
 
-/* =========================================
-   🎥 VIDEO
-========================================= */
+
+/* VIDEO */
 
 .video-wrapper {
     position: relative;
@@ -196,11 +183,13 @@ main {
 
 .video-wrapper iframe {
     position: absolute;
-    inset: 0;
     width: 100%;
     height: 100%;
+    top: 0;
+    left: 0;
     border-radius: 8px;
 }
+
 
 /* =========================================
    📱 RESPONSIVE
@@ -211,7 +200,6 @@ main {
     .guides-grid {
         grid-template-columns: 1fr;
         width: 95%;
-        gap: 20px;
     }
 
     .intro-text {
