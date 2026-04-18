@@ -38,7 +38,7 @@
 ========================================= */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../Intranet/Imagenes_y_Archivos/FondodepantallaP2.png');
+    background-image: url(/Imagenes_y_Archivos/FondodepantallaP2.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
