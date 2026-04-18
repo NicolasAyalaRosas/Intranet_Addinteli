@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Importante para Error 153 -->
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>Intranet Addinteli - Guías Rápidas</title>
     <link rel="stylesheet" href="../global.css">
@@ -32,6 +31,7 @@
         </div>
         
         <div class="guides-grid">
+            <!-- Las 8 tarjetas (mismas que antes) -->
             <div class="guide-card" data-video="jrFbcYfSapM" data-title="Verifica la compatibilidad con tu equipo">
                 <div class="card-thumbnail">
                     <img src="https://img.youtube.com/vi/jrFbcYfSapM/hqdefault.jpg" alt="Compatibilidad IMEI">
@@ -114,17 +114,15 @@
         </div>
     </main>
 
-    <!-- Modal de video -->
+    <!-- Modal -->
     <div id="video-modal" class="modal">
         <div class="modal-content">
             <button class="modal-close" aria-label="Cerrar video">✕</button>
             <h3 id="modal-title"></h3>
             <div class="video-wrapper">
                 <iframe id="modal-video" 
-                        width="100%" 
-                        height="100%" 
-                        frameborder="0" 
-                        allowfullscreen 
+                        width="100%" height="100%" 
+                        frameborder="0" allowfullscreen
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin">
                 </iframe>
@@ -137,7 +135,7 @@
     </footer>
 
     <script>
-        // Menú hamburguesa
+        // Menú hamburguesa (sin cambios)
         document.getElementById('menu-toggle').addEventListener('click', (e) => {
             e.stopPropagation();
             document.getElementById('menu-desplegable').classList.toggle('mostrar');
@@ -151,7 +149,7 @@
             }
         });
 
-        // Modal
+        // Modal logic
         const modal = document.getElementById('video-modal');
         const iframe = document.getElementById('modal-video');
         const titleEl = document.getElementById('modal-title');
@@ -163,7 +161,6 @@
                 const title = card.dataset.title;
 
                 titleEl.textContent = title;
-                // Usamos youtube-nocookie.com (más estable)
                 iframe.src = `https://www.youtube-nocookie.com/embed/${videoID}?autoplay=1&rel=0&modestbranding=1`;
                 modal.style.display = 'flex';
             });
@@ -171,16 +168,12 @@
 
         function closeModal() {
             modal.style.display = 'none';
-            iframe.src = ''; // Detiene el video
+            iframe.src = '';
         }
 
         closeBtn.addEventListener('click', closeModal);
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) closeModal();
-        });
-        document.addEventListener('keydown', (e) => {
-            if (e.key === "Escape") closeModal();
-        });
+        modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+        document.addEventListener('keydown', e => { if (e.key === "Escape") closeModal(); });
     </script>
 </body>
 </html>
