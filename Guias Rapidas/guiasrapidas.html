@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>Intranet Addinteli - Guías Rápidas</title>
     <link rel="stylesheet" href="../global.css">
     <link rel="stylesheet" href="../Guias Rapidas/style_guiasrapidas.css">
@@ -27,12 +26,14 @@
 
     <main>
         <div class="intro-text">
-            <mark>Da click en cada tarjeta para abrir el video correspondiente en pantalla grande.</mark>
+            <mark>Da click en cada tarjeta para reproducir el video local. Si hay algún problema, usa el botón de respaldo en YouTube.</mark>
         </div>
         
         <div class="guides-grid">
-            <!-- Tarjetas (sin cambios) -->
-            <div class="guide-card" data-video="jrFbcYfSapM" data-title="Verifica la compatibilidad con tu equipo">
+            <div class="guide-card" 
+                 data-video-local="videos/Verifica la compatibilidad con tu equipo.mp4" 
+                 data-video-youtube="jrFbcYfSapM" 
+                 data-title="Verifica la compatibilidad con tu equipo">
                 <div class="card-thumbnail">
                     <img src="https://img.youtube.com/vi/jrFbcYfSapM/hqdefault.jpg" alt="Compatibilidad IMEI">
                     <div class="play-overlay">▶</div>
@@ -42,7 +43,10 @@
                 </div>
             </div>
 
-            <div class="guide-card" data-video="F6y-nBNPyHY" data-title="¿Cómo cambiar el APN de manera manual?">
+            <div class="guide-card" 
+                 data-video-local="videos/Cómo cambiar el APN de manera manual.mp4" 
+                 data-video-youtube="F6y-nBNPyHY" 
+                 data-title="¿Cómo cambiar el APN de manera manual?">
                 <div class="card-thumbnail">
                     <img src="https://img.youtube.com/vi/F6y-nBNPyHY/hqdefault.jpg" alt="Configurar APN">
                     <div class="play-overlay">▶</div>
@@ -52,7 +56,10 @@
                 </div>
             </div>
 
-            <div class="guide-card" data-video="OLavU0tFsv4" data-title="Configura tu dispositivo a la Red de ALTÁN">
+            <div class="guide-card" 
+                 data-video-local="videos/Configura tu dispositivo a la Red de ALTÁN.mp4" 
+                 data-video-youtube="OLavU0tFsv4" 
+                 data-title="Configura tu dispositivo a la Red de ALTÁN">
                 <div class="card-thumbnail">
                     <img src="https://img.youtube.com/vi/OLavU0tFsv4/hqdefault.jpg" alt="Forzado de red">
                     <div class="play-overlay">▶</div>
@@ -62,7 +69,10 @@
                 </div>
             </div>
 
-            <div class="guide-card" data-video="CjlZwE02V84" data-title="Configura VOLTE para realizar llamadas">
+            <div class="guide-card" 
+                 data-video-local="videos/Configura VOLTE para realizar llamadas.mp4" 
+                 data-video-youtube="CjlZwE02V84" 
+                 data-title="Configura VOLTE para realizar llamadas">
                 <div class="card-thumbnail">
                     <img src="https://img.youtube.com/vi/CjlZwE02V84/hqdefault.jpg" alt="VOLTE">
                     <div class="play-overlay">▶</div>
@@ -72,7 +82,10 @@
                 </div>
             </div>
 
-            <div class="guide-card" data-video="VeQixpYAcoE" data-title="Contraseña genérica del buzón de voz">
+            <div class="guide-card" 
+                 data-video-local="videos/Contraseña genérica del buzón de voz.mp4" 
+                 data-video-youtube="VeQixpYAcoE" 
+                 data-title="Contraseña genérica del buzón de voz">
                 <div class="card-thumbnail">
                     <img src="https://img.youtube.com/vi/VeQixpYAcoE/hqdefault.jpg" alt="Buzón de voz">
                     <div class="play-overlay">▶</div>
@@ -82,7 +95,10 @@
                 </div>
             </div>
 
-            <div class="guide-card" data-video="SuZuoqrRxAE" data-title="Portabilidad">
+            <div class="guide-card" 
+                 data-video-local="videos/Portabilidad.mp4" 
+                 data-video-youtube="SuZuoqrRxAE" 
+                 data-title="Portabilidad">
                 <div class="card-thumbnail">
                     <img src="https://img.youtube.com/vi/SuZuoqrRxAE/hqdefault.jpg" alt="Portabilidad">
                     <div class="play-overlay">▶</div>
@@ -92,7 +108,10 @@
                 </div>
             </div>
 
-            <div class="guide-card" data-video="C4MnIrJWhpY" data-title="Políticas de uso justo">
+            <div class="guide-card" 
+                 data-video-local="videos/Políticas de uso justo.mp4" 
+                 data-video-youtube="C4MnIrJWhpY" 
+                 data-title="Políticas de uso justo">
                 <div class="card-thumbnail">
                     <img src="https://img.youtube.com/vi/C4MnIrJWhpY/hqdefault.jpg" alt="Políticas de uso justo">
                     <div class="play-overlay">▶</div>
@@ -102,7 +121,10 @@
                 </div>
             </div>
 
-            <div class="guide-card" data-video="j6Q3bkQ2q2U" data-title="Check IMEI por código QR">
+            <div class="guide-card" 
+                 data-video-local="videos/Check IMEI por código QR.mp4" 
+                 data-video-youtube="j6Q3bkQ2q2U" 
+                 data-title="Check IMEI por código QR">
                 <div class="card-thumbnail">
                     <img src="https://img.youtube.com/vi/j6Q3bkQ2q2U/hqdefault.jpg" alt="IMEI por QR">
                     <div class="play-overlay">▶</div>
@@ -114,14 +136,19 @@
         </div>
     </main>
 
-    <!-- Modal sin iframe inicial -->
+    <!-- Modal con video local -->
     <div id="video-modal" class="modal">
         <div class="modal-content">
-            <button class="modal-close" aria-label="Cerrar video">✕</button>
+            <button class="modal-close" aria-label="Cerrar">✕</button>
             <h3 id="modal-title"></h3>
-            <div class="video-wrapper" id="video-container">
-                <!-- El iframe se crea aquí dinámicamente -->
+            <div class="video-wrapper">
+                <video id="local-video" controls autoplay style="width:100%; height:100%; background:#000;">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
             </div>
+            <a href="#" id="fallback-btn" class="fallback-btn" target="_blank" rel="noopener">
+                Abrir en YouTube (respaldo)
+            </a>
         </div>
     </div>
 
@@ -144,46 +171,32 @@
             }
         });
 
-        // === MODAL DINÁMICO (sin congelamiento) ===
+        // Modal - Video local
         const modal = document.getElementById('video-modal');
-        const videoContainer = document.getElementById('video-container');
+        const localVideo = document.getElementById('local-video');
         const titleEl = document.getElementById('modal-title');
+        const fallbackBtn = document.getElementById('fallback-btn');
         const closeBtn = document.querySelector('.modal-close');
-
-        let currentIframe = null;
 
         document.querySelectorAll('.guide-card').forEach(card => {
             card.addEventListener('click', () => {
-                const videoID = card.dataset.video;
+                const localSrc = card.dataset.videoLocal;
+                const youtubeID = card.dataset.videoYoutube;
                 const title = card.dataset.title;
 
                 titleEl.textContent = title;
+                localVideo.src = localSrc;
+                fallbackBtn.href = `https://youtu.be/${youtubeID}`;
 
-                // Limpiar cualquier iframe anterior
-                videoContainer.innerHTML = '';
-
-                // Crear iframe dinámicamente
-                currentIframe = document.createElement('iframe');
-                currentIframe.width = "100%";
-                currentIframe.height = "100%";
-                currentIframe.frameborder = "0";
-                currentIframe.allowFullscreen = true;
-                currentIframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-                currentIframe.referrerPolicy = "strict-origin-when-cross-origin";
-                currentIframe.src = `https://www.youtube-nocookie.com/embed/${videoID}?autoplay=1&rel=0&modestbranding=1`;
-
-                videoContainer.appendChild(currentIframe);
                 modal.style.display = 'flex';
+                localVideo.play().catch(() => {});
             });
         });
 
         function closeModal() {
             modal.style.display = 'none';
-            if (currentIframe) {
-                currentIframe.src = '';           // Detener reproducción
-                videoContainer.innerHTML = '';    // Eliminar completamente el iframe
-                currentIframe = null;
-            }
+            localVideo.pause();
+            localVideo.src = '';
         }
 
         closeBtn.addEventListener('click', closeModal);
