@@ -1,27 +1,28 @@
-* {
-    box-sizing: border-box; /* Asegura que padding/margin no rompan el layout */
-}
+/* =========================================
+   🧍 BODY
+========================================= */
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-image: url('../Imagenes_y_Archivos/FondodepantallaP2.png');
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
-    min-height: 100vh; /* Cubre toda la pantalla */
+    min-height: 100vh;
     display: flex;
-    flex-direction: column; /* Divide en header, main, footer */
+    flex-direction: column;
 }
 
+
+/* =========================================
+   🧢 HEADER
+========================================= */
+
 header.static-header {
-    position: relative; /* Estático, se mueve con el scroll */
+    position: relative;
     width: 100%;
     padding: 20px 0;
-    background-color: transparent; /* Sin barra gris */
-    z-index: 1000; /* Sobre otros elementos */
-    margin-bottom: 60px; /* Separación del main */
+    margin-bottom: 60px;
 }
 
 .logo {
@@ -29,95 +30,40 @@ header.static-header {
     top: 20px;
     left: 20px;
     height: 70px;
-    width: auto;
-    z-index: 1001; /* Sobre el header */
+    z-index: 1001;
 }
 
-.menu-hamburguesa {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 1001; /* Sobre el header */
-}
 
-#menu-toggle {
-    background-color: #13479a;
-    color: white;
-    border: none;
-    font-size: 24px;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-#menu-toggle:hover {
-    background-color: #0f3678;
-}
-
-.menu-desplegable {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(255, 255, 255, 0.9);
-    position: absolute;
-    top: 60px;
-    right: 0;
-    min-width: 200px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    display: none;
-    z-index: 1002; /* Sobre el mapa */
-}
-
-.menu-desplegable.mostrar {
-    display: block;
-}
-
-.menu-desplegable li a {
-    display: block;
-    color: #13479a;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.menu-desplegable li a:hover {
-    color: red;
-    background-color: rgba(255, 255, 255, 0.1);
-}
+/* =========================================
+   📦 MAIN
+========================================= */
 
 main.content {
-    flex: 1; /* Ocupa el espacio disponible entre header y footer */
-    margin: 20px auto; /* Centrado, espacio vertical */
-    padding: 40px; /* Padding interno para elementos */
-    width: 80%; /* 80% del ancho del viewport */
+    flex: 1;
+    margin: 20px auto;
+    padding: 40px;
+    width: 80%;
+    max-width: 1400px;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    z-index: 1; /* Debajo del header/menú */
+    border-radius: 12px;
+    box-shadow: var(--sombra-hover);
 }
 
-footer.static-footer {
-    width: 100%;
-    padding: 10px 0;
-    background-color: transparent; /* Sin barra gris */
-    color: black;
-    text-align: center;
-    z-index: 1000; /* Sobre el fondo, debajo del menú */
-}
 
-footer.static-footer p {
-    margin: 0;
-    font-size: 14px;
-}
+/* =========================================
+   🏷️ TITULO
+========================================= */
 
 h1 {
     text-align: center;
     margin-bottom: 25px;
-    color: white;
+    color: var(--blanco);
 }
+
+
+/* =========================================
+   🔎 FORMULARIO
+========================================= */
 
 .formulario-busqueda {
     display: flex;
@@ -130,41 +76,54 @@ h1 {
 
 .formulario-busqueda label {
     font-weight: bold;
-    margin-right: 5px;
-    color: white;
+    color: var(--blanco);
 }
 
 .formulario-busqueda input[type="text"],
 .formulario-busqueda select {
-    padding: 7px 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    padding: 8px 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid var(--gris-borde);
     min-width: 180px;
+    background-color: var(--blanco);
 }
 
+/* BOTONES */
 .formulario-busqueda button {
-    padding: 8px 16px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: 8px;
     border: none;
-    background-color: #13479a;
-    color: white;
-    transition: background-color 0.3s ease;
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    cursor: pointer;
+    transition: 0.25s ease;
+    box-shadow: var(--sombra-suave);
 }
 
 .formulario-busqueda button:hover {
-    background-color: #0f3678;
+    background-color: var(--azul-hover);
+    box-shadow: var(--sombra-hover);
 }
 
+
+/* =========================================
+   📊 RESULTADOS
+========================================= */
+
 #resultados {
-    font-size: 18px;
-    color: white;
+    font-size: 16px;
+    color: var(--blanco);
     text-align: center;
     margin-bottom: 15px;
     font-weight: bold;
 }
+
+
+/* =========================================
+   📋 TABLA
+========================================= */
 
 .tabla-resultados-container {
     overflow-x: auto;
@@ -173,38 +132,71 @@ h1 {
 #tabla-resultados {
     width: 100%;
     border-collapse: collapse;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: black;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 #tabla-resultados th,
 #tabla-resultados td {
-    padding: 8px 12px;
-    border: 1px solid #bbb;
+    padding: 10px;
+    border: 1px solid var(--gris-borde);
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #tabla-resultados th {
-    background-color: #13479a;
-    color: white;
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
 }
 
 #tabla-resultados tbody tr:nth-child(even) {
-    background-color: #e6e6e6;
+    background-color: var(--gris-fondo);
 }
 
+#tabla-resultados tbody tr:hover {
+    background-color: rgba(35, 102, 196, 0.1);
+}
+
+
+/* =========================================
+   🗺️ MAPA
+========================================= */
+
 #map {
-    width: 100%; /* Ocupa todo el ancho de main.content (80%) */
+    width: 100%;
     height: 500px;
-    border: 2px solid #13479a;
-    border-radius: 5px;
-    margin-top: 20px; /* Separación del formulario */
+    border: 2px solid var(--azul-medio);
+    border-radius: 8px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    z-index: 1; /* Debajo del menú */
 }
 
 .leaflet-container {
-    width: 100%; /* Ajusta al contenedor #map */
+    width: 100%;
     height: 100%;
+}
+
+
+/* =========================================
+   📱 RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+
+    main.content {
+        width: 95%;
+        padding: 25px;
+    }
+
+    .formulario-busqueda {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .formulario-busqueda input,
+    .formulario-busqueda select,
+    .formulario-busqueda button {
+        width: 100%;
+    }
 }

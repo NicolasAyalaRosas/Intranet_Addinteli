@@ -1,0 +1,237 @@
+/* =========================================
+   🎨 VARIABLES GLOBALES
+========================================= */
+:root {
+    --azul-oscuro: #0C2545;
+    --azul-hover: #081A30;
+    --azul-medio: #174C85;
+    --azul-activo: #2366C4;
+
+    --gris-fondo: #F4F7FA;
+    --gris-borde: #D6DFE8;
+
+    --blanco: #ffffff;
+    --negro: #000000;
+
+    --verde: #2ecc71;
+    --rojo: #e74c3c;
+    --amarillo: #f1c40f;
+    --turquesa: #021f1f;
+
+    --sombra-suave: 0 3px 8px rgba(0,0,0,0.15);
+    --sombra-hover: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+
+/* =========================================
+   🔄 RESET
+========================================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =========================================
+   🧍 BODY
+========================================= */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../Intranet/Imagenes_y_Archivos/FondodepantallaP2.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--negro);
+}
+
+
+/* =========================================
+   🧢 HEADER
+========================================= */
+header,
+.header {
+    position: relative;
+    padding: 20px 0;
+    min-height: 110px; /* 🔥 esto soluciona el encimado */
+    margin-bottom: 20px; /* antes 60px, ahora más controlado */
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 70px;
+    z-index: 1001;
+}
+
+
+/* =========================================
+   🍔 MENÚ HAMBURGUESA
+========================================= */
+.menu-hamburguesa {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+}
+
+#menu-toggle {
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    border: none;
+    font-size: 24px; /* SE CONSERVA */
+    padding: 10px 15px; /* SE CONSERVA */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.25s ease; /* más suave */
+    box-shadow: var(--sombra-suave);
+}
+
+#menu-toggle:hover {
+    background-color: var(--azul-hover);
+    box-shadow: var(--sombra-hover);
+}
+
+/* =========================================
+   📂 MENU DESPLEGABLE
+========================================= */
+.menu-desplegable {
+    list-style: none;
+    background: rgba(255,255,255,0.95);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    min-width: 200px;
+    border-radius: 6px;
+    box-shadow: var(--sombra-hover);
+    display: none;
+    z-index: 1002;
+}
+
+.menu-desplegable.mostrar {
+    display: block;
+}
+
+.menu-desplegable li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--azul-activo);
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.menu-desplegable li a:hover {
+    background: var(--gris-fondo);
+}
+
+
+/* =========================================
+   📐 CONTENEDOR
+========================================= */
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    background: rgba(255,255,255,0.97);
+    padding: 40px;
+    border-radius: 14px;
+    box-shadow: var(--sombra-hover);
+}
+
+
+/* =========================================
+   🏷️ TITULOS
+========================================= */
+h1 {
+    color: var(--azul-oscuro);
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+h2, h3 {
+    color: var(--azul-oscuro);
+}
+
+
+/* =========================================
+   🔘 BOTONES GENERALES
+========================================= */
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.25s ease;
+    box-shadow: var(--sombra-suave);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--sombra-hover);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+
+/* =========================================
+   🧩 UTILIDADES
+========================================= */
+.oculto {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* =========================================
+   🧾 FOOTER
+========================================= */
+/* =========================================
+   🧾 FOOTER GLOBAL (UNIFICADO)
+========================================= */
+
+footer,
+.footer,
+footer.static-footer {
+    width: 100%;
+    padding: 12px 0;
+    background-color: transparent;
+    color: var(--negro);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    z-index: 1000;
+    color: #000000; /* 🔥 fuerza negro real */
+}
+
+/* TEXTO INTERNO */
+footer p,
+.footer p,
+footer.static-footer p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* =========================================
+   📱 RESPONSIVE
+========================================= */
+@media (max-width: 600px) {
+
+    .container {
+        width: 95%;
+        padding: 25px;
+    }
+
+    #menu-toggle {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+}

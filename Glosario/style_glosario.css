@@ -1,243 +1,145 @@
-:root {
-    --primary-color: #005b99; 
-    --secondary-color: rgb(19, 71, 154);
-    --background-color: rgba(255, 255, 255, 0.95); /* restaurado del original */
-    --textbotton: #ffffff;  
-    --text-color: #333;
-    --hover-color: red;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('../Imagenes_y_Archivos/FondodepantallaP2.png');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: var(--text-color);
-}
-
-header.static-header {
-    position: relative;
-    padding: 20px 0;
-    text-align: center;
-    color: white;
-    margin-bottom: 120px;
-}
-
-.logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    height: 70px;
-    width: auto;
-    z-index: 1001;
-}
-
-.menu-hamburguesa {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 1001;
-}
-
-#menu-toggle {
-    background-color: var(--secondary-color);
-    color: white;
-    border: none;
-    font-size: 24px;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-#menu-toggle:hover {
-    background-color: var(--primary-color);
-}
-
-.menu-desplegable {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: var(--background-color);
-    position: absolute;
-    top: 60px;
-    right: 0;
-    min-width: 200px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    display: none;
-    z-index: 1002;
-}
-
-.menu-desplegable.mostrar {
-    display: block;
-}
-
-.menu-desplegable li a {
-    display: block;
-    color: var(--secondary-color);
-    font-size: 16px;
-    text-decoration: none;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    text-align: left;
-}
-
-.menu-desplegable li a:hover {
-    color: var(--hover-color);
-    background-color: rgba(230, 243, 247, 0.6);
-}
+/* =========================================
+   📦 MAIN CONTENIDO
+========================================= */
 
 main.content {
     flex: 1;
     margin: 20px auto;
     padding: 40px;
     width: 80%;
-    background-color: rgba(0, 0, 0, 0.207);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    z-index: 1;
+    max-width: 1100px;
+    background-color: rgba(0, 0, 0, 0.25); /* 🔥 más equilibrado */
+    border-radius: 12px;
+    box-shadow: var(--sombra-hover);
 }
 
+/* =========================================
+   📚 CONTENEDOR GLOSARIO
+========================================= */
+
 .glosario-container {
-    background-color: var(--background-color);
-    padding: 20px;
+    background-color: rgba(255,255,255,0.97);
+    padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--sombra-suave);
     max-width: 900px;
-    margin: 20px auto;
+    margin: 0 auto;
     text-align: left;
 }
 
-/* Barra de búsqueda */
+/* =========================================
+   🔍 BUSCADOR
+========================================= */
+
 .search-container {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 #searchInput {
-    padding: 8px;
-    font-size: 16px;
-    border: 3px solid #ccc;
-    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid var(--gris-borde);
+    border-radius: 8px;
     width: 80%;
     max-width: 500px;
-    box-shadow: 0 2px 5px rgba(12, 33, 154, 0.1);
-    margin-right: 15px;
-}
-
-#clearSearch {
-  padding: 8px 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: var(--primary-color);
-  color: var(--textbotton);
-  cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.3s ease;
-  display: inline-block; /* necesario para que JS pueda mostrar/ocultar */
-}
-
-#clearSearch:hover {
-  background-color: var(--secondary-color);
+    box-shadow: var(--sombra-suave);
 }
 
 #searchInput:focus {
-    border-color: var(--primary-color);
+    border-color: var(--azul-activo);
     outline: none;
-    box-shadow: 0 0 5px rgba(0, 91, 153, 0.5);
+    box-shadow: 0 0 6px rgba(35,102,196,0.3);
 }
 
-/* Lista de términos */
+#clearSearch {
+    padding: 10px 14px;
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#clearSearch:hover {
+    background-color: var(--azul-hover);
+}
+
+/* =========================================
+   📖 LISTA GLOSARIO
+========================================= */
+
 dl {
     margin: 0;
     padding: 0;
-    text-align: left;
-    line-height: 1.8;
+    line-height: 1.7;
 }
+
+/* TITULOS */
 
 dt {
     font-weight: bold;
-    font-size: 18px;
-    color: var(--primary-color);
+    font-size: 17px;
+    color: var(--azul-oscuro);
     margin-top: 20px;
     display: flex;
     align-items: center;
-    border-left: 4px solid var(--primary-color);
+    border-left: 4px solid var(--azul-activo);
     padding-left: 10px;
 }
+
+/* DESCRIPCION */
 
 dd {
     margin-left: 30px;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 14px;
     position: relative;
-    background-color: #e6f3f7; /* restaurado del original */
-    padding: 15px 20px;
+    background-color: var(--gris-fondo);
+    padding: 14px 18px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: var(--text-color);
+    box-shadow: var(--sombra-suave);
 }
 
-/* Flecha decorativa */
+/* FLECHA */
+
 dd::before {
     content: "↪";
     position: absolute;
     left: -20px;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 18px;
-    color: #4a8ea8;
+    font-size: 16px;
+    color: var(--azul-activo);
 }
 
-/* Listas internas */
+/* LISTAS INTERNAS */
+
 dd ul,
 dd ol {
     margin-left: 20px;
-    margin-bottom: 15px;
-    color: #444;
+    margin-bottom: 10px;
 }
 
-dd ul li,
-dd ol li {
-    margin-bottom: 6px;
-    font-size: 15px;
+dd li {
+    margin-bottom: 5px;
+    font-size: 14px;
 }
+
+/* TEXTOS */
 
 dd strong {
-    color: var(--primary-color);
-    font-weight: bold;
+    color: var(--azul-activo);
 }
 
 dd p {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
-/* Botón volver arriba */
-#volver-arriba a {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: var(--primary-color);
-    color: var(--textbotton) !important;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background 0.3s ease;
-}
-
-#volver-arriba a:hover {
-    background-color: var(--secondary-color);
-}
+/* =========================================
+   🔝 BOTON VOLVER ARRIBA
+========================================= */
 
 #volver-arriba {
     text-align: center;
@@ -245,17 +147,15 @@ dd p {
     margin-bottom: 60px;
 }
 
-/* Footer */
-footer.static-footer {
-    width: 100%;
-    padding: 10px 0;
-    background-color: transparent;
-    color: black;
-    text-align: center;
-    z-index: 1000;
+#volver-arriba a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    text-decoration: none;
+    border-radius: 8px;
 }
 
-footer.static-footer p {
-    margin: 0;
-    font-size: 14px;
+#volver-arriba a:hover {
+    background-color: var(--azul-hover);
 }

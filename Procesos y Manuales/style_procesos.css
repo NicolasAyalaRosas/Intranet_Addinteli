@@ -1,188 +1,203 @@
-* {
-    box-sizing: border-box; /* Asegura que padding/margin no rompan el layout */
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('../Imagenes_y_Archivos/FondodepantallaP2.png');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    min-height: 100vh; /* Cubre toda la pantalla */
-    display: flex;
-    flex-direction: column; /* Divide en header, main, footer */
-}
-
-header.static-header {
-    position: relative; /* Estático, se mueve con el scroll */
-    width: 100%;
-    padding: 20px 0;
-    background-color: transparent; /* Sin barra gris */
-    z-index: 1000; /* Sobre otros elementos */
-    margin-bottom: 90px; /* Separación del main */
-}
-
-.logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    height: 70px;
-    width: auto;
-    z-index: 1001; /* Sobre el header */
-}
-
-.menu-hamburguesa {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 1001; /* Sobre el header */
-}
-
-#menu-toggle {
-    background-color: #13479a;
-    color: white;
-    border: none;
-    font-size: 24px;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-#menu-toggle:hover {
-    background-color: #0f3678;
-}
-
-.menu-desplegable {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(255, 255, 255, 0.9);
-    position: absolute;
-    top: 60px;
-    right: 0;
-    min-width: 200px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    display: none;
-    z-index: 1002; /* Sobre el contenido */
-}
-
-.menu-desplegable.mostrar {
-    display: block;
-}
-
-.menu-desplegable li a {
-    display: block;
-    color: #13479a;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    text-align: left;
-}
-
-.menu-desplegable li a:hover {
-    color: red;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
+/* =========================================
+   📦 MAIN
+========================================= */
 main.content {
-    flex: 1; /* Ocupa el espacio disponible entre header y footer */
-    margin: 20px auto; /* Centrado, espacio vertical */
-    padding: 40px; /* Padding interno para elementos */
-    width: 80%; /* 80% del ancho del viewport */
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    z-index: 1; /* Debajo del header/menú */
+    width: 85%;
+    max-width: 1480px;
+    margin: 40px auto;
+    padding: 28px;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 16px;
+    box-shadow: var(--sombra-hover);
 }
 
-.container {
+/* =========================================
+   🧱 LAYOUT PRINCIPAL
+========================================= */
+.main-layout {
+    width: 100%;
     display: flex;
-    height: 100%; /* Ocupa todo el alto de main.content */
+    gap: 24px;
+    align-items: flex-start;
 }
 
+/* =========================================
+   📚 SIDEBAR
+========================================= */
 .sidebar {
-    width: 350px;
-    background-color: #2c3e50;
-    color: white;
-    padding: 10px 0;
+    width: 280px;
+    min-width: 280px;
+    flex-shrink: 0;
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    border-radius: 12px;
+    padding: 16px 14px;
     overflow-y: auto;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--sombra-suave);
+    position: sticky;
+    top: 30px;
+    align-self: flex-start;
+    max-height: calc(100vh - 160px);
 }
 
+/* ====================== BOTONES ACCORDION (más angostos + sin viñeta) ====================== */
 .sidebar ul {
-    list-style: none;
+    list-style: none;           /* ← Quita las viñetas */
     padding: 0;
     margin: 0;
 }
 
-.sidebar ul .accordion {
-    background-color: #34495e;
-    color: white;
+.sidebar .accordion {
+    background-color: var(--azul-medio);
+    color: var(--blanco);
     border: none;
-    padding: 15px;
-    width: 100%;
+    padding: 16px;
+    width: 95%;                    /* ← Más angosto (ajustable) */
+    max-width: 95%;
+    margin: 0 auto 8px auto;       /* centrado + espacio */
     text-align: left;
-    font-size: 16px;
+    font-size: 14.2px;
+    font-weight: 500;
     cursor: pointer;
-    border-bottom: 1px solid #2c3e50;
-    transition: background-color 0.3s;
+    border-radius: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    transition: all 0.25s ease;
+    display: block;                /* Asegura comportamiento de bloque */
 }
 
-.sidebar ul .accordion:hover {
-    background-color: #3b5998;
+.sidebar .accordion:hover {
+    background-color: var(--azul-activo);
+    width: 94%;                    /* efecto hover suave */
 }
 
-.sidebar ul .panel {
+/* PANEL INTERNO */
+.sidebar .panel {
     display: none;
-    padding-left: 15px;
-    background-color: #34495e;
+    padding: 8px 12px 12px 12px;
+    background-color: var(--azul-medio);
+    list-style: none;              /* También sin viñetas en los enlaces */
+    border-radius: 8px;
+    
 }
 
-.sidebar ul .panel li a {
-    color: #1abc9c;
+.sidebar .panel li {
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: 0.2s ease;
+    margin-bottom: 3px;
+}
+
+.sidebar .panel li a {
+    color: var(--verde);
     text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding: 5px 10px;
 }
 
-.sidebar ul .panel li {
-    padding: 5px 0;
+.sidebar .panel li:hover {
+    background-color: var(--azul-activo);
 }
 
-.sidebar ul .panel li:hover {
-    background-color: #3b5998; 
-    color: white; 
-}
-
-.content {
+/* =========================================
+   📄 CONTENEDOR PDF
+========================================= */
+.pdf-container {
     flex: 1;
+    min-width: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    overflow: hidden; /* Contiene el iframe */
+    box-shadow: var(--sombra-suave);
+    position: sticky;
+    top: 30px;
+    align-self: flex-start;
+    max-height: calc(100vh - 160px);
+    overflow-y: auto;
 }
 
+/* =========================================
+   📑 VISOR PDF
+========================================= */
 .pdf-viewer {
     width: 100%;
-    height: 800px; /* Tamaño fijo para PDFs */
+    height: 860px;
     border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================================
+   🔘 BOTÓN EXPANDIR
+========================================= */
+#btnExpandirPDF {
     display: block;
-    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 16px auto;
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    padding: 11px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s ease;
 }
 
-footer.static-footer {
-    width: 100%;
-    padding: 10px 0;
-    background-color: transparent; /* Sin barra gris */
-    color: black;
-    text-align: center;
-    z-index: 1000; /* Sobre el fondo, debajo del menú */
-    margin-top: 40px;
+#btnExpandirPDF:hover {
+    background-color: var(--azul-hover);
+    transform: translateY(-2px);
 }
 
-footer.static-footer p {
-    margin: 0;
-    font-size: 14px;
+/* =========================================
+   🧠 MODO FULL
+========================================= */
+.modo-full .sidebar {
+    display: none;
+}
+
+.modo-full .main-layout {
+    gap: 0;
+}
+
+.modo-full .pdf-container {
+    padding: 12px;
+    position: static;
+    max-height: none;
+}
+
+.modo-full .pdf-viewer {
+    height: 95vh;
+}
+
+/* =========================================
+   📱 RESPONSIVE
+========================================= */
+@media (max-width: 992px) {
+    main.content {
+        width: 94%;
+        padding: 18px;
+    }
+
+    .main-layout {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .sidebar,
+    .pdf-container {
+        position: static;
+        max-height: none;
+        width: 100%;
+    }
+
+    .pdf-viewer {
+        height: 700px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pdf-viewer {
+        height: 600px;
+    }
 }

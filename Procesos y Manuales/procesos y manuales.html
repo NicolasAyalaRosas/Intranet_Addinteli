@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intranet Addinteli</title>
+    <link rel="stylesheet" href="../global.css">
     <link rel="stylesheet" href="../Procesos y Manuales/style_procesos.css">
 </head>
 <body>
@@ -13,17 +14,18 @@
             <button id="menu-toggle" aria-label="Abrir menú de navegación">☰ Menú</button>
             <ul class="menu-desplegable" id="menu-desplegable">
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../Glosario/glosario.html">Glosario</a></li>
+                <li><a href="../Analizador_HSS/HSS_Analizador.html">Analizador HSS</a></li>
                 <li><a href="../Guias Rapidas/guiasrapidas.html">Guias Rápidas</a></li>
-                <li><a href="../Sitios MBB/SitiosMBB.html">Sitios MBB</a></li>
-                <li><a href="../Roaming Internacional/Roaming_internacional.html">Roaming Internacional</a></li>
+                <li><a href="../Glosario/glosario.html">Glosario</a></li>
                 <li><a href="../Registros/Registros.html">Plantillas</a></li>
+                <li><a href="../Roaming Internacional/Roaming_internacional.html">Roaming Internacional</a></li>
+                <li><a href="../Sitios MBB/SitiosMBB.html">Sitios MBB</a></li>
             </ul>
         </div>
     </header>
 
     <main class="content">
-        <div class="container">
+        <div class="main-layout">
             <aside class="sidebar">
                 <ul>
                     <li>
@@ -115,8 +117,12 @@
                     </li>
                 </ul>
             </aside>
-            <div class="content">
-                <iframe name="viewer" class="pdf-viewer" src=""></iframe>
+            <div class="pdf-container">
+                <!-- 🔘 BOTON -->
+                <button id="btnExpandirPDF">🔍 Expandir PDF</button>
+
+                <!-- 📄 VISOR PDF -->
+                <iframe class="pdf-viewer" src="archivo.pdf"></iframe>
             </div>
         </div>
     </main>
@@ -127,20 +133,21 @@
 
     <script src="app.js"></script>
     <script>
-        // Toggle del menú hamburguesa
-        document.getElementById('menu-toggle').addEventListener('click', (e) => {
-            e.stopPropagation();
-            const menu = document.getElementById('menu-desplegable');
-            menu.classList.toggle('mostrar');
-        });
+        document.addEventListener("DOMContentLoaded", () => {
 
-        // Cerrar menú al hacer clic fuera
-        document.addEventListener('click', (e) => {
-            const menu = document.getElementById('menu-desplegable');
-            const menuButton = document.getElementById('menu-toggle');
-            if (!menu.contains(e.target) && !menuButton.contains(e.target)) {
-                menu.classList.remove('mostrar');
-            }
+            const btnExpandir = document.getElementById("btnExpandirPDF");
+            const body = document.body;
+
+            btnExpandir.addEventListener("click", () => {
+                body.classList.toggle("modo-full");
+
+                if (body.classList.contains("modo-full")) {
+                    btnExpandir.textContent = "🔙 Salir modo completo";
+                } else {
+                    btnExpandir.textContent = "🔍 Expandir PDF";
+                }
+            });
+
         });
     </script>
 </body>

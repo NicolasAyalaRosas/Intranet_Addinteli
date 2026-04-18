@@ -1,0 +1,265 @@
+/* =========================================
+   🔄 RESET LOCAL (ligero)
+========================================= */
+* {
+    box-sizing: border-box;
+}
+
+/* =========================================
+   🧍 BODY
+========================================= */
+body {
+    margin: 0;
+    background-image: url('../Imagenes_y_Archivos/FondodepantallaP2.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* =========================================
+   🧢 HEADER (USA GLOBAL)
+========================================= */
+
+header,
+.header {
+    margin-bottom: 40px; /* leve ajuste visual */
+}
+
+/* =========================================
+   📦 MAIN (ESTANDAR GLOBAL)
+========================================= */
+
+main,
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* =========================================
+   📐 CONTENEDOR PRINCIPAL
+========================================= */
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    background: rgba(255,255,255,0.97);
+    padding: 40px;
+    border-radius: 14px;
+    box-shadow: var(--sombra-hover);
+}
+
+/* =========================================
+   🧱 BLOQUES
+========================================= */
+
+.bloque {
+    margin-top: 20px;
+}
+
+/* =========================================
+   🏷️ TITULOS
+========================================= */
+
+h1 {
+    text-align: center;
+    color: var(--azul-oscuro);
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.titulo-seccion-hss {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: var(--azul-oscuro);
+    border-bottom: 2px solid var(--gris-borde);
+    padding-bottom: 5px;
+}
+
+/* =========================================
+   🧾 INPUT HSS
+========================================= */
+
+.hss-input {
+    width: 100%;
+    min-height: 220px;
+    border-radius: 10px;
+    border: 1px solid var(--gris-borde);
+    background-color: #0f1720;
+    color: #00ff88;
+    font-family: Consolas, monospace;
+    padding: 15px;
+    margin-top: 10px;
+    resize: vertical;
+}
+
+/* =========================================
+   🔘 BOTONES
+========================================= */
+
+.botones {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.botones button {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    cursor: pointer;
+    transition: 0.25s ease;
+    box-shadow: var(--sombra-suave);
+}
+
+.botones button:hover {
+    background-color: var(--azul-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--sombra-hover);
+}
+
+/* =========================================
+   🔴 BOTON MODO RAPIDO
+========================================= */
+
+#btnModo {
+    background-color: var(--rojo);
+    font-weight: 600;
+}
+
+#btnModo.activo {
+    background-color: var(--verde);
+}
+
+#btnModo:hover {
+    opacity: 0.9;
+}
+
+/* =========================================
+   📊 RESULTADOS
+========================================= */
+
+#resultadoHSS {
+    margin-top: 25px;
+}
+
+/* =========================================
+   📦 BLOQUES HSS
+========================================= */
+
+.campo-hss {
+    background: linear-gradient(135deg, #ffffff, #f1f5f9);
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    border-left: 5px solid var(--azul-activo);
+    box-shadow: var(--sombra-suave);
+    transition: 0.2s ease;
+}
+
+.campo-hss:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--sombra-hover);
+}
+
+/* =========================================
+   🎯 ESTADOS
+========================================= */
+
+.campo-ok {
+    border-left-color: var(--verde);
+}
+
+.campo-warning {
+    border-left-color: var(--amarillo);
+}
+
+.campo-alerta {
+    border-left-color: var(--rojo);
+}
+
+/* =========================================
+   🔤 TEXTO
+========================================= */
+
+.crudo {
+    font-family: Consolas, monospace;
+    font-size: 12.5px;
+    color: #6b7280;
+}
+
+.interpretacion {
+    margin-top: 6px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+/* =========================================
+   🔣 ICONOS
+========================================= */
+
+.icono {
+    margin-right: 8px;
+    font-size: 16px;
+    animation: aparecer 0.4s ease;
+}
+
+/* =========================================
+   🎬 ANIMACION
+========================================= */
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateX(-6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* =========================================
+   📊 DASHBOARD
+========================================= */
+
+.resumen-hss {
+    background: linear-gradient(135deg, var(--azul-oscuro), var(--azul-medio));
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    font-weight: bold;
+}
+
+/* =========================================
+   📱 RESPONSIVE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 95%;
+        padding: 25px;
+    }
+
+    .botones {
+        flex-direction: column;
+    }
+
+    .hss-input {
+        min-height: 180px;
+        font-size: 12px;
+    }
+
+    .resumen-hss {
+        grid-template-columns: 1fr;
+    }
+}

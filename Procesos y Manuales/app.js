@@ -37,3 +37,26 @@ document.querySelectorAll('.panel a').forEach((link) => {
         iframe.src = this.href; // Cargar el PDF en el iframe
     });
 });
+
+// ===============================
+// MENU HAMBURGUESA
+// ===============================
+
+const menuBtn = document.getElementById("menu-toggle");
+const menu = document.getElementById("menu-desplegable");
+
+if (menuBtn && menu) {
+
+    menuBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        menu.classList.toggle("mostrar");
+    });
+
+    menu.addEventListener("click", (e) => {
+        e.stopPropagation();
+    });
+
+    document.addEventListener("click", () => {
+        menu.classList.remove("mostrar");
+    });
+}

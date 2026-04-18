@@ -38,9 +38,19 @@ function limpiarHSS() {
 // ===============================
 function toggleModo() {
     modoRapido = !modoRapido;
+
+    const btn = document.getElementById("btnModo");
+
+    if (btn) {
+        btn.textContent = modoRapido
+            ? "Modo rápido: ON"
+            : "Modo rápido: OFF";
+
+        btn.classList.toggle("activo", modoRapido);
+    }
+
     analizarHSS();
 }
-
 // ===============================
 // ICONOS
 // ===============================
