@@ -10,6 +10,10 @@ main {
     align-items: center;
 }
 
+body {
+    background-image: url('../Imagenes_y_Archivos/FondodepantallaP2.png');
+}
+
 /* =========================================
    🧾 INTRO
 ========================================= */

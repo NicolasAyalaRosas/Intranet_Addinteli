@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url('../Imagenes_y_Archivos/FondodepantallaP2.png');
 }
 
 /* =========================================

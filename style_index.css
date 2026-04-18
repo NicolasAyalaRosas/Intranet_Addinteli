@@ -6,6 +6,10 @@ main {
     padding: 60px 20px;
 }
 
+body {
+    background-image: url(/Imagenes_y_Archivos/FondodepantallaP2.png);
+}
+
 /* =========================================
    CONTENEDOR PRINCIPAL
 ========================================= */
