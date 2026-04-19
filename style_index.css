@@ -7,7 +7,7 @@ main {
 }
 
 body {
-    background-image: url(/Imagenes_y_Archivos/FondodepantallaP2.png);
+    background-image: url('../Imagenes_y_Archivos/FondodepantallaP2.png');
 }
 
 /* =========================================
