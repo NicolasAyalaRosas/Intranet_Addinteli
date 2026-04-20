@@ -132,23 +132,5 @@
     </footer>
 
     <script src="app.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-
-            const btnExpandir = document.getElementById("btnExpandirPDF");
-            const body = document.body;
-
-            btnExpandir.addEventListener("click", () => {
-                body.classList.toggle("modo-full");
-
-                if (body.classList.contains("modo-full")) {
-                    btnExpandir.textContent = "🔙 Salir modo completo";
-                } else {
-                    btnExpandir.textContent = "🔍 Expandir PDF";
-                }
-            });
-
-        });
-    </script>
 </body>
 </html>

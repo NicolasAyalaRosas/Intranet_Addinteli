@@ -32,4 +32,15 @@ Para continuar con el trámite, solicitamos de su apoyo para proveer de una nuev
 Quedamos al pendiente de sus comentarios.
 Saludos.`, 
 
+
+
+    "Reemplazo NO aplicado - SIM Destino Acitva": `Estimado Cliente,
+
+Le informamos que, tras la validación del ICCID xxxxxx, este no devuelve información alguna, por lo que nos vemos en la necesidad de solicitar se rectifique dicho número de serie o reemplazarlo por otro ICCID.
+
+En cuanto contemos con la información necesaria para ejecutar su petición daremos seguimiento a la misma.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`, 
+
 };

@@ -44,6 +44,16 @@ No es posible aplicar el SIM Swap solicitado, ya que el ICCID proporcionado se e
 
 Se comparte evidencia.
 
-Derivado de lo anterior, solicitamos su apoyo para proporcionar un nuevo ICCID en estatus IDLE y así continuar con la petición.`
+Derivado de lo anterior, solicitamos su apoyo para proporcionar un nuevo ICCID en estatus IDLE y así continuar con la petición.`,
+
+
+
+    "SIM Swap NO aplicado - ICCID Invalido ": `Estimados,
+
+No es posible aplicar el SIM Swap solicitado, ya que el ICCID proporcionado no devuelve información al validar su tripleta.
+
+Se comparte evidencia.
+
+Derivado de lo anterior, solicitamos su apoyo para rectificar el numero de serie del ICCID o proporcionar un nuevo SIM y así continuar con la petición.`
 
 };

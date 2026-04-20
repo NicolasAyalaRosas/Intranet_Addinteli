@@ -28,9 +28,22 @@ Saludos.`,
 
 Le informamos que se realizó llamada de salida al número alterno xxxxxx, teniendo contacto con el usuario de la linea, con su apoyo se validaron las correctas configuraciones de la terminal en uso, sin embargo, el fallo reportado persiste.
 
-Respecto al equipo, se valida que la terminal Marca: xxxxxx, Modelo: xxxxxx, se muestra como xxxxxx.
+Respecto al equipo, se valida que la terminal corresponde a un equipo de Marca: xxxxxx, Modelo: xxxxxx, se muestra como xxxxxx, por lo que sera necesario xxxxxx.
 
 Derivado a lo anterior realiza el escalamiento del caso reportado y, en cuanto contemos con avances, se brindará retroalimentación por este medio.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Llamada de Salida - Contacto Programado": `Estimado Cliente,
+
+Le informamos que se realizó llamada de salida al número xxxxxx, teniendo contacto con el usuario de la linea, sin embargo, se nos informa que por el momento, el usuario no cuenta con el tiempo para realizar una revisión en la linea afectada, por lo que se agenda un nuevo contacto a las xxxxxx Hrs. para dar seguimiento al tema reportado.
+
+Respecto al equipo, se valida que la terminal corresponde a un equipo de Marca: xxxxxx, Modelo: xxxxxx, se muestra como xxxxxx, por lo que sera necesario xxxxxx.
+
+En cuanto se realice el contacto programado y validemos la situación que se presenta, se dará retroalimentación por este medio.
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
