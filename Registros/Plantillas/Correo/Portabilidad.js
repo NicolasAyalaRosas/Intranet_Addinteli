@@ -80,7 +80,7 @@ Le informamos que, tras la revisión de los documentos que se nos comparten, se 
 A continuación, detallamos el motivo del rechazo:
 
 
-Derivado a lo anterior, solicitamos de su valioso apoyo para revisar la información y compartir la documentación con las correcciones sugeridas para proceder con el trámite.
+Derivado a lo anterior, solicitamos de su valioso apoyo para revisar la información y compartir la documentación con las correcciones necesarias para proceder con el trámite.
 
 Quedamos al pendiente.
 Saludos.`,
@@ -93,7 +93,7 @@ Le informamos que, tras la revisión del número que nos comparte, la portabilid
 
 Se comparte evidencia:
 
-Derivado a lo anterior, solicitamos de su valioso apoyo para validar y confirmar con el usuario la información provista.
+Derivado a lo anterior, solicitamos de su valioso apoyo para revisar y confirmar con el usuario la información provista.
 
 Quedamos al pendiente.
 Saludos.`,

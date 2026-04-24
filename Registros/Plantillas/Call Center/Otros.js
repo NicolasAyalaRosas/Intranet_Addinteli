@@ -1,6 +1,6 @@
 window.PLANTILLAS.callcenter["Otros"] = {
 
-    "Otros - Llamada Cortada": `Nombre: N/A 
+    "Llamada Cortada": `Nombre: N/A 
 OMV y DN: N/A 
 
 Reporte:
@@ -12,7 +12,7 @@ Solución:
 
 
 
-    "Otros - Numero Equivocado": `Nombre:
+    "Numero Equivocado": `Nombre:
 OMV y DN:
 
 Reporte:
@@ -24,7 +24,7 @@ Solución:
 
 
 
-    "Otros - Llamada para WM B2C": `Nombre:
+    "Llamada para WM B2C": `Nombre:
 OMV y DN:
 
 Reporte:
@@ -36,7 +36,7 @@ Solución:
 
 
 
-    "Otros - Plantilla General": `Nombre:  
+    "Plantilla General": `Nombre:  
 OMV y DN: 
 Reporte: 
 
@@ -65,7 +65,7 @@ Solución:
 
 
 
-    "Otros - Incidencia Masiva": `Nombre:
+    "Incidencia Masiva": `Nombre:
 OMV y DN:
 
 Reporte:
@@ -76,23 +76,6 @@ Solución:
 
 
 
-    "Otros - SIM Swap": `Nombre:
-OMV y DN:
 
-Reporte:
-Se comunica Usuario-Distribuidor solicitando apoyo para generar un SIM Swap al numero antes indicado ya que menciona su SIM anterior fue Extraviada-Robada.
-
-Validaciones en sistema: - N/A
-
-Validaciones en teléfono: - N/A
-
-Posible causa: - N/A
-
-Solución:
-- Se comparte con el Usuario-Distribuidor el proceso para la obtención de una nueva SIM, el Usuario-Distribuidor confirma ya tenerla a mano y comparte el DN-ICCID xxxxxx, con el cual se valida en plataforma y se confirma estatus IDLE, por lo que se genera reemplazo en el momento.
-
-- Se confirma con el Usuario-Distribuidor que el cambio fue correctamente impactado, y se solicita validar servicio.
-
-Se da por terminada la atención.`,
 
 };

@@ -27,14 +27,14 @@ Saludos.`,
 
 Le informamos que, tras la validación del ICCID xxxxxx, se detecta que este se encuentra activo, por lo que no es posible llevar a cabo su petición.
 
-Para continuar con el trámite, solicitamos de su apoyo para proveer de una nueva ICCID en estado "Idle", en cuanto se tenga la nueva SIM daremos seguimiento a su petición.
+Para continuar con el trámite, solicitamos de su apoyo para proveer de un nuevo ICCID en estado "Idle". En cuanto se tenga la nueva SIM daremos seguimiento a su petición.
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`, 
 
 
 
-    "Reemplazo NO aplicado - SIM Destino Acitva": `Estimado Cliente,
+    "Reemplazo NO aplicado - SIM sin Información": `Estimado Cliente,
 
 Le informamos que, tras la validación del ICCID xxxxxx, este no devuelve información alguna, por lo que nos vemos en la necesidad de solicitar se rectifique dicho número de serie o reemplazarlo por otro ICCID.
 

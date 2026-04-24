@@ -18,6 +18,17 @@ Saludos.`,
 
 
 
+    "Migración de 1 DN": `Estimado cliente, 
+
+Le informamos que se llevó a cabo la migración solicitada, se comparte detalle:
+
+Solicitamos de su valioso apoyo para revisar con el usuario.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
     "Recarga NO aplicada DN Pantera - Seguimiento": `Estimado cliente, 
 
 Le informamos que la recarga pendiente fue correctamente aplicada a su línea con Numero xxxxxx, solicitamos de su apoyo para validar que ya cuente con sus beneficios.

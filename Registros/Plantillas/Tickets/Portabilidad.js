@@ -25,4 +25,10 @@ Les informamos que el proceso de portabilidad solicitado ha finalizado correctam
     "Portabilidad - Finalizada 2 o más Líneas": `Estimados,
 
 Le informamos que el proceso de portabilidad solicitado ha finalizado correctamente, las líneas requeridas han impactado correctamente en nuestro sistema, por lo que pedimos de su apoyo para validar con los usuarios.`,
+
+
+
+    "Portabilidad Rechazada - Documentación Invalida ": `Estimados,
+
+Le informamos que el proceso de portabilidad solicitado ha finalizado correctamente, las líneas requeridas han impactado correctamente en nuestro sistema, por lo que pedimos de su apoyo para validar con los usuarios.`,
 };

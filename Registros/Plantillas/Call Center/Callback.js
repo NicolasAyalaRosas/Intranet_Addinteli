@@ -1,6 +1,6 @@
 window.PLANTILLAS.callcenter["Callback"] = {
 
-  "Callback - Llamada desde terminal afectada": 
+  "Llamada desde terminal afectada": 
 `Nombre:
 OMV y DN:
 
@@ -26,7 +26,7 @@ Solución:
 Se confirma que la llamada se realiza desde la terminal afectada; por ello, se solicita re-llamado desde un equipo alterno para poder manipular la línea y brindar soporte.`,
 
 
-  "Callback - El usuario no se encuentra en el lugar": 
+  "El usuario no se encuentra en el lugar": 
 `Nombre:
 OMV y DN:
 

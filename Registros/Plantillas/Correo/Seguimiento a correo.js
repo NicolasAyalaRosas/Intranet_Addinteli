@@ -50,19 +50,7 @@ Saludos.`,
 
 
 
-    "REQ Atendido": `Estimado Cliente,
-
-Le informamos que, tras la validación del caso, nuestro proveedor comparte los siguientes comentarios:
-
-
-Derivado a lo anterior, solicitamos de su apoyo para aplicar las validaciones solicitadas y realizar pruebas.
-
-Quedamos al pendiente de sus comentarios
-Saludos.`,
-
-
-
-    "Reporte resuelto en línea": `Estimado Cliente,
+    "Llamada de Salida - Resuelto en línea": `Estimado Cliente,
 
 En seguimiento al reporte recibido, se realizó genero una llamada de salida al número de contacto: xxxxxx contactando con el usuario de manera correcta.
 
@@ -71,6 +59,18 @@ Se realiza la validación del numero afectado xxxxxx, asi como el escenario desc
 Derivado de lo anterior, se da por atendido el caso.
 
 Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "REQ Atendido": `Estimado Cliente,
+
+Le informamos que, tras la validación del caso, nuestro proveedor comparte los siguientes comentarios:
+
+
+Derivado a lo anterior, solicitamos de su apoyo para aplicar las validaciones solicitadas y realizar pruebas.
+
+Quedamos al pendiente de sus comentarios
 Saludos.`,
 
 
