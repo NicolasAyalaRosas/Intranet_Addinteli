@@ -1,6 +1,6 @@
 window.PLANTILLAS.callcenter["Recargas"] = {
 
-  "Recarga no aplicada - Se aplican beneficios por CRM":
+  "Se aplican beneficios por CRM":
 `Nombre:
 OMV y DN:
 
@@ -30,7 +30,7 @@ Solución:
 
 
 
-  "Recarga no aplicada - No se localiza la operación":
+  "No se localiza la operación":
 `Nombre:
 OMV y DN:
 
@@ -57,7 +57,7 @@ Se solicita a Usuario-Distribuidor enviar comprobante de la operación al correo
 
 
 
-  "Recarga no aplicada - Línea Suspendida":
+  "Línea Suspendida":
 `Nombre:
 OMV y DN:
 
@@ -88,7 +88,7 @@ Solución:
 
 
 
-  "Recarga no aplicada - Línea Desactivada":
+  "Línea Desactivada":
 `Nombre:
 OMV y DN:
 

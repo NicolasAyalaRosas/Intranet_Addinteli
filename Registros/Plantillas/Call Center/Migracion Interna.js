@@ -1,6 +1,6 @@
 window.PLANTILLAS.callcenter["Migración interna"] = {
 
-  "Migración de Línea - Petición":
+  "Petición":
 `Nombre:
 OMV y DN:
 
@@ -30,7 +30,7 @@ Se da por terminada la atención.`,
 
 
 
-  "Migración de Línea - Seguimiento":
+  "Seguimiento":
 `Nombre:
 OMV y DN:
 

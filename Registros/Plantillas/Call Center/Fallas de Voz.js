@@ -1,6 +1,6 @@
 window.PLANTILLAS.callcenter["Fallas de Voz"] = {
 
-  "Falla en Voz - Sin recarga vigente":
+  "Sin recarga vigente":
 `Nombre:
 OMV y DN:
 
@@ -27,7 +27,7 @@ Se solicita a Usuario-Distribuidor genere una recarga para que cuente con servic
 
 
 
-  "Falla en Voz - Sin bolsas disponibles":
+  "Sin bolsas disponibles":
 `Nombre:
 OMV y DN:
 
@@ -54,7 +54,7 @@ Se informa a Usuario-Distribuidor que agotó las bolsas de minutos incluidas en 
 
 
 
-  "Falla en Voz - Terminal no configurada correctamente":
+  "Terminal no configurada correctamente":
 `Nombre:
 OMV y DN:
 
@@ -87,7 +87,7 @@ Se realiza reinicio de la terminal y pruebas posteriores, confirmando funcionami
 
 
 
-  "Falla en Voz - Línea escalada":
+  "Línea escalada":
 `Nombre:
 OMV y DN:
 DN de Contacto:
@@ -142,7 +142,7 @@ Posible causa:
 
 
 
-"Falla en Voz - Línea WM sin paquete": `Nombre: N/A 
+"Línea WM sin paquete": `Nombre: N/A 
 OMV y DN: 
 
 Reporte: Se comunica Colaborador WM reportando falla en el servicio de voz.

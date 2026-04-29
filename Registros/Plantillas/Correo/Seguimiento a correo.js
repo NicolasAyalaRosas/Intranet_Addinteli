@@ -11,22 +11,9 @@ Saludos cordiales.`,
 
 
 
-    "Reporte escalado directamente": `Estimado Cliente,
-
-Tras la validación del DN xxxxxx, de nuestra parte no se detectan alteraciones que pudieran afectar el servicio.
-
-Respecto al equipo, se valida que la terminal Marca: xxxxxx, Modelo: xxxxxx, se muestra como xxxxxx.
-
-Se realiza el escalamiento del caso reportado y, en cuanto contemos con avances, se brindará retroalimentación por este medio.
-
-Quedamos al pendiente de sus comentarios.
-Saludos.`,
-
-
-
     "Llamada de Salida - No resuelto": `Estimado Cliente,
 
-Le informamos que se realizó llamada de salida al número alterno xxxxxx, teniendo contacto con el usuario de la linea, con su apoyo se validaron las correctas configuraciones de la terminal en uso, sin embargo, el fallo reportado persiste.
+Le informamos que se realizó llamada de salida al número alterno xxxxxx, teniendo contacto con el usuario de la línea, con su apoyo se validaron las correctas configuraciones de la terminal en uso, sin embargo, el fallo reportado persiste.
 
 Respecto al equipo, se valida que la terminal corresponde a un equipo de Marca: xxxxxx, Modelo: xxxxxx, se muestra como xxxxxx, por lo que sera necesario xxxxxx.
 
@@ -39,7 +26,7 @@ Saludos.`,
 
     "Llamada de Salida - Contacto Programado": `Estimado Cliente,
 
-Le informamos que se realizó llamada de salida al número xxxxxx, teniendo contacto con el usuario de la linea, sin embargo, se nos informa que por el momento, el usuario no cuenta con el tiempo para realizar una revisión en la linea afectada, por lo que se agenda un nuevo contacto a las xxxxxx Hrs. para dar seguimiento al tema reportado.
+Le informamos que se realizó llamada de salida al número xxxxxx, teniendo contacto con el usuario de la línea, sin embargo, se nos informa que por el momento, el usuario no cuenta con el tiempo para realizar una revisión en la línea afectada, por lo que se agenda un nuevo contacto a las xxxxxx Hrs. para dar seguimiento al tema reportado.
 
 Respecto al equipo, se valida que la terminal corresponde a un equipo de Marca: xxxxxx, Modelo: xxxxxx, se muestra como xxxxxx, por lo que sera necesario xxxxxx.
 
@@ -63,23 +50,24 @@ Saludos.`,
 
 
 
-    "REQ Atendido": `Estimado Cliente,
-
-Le informamos que, tras la validación del caso, nuestro proveedor comparte los siguientes comentarios:
-
-
-Derivado a lo anterior, solicitamos de su apoyo para aplicar las validaciones solicitadas y realizar pruebas.
-
-Quedamos al pendiente de sus comentarios
-Saludos.`,
-
-
-
-"Linea Sin Bolsas": `Estimado Cliente,
+    "Linea Sin Bolsas": `Estimado Cliente,
 
 Tras la validación del ICCID xxxxxx, hemos detectado que se agotó el total de xxxxxx asignados al paquete, de ahí el fallo que comenta nuestro usuario.
 
 Derivado a lo anterior, dejamos a su consideración la posibilidad de agregar un adicional a la línea afectada con el fin de que el usuario recupere el servicio de forma completa.
+
+En caso de requerir se aplique algún adicional a las línea ante mencionada, agradeceremos nos informen de antemano.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Lineas Sin Bolsas 2 o más DN": `Estimado Cliente,
+
+Tras la validación de los ICCID xxxxxx, hemos detectado que estos han agotado el total de las bolsas de xxxxxx asignadas a los paquetes, de ahí lo comentado por los usuarios.
+
+Derivado a lo anterior, dejamos a su consideración la posibilidad de agregar un adicional a las líneas afectadas con el fin de que los usuarios recuperen servicio en su totalidad.
 
 En caso de requerir se aplique algún adicional a las líneas antes mencionadas, agradeceremos nos informen de antemano.
 
@@ -88,13 +76,36 @@ Saludos.`,
 
 
 
-"Lineas Sin Bolsas 2 o más DN": `Estimado Cliente,
+    "REQ Atendido": `Estimado Cliente,
 
-Tras la validación de los ICCID xxxxxx, hemos detectado que estos han agotado el total de las bolsas de xxxxxx asignadas a los paquetes, de ahí lo comentado por los usuarios.
+Le informamos que, tras la validación del caso, nuestro proveedor comparte los siguientes comentarios:
 
-Derivado a lo anterior, dejamos a su consideración la posibilidad de agregar un adicional a las líneas afectadas con el fin de que los usuarios recuperen servicio en su totalidad.
 
-En caso de requerir se aplique algún adicional a las líneas antes mencionadas, agradeceremos nos informen de antemano.
+Derivado a lo anterior, solicitamos de su apoyo para aplicar las validaciones solicitadas y realizar pruebas.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Reporte de Consumos": `Estimado Cliente,
+
+Se ha solicitado a nuestro equipo de segundo nivel nos comparta el detalle de consumos para xxxxxx.
+
+Este destalle tendrá como Fecha Inicial el día: xxxxxx y como Fecha Final el día: xxxxxx. En cuanto se nos proporcione esta información, será enviada a ustedes por este medio.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Reporte escalado directamente": `Estimado Cliente,
+
+Tras la validación del DN xxxxxx, de nuestra parte no se detectan alteraciones que pudieran afectar el servicio.
+
+Respecto al equipo, se valida que la terminal Marca: xxxxxx, Modelo: xxxxxx, se muestra como xxxxxx.
+
+Se realiza el escalamiento del caso reportado y, en cuanto contemos con avances, se brindará retroalimentación por este medio.
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,

@@ -50,5 +50,14 @@ Le hacemos llegar la liga de nuestro portal de recargas, para que pueda aplicar 
 Bigcel Recargas: https://recargas.bigcel.mx/
 
 Ante cualquier duda quedamos a sus órdenes.
-Saludos.`
+Saludos.`,
+
+
+
+    "Cesion de Derechos": `Estimado cliente, 
+
+Se realiza cambio solicitado, la línea fue liberada para el servicio de Prepago y ya puede efectuar recargas si así lo requiere.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
 };

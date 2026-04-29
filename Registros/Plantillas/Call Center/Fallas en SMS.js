@@ -1,6 +1,6 @@
 window.PLANTILLAS.callcenter["Fallas en SMS"] = {
 
-  "Falla en SMS - Sin recarga vigente":
+  "Sin recarga vigente":
 `Nombre:
 OMV y DN:
 
@@ -27,7 +27,7 @@ Se solicita a Usuario-Distribuidor genere una recarga para que cuente con servic
 
 
 
-  "Falla en SMS - Sin bolsas disponibles":
+  "Sin bolsas disponibles":
 `Nombre:
 OMV y DN:
 
@@ -54,7 +54,7 @@ Se informa a Usuario-Distribuidor que agotó las bolsas de minutos incluidas en 
 
 
 
-  "Falla en SMS - Terminal no configurada correctamente":
+  "Terminal no configurada correctamente":
 `Nombre:
 OMV y DN:
 
@@ -89,7 +89,7 @@ Se realiza reinicio de la terminal y pruebas posteriores, confirmando funcionami
 
 
 
-  "Falla en SMS - Línea escalada":
+  "Línea escalada":
 `Nombre:
 OMV y DN:
 DN de Contacto:

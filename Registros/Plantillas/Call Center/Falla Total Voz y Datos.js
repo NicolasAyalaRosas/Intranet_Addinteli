@@ -1,6 +1,6 @@
 window.PLANTILLAS.callcenter["Falla Total Voz y Datos"] = {
 
-  "Falla Total Voz y Datos - Sin recarga vigente": `Nombre:
+  "Sin recarga vigente": `Nombre:
 OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
@@ -23,7 +23,7 @@ Solución:
 - Se solicita a UF generar una recarga para restablecer el servicio.`,
 
 
-  "Falla Total Voz y Datos - Sin bolsas disponibles": `Nombre:
+  "Sin bolsas disponibles": `Nombre:
 OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
@@ -46,7 +46,7 @@ Solución:
 - Se informa al UF que agotó sus bolsas y puede realizar una nueva recarga para recuperar el servicio completo.`,
 
 
-  "Falla Total Voz y Datos - Terminal no configurada correctamente": `Nombre:
+  "Terminal no configurada correctamente": `Nombre:
 OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
@@ -75,7 +75,7 @@ Solución:
 - Se reinicia la terminal y se realizan pruebas confirmando servicio correcto. Atención concluida.`,
 
 
-  "Falla Total Voz y Datos - Línea escalada": `Nombre:
+  "Línea escalada": `Nombre:
 OMV y DN:
 DN de Contacto:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
@@ -107,7 +107,7 @@ Solución:
 - Se dará seguimiento mediante DN de contacto o correo del cliente.`,
 
 
-  "Falla Total Voz y Datos - Línea suspendida": `Nombre:
+  "Línea suspendida": `Nombre:
 OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
@@ -131,7 +131,7 @@ Solución:
 
 
 
-  "Falla Total Voz y Datos - Terminal NO Compatible": `Nombre:
+  "Terminal NO Compatible": `Nombre:
 OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
@@ -156,7 +156,7 @@ Solución:
 
 
 
-"Falla Total Voz y Datos - Línea WM sin paquete": `Nombre: N/A 
+"Línea WM sin paquete": `Nombre: N/A 
 OMV y DN: 
 
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.

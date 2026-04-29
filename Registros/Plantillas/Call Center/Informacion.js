@@ -1,5 +1,5 @@
 window.PLANTILLAS.callcenter["Informacion"] = {
-    "Informacion - Portabilidad": `Nombre:
+    "Portabilidad": `Nombre:
 OMV y DN:
 
 Reporte:
@@ -25,7 +25,7 @@ Se da por terminada la atención.`,
 
 
 
-    "Informacion - Paquetes y Recargas": `Nombre:
+    "Paquetes y Recargas": `Nombre:
 OMV y DN:
 
 Reporte:
@@ -48,7 +48,7 @@ Se da por terminada la atención.`,
 
 
 
-    "Informacion - Vinculacion al RNU": `Nombre:
+    "Vinculacion al RNU": `Nombre:
 OMV y DN:
 
 Reporte:
@@ -74,7 +74,7 @@ Se da por terminada la atención.`,
 
 
 
-    "Informacion - Consulta general": `Nombre:
+    "Consulta general": `Nombre:
 OMV y DN:
 
 Reporte:

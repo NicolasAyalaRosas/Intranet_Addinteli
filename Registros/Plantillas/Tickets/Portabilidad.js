@@ -30,5 +30,5 @@ Le informamos que el proceso de portabilidad solicitado ha finalizado correctame
 
     "Portabilidad Rechazada - Documentación Invalida ": `Estimados,
 
-Le informamos que el proceso de portabilidad solicitado ha finalizado correctamente, las líneas requeridas han impactado correctamente en nuestro sistema, por lo que pedimos de su apoyo para validar con los usuarios.`,
+Le informamos que el proceso de portabilidad solicitado ha sido rechazado derivado a inconsistencias con la documentación proporcionada, se enviara por correo detalle del motivo y quedamos en espera de que se envié la documentación corregida.`,
 };

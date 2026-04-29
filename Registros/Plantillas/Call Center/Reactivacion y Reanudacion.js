@@ -1,6 +1,6 @@
 window.PLANTILLAS.callcenter["Reactivación"] = {
 
-  "Reanudación - Línea Suspendida":
+  "Línea Suspendida":
 `Nombre:
 OMV y DN:
 
@@ -28,7 +28,7 @@ Se confirma con el Usuario-Distribuidor que la línea ya cuenta con servicio act
 
 
 
-  "Reactivación - Línea Predesactivada":
+  "Línea Predesactivada":
 `Nombre:
 OMV y DN:
 

@@ -1,6 +1,6 @@
 window.PLANTILLAS.callcenter["Fallas de Navegacion"] = {
 
-  "Falla en Datos - Sin recarga vigente": 
+  "Sin recarga vigente": 
 `Nombre:
 OMV y DN:
 
@@ -27,7 +27,7 @@ Se solicita a Usuario-Distribuidor genere una recarga para que cuente con servic
 
 
 
-  "Falla en Datos - Sin bolsas disponibles":
+  "Sin bolsas disponibles":
 `Nombre:
 OMV y DN:
 
@@ -54,7 +54,7 @@ Se informa a Usuario-Distribuidor que agotó las bolsas de MB incluidas en su pa
 
 
 
-  "Falla en Datos - Terminal no configurada correctamente":
+  "Terminal no configurada correctamente":
 `Nombre:
 OMV y DN:
 
@@ -87,7 +87,7 @@ Se realiza reinicio de la terminal y pruebas posteriores, confirmando funcionami
 
 
 
-  "Falla en Datos - Línea escalada":
+  "Línea escalada":
 `Nombre:
 OMV y DN:
 DN de Contacto:
@@ -121,7 +121,7 @@ Tras realizar pruebas y persistir la falla, se realiza escalamiento con Remedy #
 
 
 
-"Falla en Datos - Línea WM sin paquete": `Nombre: N/A 
+"Línea WM sin paquete": `Nombre: N/A 
 OMV y DN: 
 
 Reporte: Se comunica Colaborador WM reportando falla en el servicio de datos móviles.
@@ -147,7 +147,7 @@ Se solicita a Colaborador envié correo a TelefoniaCorporativa@wal-mart.com soli
 
 
 
-  "Falla en Datos - Terminal NO Compatible": `Nombre:
+  "Terminal NO Compatible": `Nombre:
 OMV y DN:
 Reporte: Se comunica Colaborador WM reportando falla en el servicio de datos móviles.
 
