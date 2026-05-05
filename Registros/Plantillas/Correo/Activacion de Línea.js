@@ -32,4 +32,15 @@ Por favor tomar en cuenta que, pese a la correcta activación del servicio, es n
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
+
+
+
+    "Activación NO realizada": `Estimado cliente,
+
+Le informamos que al validar el ICCID xxxxxx, se ha detectado que este ya se encuentra xxxxxx, motivo por el cual no podemos realizar el trámite solicitado.
+
+Solicitamos de su apoyo para proveer de una nueva SIM para dar seguimiento a su petición.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
 }

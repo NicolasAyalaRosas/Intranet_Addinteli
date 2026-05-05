@@ -60,4 +60,13 @@ Se realiza cambio solicitado, la línea fue liberada para el servicio de Prepago
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
+
+
+
+    "Upsell": `Estimado cliente, 
+
+Se realiza cambio solicitado, la línea ya cuenta con el paquete xxxxxx, solicitamos de su apoyo para validar con el usuario.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
 };

@@ -37,4 +37,18 @@ Solicitamos de su apoyo para validar y aplicar correcciones sobre el DN xxxxxx c
     
 Cabe destacar que el DN ya se encuentra vinculado al RNU por lo que desconocemos el motivo del error antes indicado. `,
 
+
+
+    "SPN Incorrecto": `Estimados, 
+
+Solicitamos de su apoyo para validar el siguiente lote de SIM´s que al activar marcan un SPN incorrecto, se comparte detalle:
+
+IMSI Inicial: 
+IMSI Final:
+ICCID Inicial: 
+ICCID Final:
+SPN Correcto:
+
+`,
+
 }
