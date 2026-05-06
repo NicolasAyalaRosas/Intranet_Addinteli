@@ -18,6 +18,15 @@ Saludos.`,
 
 
 
+    "Compra de Adicionales 2 o más DN": `Estimado cliente,
+
+Se aplican las compras solicitadas, de su apoyo para validar con los usuarios.
+
+Quedamos al pendiente.
+Saludos.`,
+
+
+
     "Migración de 1 DN": `Estimado cliente, 
 
 Le informamos que se llevó a cabo la migración solicitada, se comparte detalle:

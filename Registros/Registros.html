@@ -37,6 +37,12 @@
 
         <h1>Plantillas IRM</h1>
 
+        <!-- 🔍 BUSCADOR -->
+        <div class="buscador-container">
+            <input type="text" id="buscadorInput" placeholder="🔍 Buscar plantilla..." autocomplete="off">
+            <div id="sugerencias" class="sugerencias oculto"></div>
+        </div>
+
         <!-- =========================
              BLOQUE BOTONES TIPO
         ========================== -->
@@ -64,8 +70,10 @@
         </div>
 
         <div class="separador-seccion"></div>
-        <label class="label-editor">Contenido de la plantilla:</label>
-        <div id="editorPlantilla" contenteditable="true"></div>
+
+        <!-- ✍️ EDITOR -->
+        <label for="editorPlantilla" class="label-editor">Contenido de la plantilla:</label>
+        <div id="editorPlantilla" contenteditable="true" spellcheck="false"></div>
 
         <!-- =========================
              BOTONES ACCIÓN
@@ -127,7 +135,6 @@ window.PLANTILLAS.escalamiento = window.PLANTILLAS.escalamiento || {};
 <!-- =========================
      CORREO
 ========================= -->
-
 <script src="../Registros/Plantillas/Correo/Activacion de Línea.js"></script>
 <script src="../Registros/Plantillas/Correo/Atencion a Ticket.js"></script>
 <script src="../Registros/Plantillas/Correo/Cambio de Numero.js"></script>
@@ -135,14 +142,13 @@ window.PLANTILLAS.escalamiento = window.PLANTILLAS.escalamiento || {};
 <script src="../Registros/Plantillas/Correo/Procesos NWM.js"></script>
 <script src="../Registros/Plantillas/Correo/Reactivacion.js"></script>
 <script src="../Registros/Plantillas/Correo/Seguimiento a correo.js"></script>
-<script src="../registros/Plantillas/Correo/SIM Swap.js"></script>
+<script src="../Registros/Plantillas/Correo/SIM Swap.js"></script> <!-- ✅ CORREGIDO -->
 <script src="../Registros/Plantillas/Correo/Suspension.js"></script>
 <script src="../Registros/Plantillas/Correo/Otros.js"></script>
 
 <!-- =========================
      ESCALAMIENTO
 ========================= -->
-
 <script src="../Registros/Plantillas/Escalamiento/Falla en Voz.js"></script>
 <script src="../Registros/Plantillas/Escalamiento/Falla en Datos.js"></script>
 <script src="../Registros/Plantillas/Escalamiento/Falla en SMS.js"></script>
@@ -154,7 +160,6 @@ window.PLANTILLAS.escalamiento = window.PLANTILLAS.escalamiento || {};
 <!-- =========================
      SCRIPT PRINCIPAL
 ========================= -->
-
 <script src="../Registros/script.js"></script>
 
 <!-- =========================

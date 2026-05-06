@@ -1,7 +1,6 @@
 window.PLANTILLAS.callcenter["Otros"] = {
 
-    "Llamada Cortada": `Nombre: N/A 
-OMV y DN: N/A 
+    "Llamada Cortada": `Número del que se Comunica: N/A 
 
 Reporte:
 Llamada cortada.
@@ -12,11 +11,10 @@ Solución:
 
 
 
-    "Numero Equivocado": `Nombre:
-OMV y DN:
+    "Numero Equivocado": `Número del que se Comunica:
 
 Reporte:
-Se comunican intentando contactar con: xxxxxx.
+Numero equivocado, se intentaban contactar con: xxxxxx.
 
 Solución:
 - Número equivocado.
