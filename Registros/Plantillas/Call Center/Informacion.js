@@ -2,17 +2,23 @@ window.PLANTILLAS.callcenter["Informacion"] = {
     "Portabilidad": `Nombre:
 OMV y DN:
 
-Reporte:
-Se comunica Usuario-Distribuidor solicitando información acerca del proceso de Portabilidad.
+Reporte: Se comunica Usuario-Distribuidor solicitando información acerca del proceso de Portabilidad.
 
-Validaciones en sistema: - N/A
+Validaciones en sistema: 
 
-Validaciones en teléfono: - N/A
+- N/A
 
-Posible causa: - N/A
+Validaciones en teléfono: 
+
+- N/A
+
+Posible causa: 
+
+- N/A
 
 Solución:
-Se informa al Usuario-Distribuidor acerca del proceso considerando:
+
+- Se informa al Usuario-Distribuidor acerca del proceso considerando:
 
 • Vinculación.
 • DN transitorio.
@@ -24,20 +30,25 @@ Se da por terminada la atención.`,
 
 
 
-
     "Paquetes y Recargas": `Nombre:
 OMV y DN:
 
-Reporte:
-Se comunica Usuario-Distribuidor solicitando información acerca del proceso de recarga y los beneficios incluidos en su paquete.
+Reporte: Se comunica Usuario-Distribuidor solicitando información acerca del proceso de recarga y los beneficios incluidos en su paquete.
 
-Validaciones en sistema: - N/A
+Validaciones en sistema: 
 
-Validaciones en teléfono: - N/A
+- N/A
 
-Posible causa: - N/A
+Validaciones en teléfono: 
+
+- N/A
+
+Posible causa: 
+
+- N/A
 
 Solución:
+
 - Se informa acerca del proceso de recarga.
 - Se detallan paquetes disponibles y beneficios.
 - Se comparten los links oficiales.
@@ -51,19 +62,22 @@ Se da por terminada la atención.`,
     "Vinculacion al RNU": `Nombre:
 OMV y DN:
 
-Reporte:
-Se comunica Usuario-Distribuidor solicitando información acerca del proceso de vinculación al Registro Nacional de Usuarios.
+Reporte: Se comunica Usuario-Distribuidor solicitando información acerca del proceso de vinculación al Registro Nacional de Usuarios.
 
-Validaciones en sistema: - N/A
+Validaciones en sistema: 
 
-Validaciones en teléfono: - N/A
+- N/A
 
-Posible causa: - N/A
+Validaciones en teléfono: 
 
-Posible causa:
-N/A
+- N/A
+
+Posible causa: 
+
+- N/A
 
 Solución:
+
 - Se informa acerca del proceso de vinculación.
 - Se detallan requisitos.
 - Se comparte el link oficial.
@@ -80,13 +94,20 @@ OMV y DN:
 Reporte:
 Se comunica Usuario-Distribuidor solicitando información acerca del proceso de xxxxxx.
 
-Validaciones en sistema: - N/A
+Validaciones en sistema:
 
-Validaciones en teléfono: - N/A
+- N/A
 
-Posible causa: - N/A
+Validaciones en teléfono: 
+
+- N/A
+
+Posible causa: 
+
+- N/A
 
 Solución:
+
 - Se comparte con el Usuario-Distribuidor la información disponible acerca del proceso y quedamos al pendiente de sus comentarios.
 
 Se da por terminada la atención.`,};

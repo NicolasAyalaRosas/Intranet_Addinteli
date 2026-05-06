@@ -5,10 +5,10 @@ window.PLANTILLAS.callcenter["Seguimiento a correo"] = {
 OMV y DN:
 DN de Contacto:
 
-Reporte:
-Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
+Reporte: Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
 
 Validaciones en sistema:
+
 - Se revisa en plataforma HUB, que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
@@ -17,13 +17,16 @@ Validaciones en sistema:
   • RRSS: xxxxxx
 
 Validaciones en teléfono:
+
 - IMEI: xxxxxx
 - Equipo: xxxxxx
 
 Posible causa:
-No se detectan alteraciones que pudieran afectar el servicio. La línea se encuentra activa, con paquete y bolsas disponibles.
+
+- No se detectan alteraciones que pudieran afectar el servicio. La línea se encuentra activa, con paquete y bolsas disponibles.
 
 Solución:
+
 - Se realizan pruebas correspondientes; sin embargo, al persistir la falla, se procede a escalamiento con el Remedy xxxxxx.
 - Se dará seguimiento mediante el DN de contacto o correo del cliente.`,
 
@@ -33,10 +36,10 @@ Solución:
 `Nombre:
 OMV y DN:
 
-Reporte:
-Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
+Reporte: Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
 
 Validaciones en sistema:
+
 - Se revisa en plataforma HUB, que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
@@ -45,20 +48,24 @@ Validaciones en sistema:
   • RRSS: xxxxxx
 
 Validaciones en teléfono:
+
 - IMEI: xxxxxx
 - Equipo: xxxxxx
 
 Posible causa:
-No se detectan alteraciones que pudieran afectar el servicio. La línea se encuentra activa, con paquete y bolsas disponibles.
+
+- No se detectan alteraciones que pudieran afectar el servicio. La línea se encuentra activa, con paquete y bolsas disponibles.
 
 Acciones realizadas:
-Se genera llamada de salida y, con apoyo del Usuario, se realiza TS completo:
+
+- Se genera llamada de salida y, con apoyo del Usuario, se realiza TS completo:
 • Reset de valores de red.
 • Validación de VoLTE y roaming activos.
 • Modo de red en LTE (4G) / 3G / 2G (auto).
 • Configuración de APN (internet) e IMS.
 
 Solución:
+
 - Se realiza reinicio de la terminal y pruebas posteriores, confirmando funcionamiento correcto del servicio.
 - Se da por concluida la atención.`,
 
@@ -69,10 +76,10 @@ Solución:
 OMV y DN:
 DN de Contacto:
 
-Reporte:
-Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
+Reporte: Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
 
 Validaciones en sistema:
+
 - Se revisa en plataforma HUB, que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
@@ -81,20 +88,24 @@ Validaciones en sistema:
   • RRSS: xxxxxx
 
 Validaciones en teléfono:
+
 - IMEI: xxxxxx
 - Equipo: xxxxxx
 
 Posible causa:
-No se detectan alteraciones que pudieran afectar el servicio. Se realiza soporte técnico completo sin resolución.
+
+- No se detectan alteraciones que pudieran afectar el servicio. Se realiza soporte técnico completo sin resolución.
 
 Acciones realizadas:
-Se genera llamada de salida y, con apoyo del Usuario, se realiza TS completo:
+
+- Se genera llamada de salida y, con apoyo del Usuario, se realiza TS completo:
 • Reset de valores de red.
 • Validación de VoLTE y roaming activos.
 • Modo de red en LTE (4G) / 3G / 2G (auto).
 • Configuración de APN (internet) e IMS.
 
 Solución:
+
 - Tras las pruebas correspondientes y al persistir la falla, se procede a escalamiento con el Remedy xxxxxx.
 - Se dará seguimiento mediante el DN de contacto o correo del cliente.`,
 
@@ -104,10 +115,10 @@ Solución:
 `Nombre:
 OMV y DN:
 
-Reporte:
-Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
+Reporte: Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se indica que el usuario no cuenta con servicio de xxxxxx.
 
 Validaciones en sistema:
+
 - Se revisa en plataforma HUB que la línea se encuentra en estado xxxxxx.
 - Paquete: xxxxxx
 - Bolsas:
@@ -116,13 +127,15 @@ Validaciones en sistema:
   • RRSS: xxxxxx
 
 Validaciones en teléfono:
+
 - IMEI: xxxxxx
 - Equipo: xxxxxx
 
 Posible causa:
-N/A
+- N/A
 
 Solución:
+- xxxxxx
 `,
 
 
@@ -131,13 +144,14 @@ Solución:
 `Nombre:
 OMV y DN:
 
-Reporte:
-Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se nos solicita el detalle de consumos para xxxxxx.
+Reporte: Se genera seguimiento a partir de un correo recibido el día xxxxxx, en el cual se nos solicita el detalle de consumos para xxxxxx.
 
 Posible causa:
-N/A
+
+- N/A
 
 Solución:
+
 - Se procede a escalamiento con el Remedy xxxxxx, solicitando este detalle. 
 - Se dará seguimiento mediante el DN de contacto o correo del cliente.`,
 

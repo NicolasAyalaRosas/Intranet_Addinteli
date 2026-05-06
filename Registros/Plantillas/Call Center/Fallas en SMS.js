@@ -4,10 +4,10 @@ window.PLANTILLAS.callcenter["Fallas en SMS"] = {
 `Nombre:
 OMV y DN:
 
-Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
+Reporte: Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
 
 Validaciones en sistema:
+
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
 - Paquete: Sin paquete vigente.
 - Bolsas:
@@ -16,14 +16,17 @@ Validaciones en sistema:
   • RRSS: N/A
 
 Validaciones en teléfono:
+
 - IMEI: N/A
 - Equipo: N/A
 
 Posible causa:
-No se cuenta con recarga vigente, por lo que el usuario no contará con SMS salientes.
+
+- No se cuenta con recarga vigente, por lo que el usuario no contará con SMS salientes.
 
 Solución:
-Se solicita a Usuario-Distribuidor genere una recarga para que cuente con servicio.`,
+
+- Se solicita a Usuario-Distribuidor genere una recarga para que cuente con servicio.`,
 
 
 
@@ -31,10 +34,10 @@ Se solicita a Usuario-Distribuidor genere una recarga para que cuente con servic
 `Nombre:
 OMV y DN:
 
-Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
+Reporte: Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
 
 Validaciones en sistema:
+
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
 Paquete: xxxxxx
 - Bolsas:
@@ -43,14 +46,17 @@ Paquete: xxxxxx
   • RRSS: xxxxxx
 
 Validaciones en teléfono:
+
 - IMEI: N/A
 - Equipo: N/A
 
 Posible causa:
-El Usuario-Distribuidor agotó las bolsas incluidas en su recarga vigente.
+
+- El Usuario-Distribuidor agotó las bolsas incluidas en su recarga vigente.
 
 Solución:
-Se informa a Usuario-Distribuidor que agotó las bolsas de minutos incluidas en su paquete vigente. Puede realizar una nueva recarga para recuperar el servicio de forma total si así lo prefiere.`,
+
+- Se informa a Usuario-Distribuidor que agotó las bolsas de minutos incluidas en su paquete vigente. Puede realizar una nueva recarga para recuperar el servicio de forma total si así lo prefiere.`,
 
 
 
@@ -58,10 +64,10 @@ Se informa a Usuario-Distribuidor que agotó las bolsas de minutos incluidas en 
 `Nombre:
 OMV y DN:
 
-Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
+Reporte: Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
 
 Validaciones en sistema:
+
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
 Paquete: xxxxxx
 - Bolsas:
@@ -70,11 +76,13 @@ Paquete: xxxxxx
   • RRSS: xxxxxx
 
 Validaciones en teléfono:
+
 - IMEI: xxxxxx
 - Equipo: xxxxxx
 
 Posible causa:
-No se detectan alteraciones que pudieran afectar el servicio. La línea se encuentra activa, con paquete y bolsas disponibles, por lo que se procede a brindar soporte a la terminal.
+
+- No se detectan alteraciones que pudieran afectar el servicio. La línea se encuentra activa, con paquete y bolsas disponibles, por lo que se procede a brindar soporte a la terminal.
 
 TS realizado:
 • Reset de valores de red.
@@ -83,9 +91,9 @@ TS realizado:
 • Configuración de APN (internet) e IMS.
 • Configuración manual del Centro de Mensajes.
 
-
 Solución:
-Se realiza reinicio de la terminal y pruebas posteriores, confirmando funcionamiento correcto del servicio. Se da por concluida la atención.`,
+
+- Se realiza reinicio de la terminal y pruebas posteriores, confirmando funcionamiento correcto del servicio. Se da por concluida la atención.`,
 
 
 
@@ -94,10 +102,10 @@ Se realiza reinicio de la terminal y pruebas posteriores, confirmando funcionami
 OMV y DN:
 DN de Contacto:
 
-Reporte:
-Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
+Reporte: Se comunica Usuario-Distribuidor reportando falla en el servicio de SMS.
 
 Validaciones en sistema:
+
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
 Paquete: xxxxxx
 - Bolsas:
@@ -106,11 +114,13 @@ Paquete: xxxxxx
   • RRSS: xxxxxx
 
 Validaciones en teléfono:
+
 - IMEI: xxxxxx
 - Equipo: xxxxxx
 
 Posible causa:
-No se detectan alteraciones que pudieran afectar el servicio. Se realiza TS completo sin resolución.
+
+- No se detectan alteraciones que pudieran afectar el servicio. Se realiza TS completo sin resolución.
 
 TS realizado:
 • Reset de valores de red.
@@ -121,5 +131,6 @@ TS realizado:
 
 
 Solución:
-Después de realizar pruebas y persistir la falla, se procede a escalamiento con Remedy # xxxxxx. Se dará seguimiento mediante el DN de contacto o correo del cliente.`
+
+- Después de realizar pruebas y persistir la falla, se procede a escalamiento con Remedy # xxxxxx. Se dará seguimiento mediante el DN de contacto o correo del cliente.`
 };

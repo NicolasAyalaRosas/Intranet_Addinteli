@@ -5,6 +5,7 @@ OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
 Validaciones en sistema:
+
 - Se revisa en plataforma HUB que la línea se encuentra en estado xxxxxx.
 - Paquete: Sin paquete vigente.
 - Bolsas:
@@ -13,13 +14,16 @@ Validaciones en sistema:
   RRSS: N/A
 
 Validaciones teléfono:
+
 - IMEI: N/A
 - Equipo: N/A
 
 Posible causa:
+
 - El usuario no cuenta con recarga vigente, por lo que no dispone de servicios de voz ni datos.
 
 Solución:
+
 - Se solicita a UF generar una recarga para restablecer el servicio.`,
 
 
@@ -28,6 +32,7 @@ OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
 Validaciones en sistema:
+
 - Línea en estado Activo.
 - Paquete: xxxxxx.
 - Bolsas:
@@ -36,14 +41,18 @@ Validaciones en sistema:
   RRSS: N/A
 
 Validaciones teléfono:
+
 - IMEI: N/A
 - Equipo: N/A
 
 Posible causa:
+
 - El UF agotó las bolsas incluidas en su recarga vigente.
 
 Solución:
+
 - Se informa al UF que agotó sus bolsas y puede realizar una nueva recarga para recuperar el servicio completo.`,
+
 
 
   "Terminal no configurada correctamente": `Nombre:
@@ -51,6 +60,7 @@ OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
 Validaciones en sistema:
+
 - Línea en estado Activo.
 - Paquete: xxxxxx.
 - Bolsas:
@@ -59,10 +69,12 @@ Validaciones en sistema:
   RRSS: xxxxxx
 
 Validaciones teléfono:
+
 - IMEI: xxxxxx
 - Equipo: xxxxxx
 
 Posible causa:
+
 - No se detectan alteraciones en sistema. Se procede a soporte en terminal.
 
 TS realizado:
@@ -72,7 +84,9 @@ TS realizado:
 - Configuración de APN (internet) e IMS.
 
 Solución:
+
 - Se reinicia la terminal y se realizan pruebas confirmando servicio correcto. Atención concluida.`,
+
 
 
   "Línea escalada": `Nombre:
@@ -81,6 +95,7 @@ DN de Contacto:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
 Validaciones en sistema:
+
 - Línea en estado Activo.
 - Paquete: xxxxxx.
 - Bolsas:
@@ -89,10 +104,12 @@ Validaciones en sistema:
   RRSS: xxxxxx
 
 Validaciones teléfono:
+
 - IMEI: xxxxxx
 - Equipo: xxxxxx
 
 Posible causa:
+
 - No se detectan alteraciones en sistema.
 
 TS realizado:
@@ -102,9 +119,11 @@ TS realizado:
 - Configuración de APN e IMS.
 
 Solución:
+
 - Se realizan pruebas posteriores, sin éxito.
 - Se escala el caso con Remedy # xxxxxx.
 - Se dará seguimiento mediante DN de contacto o correo del cliente.`,
+
 
 
   "Línea suspendida": `Nombre:
@@ -112,18 +131,22 @@ OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
 Validaciones en sistema:
+
 - Línea en estado Suspendido (B2W).
 - Paquete: N/A
 - Bolsas: N/A
 
 Validaciones teléfono:
+
 - IMEI: xxxxxx
 - Equipo: xxxxxx
 
 Posible causa:
+
 - La línea mantiene estatus B1W, por lo que se encuentra bloqueada y sin servicios.
 
 Solución:
+
 - Se comenta con el Usuario-Distribuidor el escenario presentado, solicitando cambiar la SIM a una terminal que figure en sistema como COMPATIBLE PROBADO u COMPATIBLE HOMOLOGADO.
 - Se confirma con el Usuario-Distribuidor que la SIM se encuentra instalada en una terminal COMPATIBLE.
 - Se aplica proceso de Unbarring desde plataforma HUB.
@@ -136,6 +159,7 @@ OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
 Validaciones en sistema:
+
 - Línea en estado Barring (B1W).
 - Paquete: xxxxxx
 - Bolsas:
@@ -144,13 +168,16 @@ Validaciones en sistema:
   RRSS: N/A
 
 Validaciones teléfono:
+
 - IMEI: N/A
 - Equipo: N/A
 
 Posible causa:
+
 - La línea mantiene estatus B1W, por lo que se encuentra bloqueada y sin servicios.
 
 Solución:
+
 - Se realiza proceso de Reanudación desde plataforma HUB.
 - Se confirma con el usuario que el servicio queda restablecido.`,
 
@@ -162,6 +189,7 @@ OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
 Validaciones en sistema:
+
 - Se revisa en plataforma HUB que la línea se encuentra en estado Activo.
 - Paquete: Sin paquete vigente.
 - Bolsas:
@@ -170,12 +198,15 @@ Validaciones en sistema:
 • RRSS: N/A
 
 Validaciones en teléfono:
+
 - IMEI: N/A
 - Equipo: N/A
 
 Posible causa:
-No se cuenta con recarga vigente, por lo que el usuario no contará con voz saliente.
+
+- No se cuenta con recarga vigente, por lo que el usuario no contará con voz saliente.
 
 Solución:
-Se solicita a Colaborador envié correo a TelefoniaCorporativa@wal-mart.com solicitando la renovación de la linea.`
+
+- Se solicita a Colaborador envié correo a TelefoniaCorporativa@wal-mart.com solicitando la renovación de la linea.`
 };

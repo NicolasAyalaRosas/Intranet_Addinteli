@@ -2,10 +2,10 @@ window.PLANTILLAS.callcenter["Otros"] = {
 
     "Llamada Cortada": `Número del que se Comunica: N/A 
 
-Reporte:
-Llamada cortada.
+Reporte: Llamada cortada.
 
 Solución:
+
 - Llamada finalizada de manera inesperada.
 - Número del que provenía la llamada: xxxxxx.`,
 
@@ -13,10 +13,10 @@ Solución:
 
     "Numero Equivocado": `Número del que se Comunica:
 
-Reporte:
-Numero equivocado, se intentaban contactar con: xxxxxx.
+Reporte: Numero equivocado, se intentaban contactar con: xxxxxx.
 
 Solución:
+
 - Número equivocado.
 - Se le explica al Sr./Srita. que el número al que se está contactando es incorrecto.`,
 
@@ -25,10 +25,10 @@ Solución:
     "Llamada para WM B2C": `Nombre:
 OMV y DN:
 
-Reporte:
-Se comunican solicitando información / soporte para Walmart B2C.
+Reporte: Se comunican solicitando información / soporte para Walmart B2C.
 
 Solución:
+
 - Se le explica al Sr./Srita. que el número al que se está contactando es incorrecto.
 - Se comparte el número correcto de Atención a Clientes.`,
 
@@ -66,10 +66,10 @@ Solución:
     "Incidencia Masiva": `Nombre:
 OMV y DN:
 
-Reporte:
-Se comunica Usuario-Distribuidor reportando falla de servicio.
+Reporte: Se comunica Usuario-Distribuidor reportando falla de servicio.
 
 Solución:
+
 - Se le explica al Usuario-Distribuidor que en este momento se esta presentando una afectación masiva que genera afectación al servicio, se le indica que no hay un ETR hasta el momento por lo que deberá estar al pendiente durante el transcurso del día.`,
 
 };
