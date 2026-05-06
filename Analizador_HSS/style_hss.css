@@ -17,24 +17,16 @@ body {
 }
 
 /* =========================================
-   🧢 HEADER
+   🧢 HEADER / MAIN / CONTAINER
 ========================================= */
-header, .header {
-    margin-bottom: 40px;
-}
+header, .header { margin-bottom: 40px; }
 
-/* =========================================
-   📦 MAIN
-========================================= */
 main, .main {
     display: flex;
     justify-content: center;
     padding: 20px;
 }
 
-/* =========================================
-   📐 CONTENEDOR
-========================================= */
 .container {
     width: 80%;
     max-width: 900px;
@@ -54,10 +46,6 @@ h1 {
     margin-bottom: 30px;
 }
 
-h2 {
-    color: var(--blanco);
-}
-
 .titulo-seccion-hss {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -67,7 +55,7 @@ h2 {
 }
 
 /* =========================================
-   🧾 INPUT HSS
+   🧾 INPUT
 ========================================= */
 .hss-input {
     width: 100%;
@@ -110,57 +98,56 @@ h2 {
 }
 
 /* =========================================
-   📊 RESULTADOS
+   📊 RESULTADOS + CAMPOS
 ========================================= */
 #resultadoHSS {
     margin-top: 25px;
 }
 
-/* =========================================
-   📦 BLOQUES HSS
-========================================= */
+/* Bloques de campos */
 .campo-hss {
     background: linear-gradient(135deg, #ffffff, #f1f5f9);
-    padding: 14px;
+    padding: 16px;
     border-radius: 10px;
     margin-bottom: 12px;
     border-left: 5px solid var(--azul-activo);
     box-shadow: var(--sombra-suave);
-    transition: 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .campo-hss:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     box-shadow: var(--sombra-hover);
 }
 
-.campo-ok     { border-left-color: var(--verde); }
-.campo-warning { border-left-color: var(--amarillo); }
-.campo-alerta  { border-left-color: var(--rojo); }
+.campo-ok     { border-left-color: #27ae60; }
+.campo-warning { border-left-color: #f1c40f; }
+.campo-alerta  { border-left-color: #e74c3c; }
 
-/* =========================================
-   🔤 TEXTO
-========================================= */
-.crudo {
-    font-family: Consolas, monospace;
-    font-size: 12.5px;
-    color: #6b7280;
-}
-
-.interpretacion {
-    margin-top: 6px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-}
-
+/* Iconos mejorados y animados */
 .icono {
-    margin-right: 8px;
-    font-size: 16px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all 0.4s ease;
+}
+
+.campo-hss:hover .icono {
+    transform: scale(1.3) rotate(12deg);
+}
+
+/* Animación para alertas críticas */
+.campo-alerta .icono {
+    animation: pulse-alert 1.8s infinite;
+}
+
+@keyframes pulse-alert {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.25); }
 }
 
 /* =========================================
-   📊 DASHBOARD
+   📋 RESUMEN
 ========================================= */
 .resumen-hss {
     background: linear-gradient(135deg, var(--azul-oscuro), var(--azul-medio));
@@ -168,10 +155,6 @@ h2 {
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    font-weight: bold;
 }
 
 /* =========================================
@@ -191,8 +174,22 @@ h2 {
         min-height: 180px;
         font-size: 12px;
     }
+}
 
-    .resumen-hss {
-        grid-template-columns: 1fr;
-    }
+/* Mejora visual de alertas en el resumen */
+#resultadoHSS ul {
+    list-style: none;
+}
+
+#resultadoHSS ul li {
+    position: relative;
+    padding-left: 25px;
+}
+
+#resultadoHSS ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #e74c3c;
+    font-weight: bold;
 }

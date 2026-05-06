@@ -10,7 +10,7 @@ Se comparte evidencia y quedamos en espera de corrección de su lado.`,
 
 
 
-    "Error de activacion - e-SIM": `Estimados, 
+    "Error de activacion - eSIM": `Estimados, 
 
 Solicitamos de su valioso apoyo para revisar el ICCID xxxxxx asociado al DN xxxxxx, el cual presenta errores al intentar generar la activación del mismo.
 

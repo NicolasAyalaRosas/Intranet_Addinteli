@@ -174,7 +174,13 @@ const diccionarioHSS = {
         nombre: "MONTE RAU/TAU Timer",
         descripcion: "Temporizador para actualizaciones de ruta y tracking area (normalmente en null = valor por defecto)",
         valores: {}
-    }
+    },
+
+    BAIC: {
+    nombre: "Bloqueo llamadas entrantes",
+    valores: { "0": "Permitidas", "1": "❌ Bloqueadas" }
+    },
+
 };
 
 window.diccionarioHSS = diccionarioHSS;
