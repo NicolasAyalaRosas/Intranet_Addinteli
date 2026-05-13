@@ -12,10 +12,10 @@ Favor de validar.`,
 
     "SIM Swap - 2 o más Líneas": `Estimados,
 
-Se realiza el cambio de SIM para los DN: xxxxxx y xxxxxx de manera correcta.
-El servicio queda activo en los ICCID: xxxxxx y xxxxxx.
+Se realiza el cambio de SIM para los xxxxxx DN proporcionados de manera correcta.
 
-Se comparte evidencia.
+Se comparte archivo con detalle del ICCID asignado.
+
 Favor de validar.`,
 
 

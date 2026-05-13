@@ -27,4 +27,13 @@ Fechas Originales de vigencia > Inicio: xxxxxx Fin: xxxxxx
 Se comparte evidencia.
 Favor de validar con el usuario.`,
 
+
+
+    "Migracion 2 o más DN": `Estimados,
+
+Se aplica migracion y asignacion de oferta para los xxxxxx DN proporcionados.
+
+Se comparte evidencia.
+Favor de validar con los usuarios.`,
+
 };

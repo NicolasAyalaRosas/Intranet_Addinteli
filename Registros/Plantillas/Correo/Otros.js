@@ -38,6 +38,17 @@ Saludos.`,
 
 
 
+    "Migración de 2 o más DN": `Estimado cliente, 
+
+Le informamos que se llevaron a cabo las migraciones solicitadas, se comparte detalle:
+
+Solicitamos de su valioso apoyo para revisar con los usuarios.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
     "Recarga NO aplicada DN Pantera - Seguimiento": `Estimado cliente, 
 
 Le informamos que la recarga pendiente fue correctamente aplicada a su línea con Numero xxxxxx, solicitamos de su apoyo para validar que ya cuente con sus beneficios.
@@ -72,9 +83,18 @@ Saludos.`,
 
 
 
-    "Upsell": `Estimado cliente, 
+    "Upsell - Downsell": `Estimado cliente, 
 
-Se realiza cambio solicitado, la línea ya cuenta con el paquete xxxxxx, solicitamos de su apoyo para validar con el usuario.
+Se realiza cambio solicitado, la línea xxxxxx ya cuenta con el paquete xxxxxx, solicitamos de su apoyo para validar con el usuario.
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
+    "Renovacion de 1 DN": `Estimado cliente, 
+
+Se realiza renovación solicitada, la línea xxxxxx ya cuenta con el paquete xxxxxx, solicitamos de su apoyo para validar con el usuario.
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,

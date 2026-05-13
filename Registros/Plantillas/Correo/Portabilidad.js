@@ -17,6 +17,7 @@ Una vez corroboremos que esta petición finalizo correctamente y la línea repli
 
 Comparto detalle:
 
+
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
 
@@ -30,6 +31,7 @@ Una vez corroboremos que esta petición finalizo correctamente y las líneas rep
 
 Comparto detalle:
 
+
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
 
@@ -40,7 +42,6 @@ Saludos.`,
 Le informamos que el proceso de portabilidad solicitado ha finalizado correctamente, la línea requerida ha impactado correctamente en nuestro sistema, por lo que pedimos de su apoyo para validar con el usuario.
 
 Comparto detalle:
-
 
 
 Quedamos al pendiente de sus comentarios.
@@ -55,7 +56,6 @@ Le informamos que el proceso de portabilidad solicitado ha finalizado correctame
 Comparto detalle:
 
 
-
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
 
@@ -64,9 +64,9 @@ Saludos.`,
 
     "Portabilidad NO confirmada": `Estimado Cliente,
 
-Derivado de la validación por parte del ente regulador y del operador donante, las portabilidades no pudieron ser confirmadas oportunamente.
+Derivado de la validación por parte del ente regulador y del operador donante, las portabilidades no pudieron ser confirmadas el dia de xxxxxx.
 
-Una vez confirmemos que el proceso finalizó correctamente y las líneas hayan impactado en nuestro sistema, se les notificará por este medio.
+En cuanto se nos permita proceder con la confirmacion del tramite, les notificaremos oportunamente por este medio.
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
@@ -89,7 +89,7 @@ Saludos.`,
 
     "Portabilidad Rechazada NIP Incorrecto ó Vencido": `Estimado cliente, 
 
-Le informamos que, tras la revisión del número que nos comparte, la portabilidad de este ha sido rechazada, esto derivado a que el Nip proporcionado xxxxxx.
+Le informamos que, tras la revisión del número que nos comparte, la portabilidad de este ha sido rechazada, esto derivado a que el NIP proporcionado xxxxxx.
 
 Se comparte evidencia:
 
@@ -97,4 +97,14 @@ Derivado a lo anterior, solicitamos de su valioso apoyo para revisar y confirmar
 
 Quedamos al pendiente.
 Saludos.`,
+
+
+
+    "Bono de Portabilidad NO Aplicado": `Estimado cliente, 
+
+El caso fue escalado con nuestro equipo de segundo nivel para su debido análisis, en cuanto se nos brinden avances de este o en su determinado caso el bono promocional haya sido asignado, le notificaremos por este medio.
+
+Quedamos al pendiente.
+Saludos.`,
+
 };

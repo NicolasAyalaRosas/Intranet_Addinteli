@@ -13,7 +13,6 @@ Validaciones en sistema:
 - Bolsas:
   • Roaming: N/A
   • TN: N/A
-  • RRSS: N/A
 
 Validaciones en teléfono:
 
@@ -43,7 +42,6 @@ Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
   • TN: xxxxxx
-  • RRSS: xxxxxx
 
 Validaciones en teléfono:
 
@@ -73,7 +71,6 @@ Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
   • TN: xxxxxx
-  • RRSS: xxxxxx
 
 Validaciones en teléfono:
 
@@ -110,7 +107,6 @@ Paquete: xxxxxx
 - Bolsas:
   • Roaming: xxxxxx
   • TN: xxxxxx
-  • RRSS: xxxxxx
 
 Validaciones en teléfono:
 
@@ -142,9 +138,8 @@ Validaciones en sistema:
 - Línea en estado Barring (B1W).
 - Paquete: xxxxxx
 - Bolsas:
-  Roaming: N/A
-  TN: N/A
-  RRSS: N/A
+• Roaming: N/A
+• TN: N/A
 
 Validaciones teléfono:
 
@@ -176,7 +171,6 @@ Validaciones en sistema:
 - Bolsas:
 • Roaming: N/A
 • TN: N/A
-• RRSS: N/A
 
 Validaciones en teléfono:
 

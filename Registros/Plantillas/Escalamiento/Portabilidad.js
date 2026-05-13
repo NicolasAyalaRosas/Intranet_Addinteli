@@ -38,15 +38,17 @@ PortID: `,
 
     "Bono de portabilidad NO aplicado - 1 DN": `Estimados, 
 
-Solicitamos de su apoyo para validar y en su determinado caso aplicar la carga del Bono de Portabilidad al DN xxxxxx, el cual realizo su activación el pasado xxxxxx, y finalizo su proceso de portabilidad el día xxxxxx.
+Solicitamos de su apoyo para validar y en su determinado caso aplicar la carga del Bono de Portabilidad al DN xxxxxx, el cual realizo su activación el pasado xxxxxx, y finalizo su proceso de portabilidad el día xxxxxx. 
+
+De nuestra parte hemos validado que cumplen con los T&C de la promoción vigente para ser acreedores al beneficio.
 
 Se comparten los detalles del proceso de portabilidad:
 
-DN´s Transitorios:
-DN´s a Portar:
-ICCID´s:
-IMSI´s:
-PortID´s:`,
+DN Transitorio:
+DN a Portar:
+ICCID:
+IMSI:
+PortID:`,
 
 
 
@@ -58,11 +60,11 @@ Se ha revisado el OfferID del "paquete" adquirido, confirmando que al usuario le
 
 Se comparten los detalles del proceso de portabilidad:
 
-DN´s Transitorios:
-DN´s a Portar:
-ICCID´s:
-IMSI´s:
-PortID´s:`,
+DN Transitorio:
+DN a Portar:
+ICCID:
+IMSI:
+PortID:`,
 
 
 
@@ -70,13 +72,15 @@ PortID´s:`,
 
 Solicitamos de su apoyo para validar y en su determinado caso aplicar la carga del Bono de Portabilidad a los DN xxxxxx, los cuales realizaron su activación el pasado xxxxxx, y finalizaron su proceso de portabilidad el día xxxxxx.
 
+De nuestra parte hemos validado que cumplen con los T&C de la promoción vigente para ser acreedores al beneficio.
+
 Se comparten los detalles del proceso de portabilidad:
 
-DN´s Transitorios:
-DN´s a Portar:
-ICCID´s:
-IMSI´s:
-PortID´s:`,
+DN Transitorio:
+DN a Portar:
+ICCID:
+IMSI:
+PortID: `,
 
 
 
@@ -88,11 +92,11 @@ Se ha revisado el OfferID de los "paquetes" adquiridos, confirmando que a los us
 
 Se comparten los detalles del proceso de portabilidad:
 
-DN´s Transitorios:
-DN´s a Portar:
-ICCID´s:
-IMSI´s:
-PortID´s:`,
+DN Transitorio:
+DN a Portar:
+ICCID:
+IMSI:
+PortID: `,
 
 
 

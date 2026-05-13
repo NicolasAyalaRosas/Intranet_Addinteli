@@ -186,7 +186,7 @@ Solución:
 "Línea WM sin paquete": `Nombre: N/A 
 OMV y DN: 
 
-Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
+Reporte: Se comunica Colaborador reportando falla total en servicio de voz y datos móviles.
 
 Validaciones en sistema:
 

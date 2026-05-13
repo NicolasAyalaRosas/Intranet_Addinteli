@@ -3,9 +3,9 @@ import pandas as pd
 import os
 
 # -------- CONFIGURACIÓN --------
-archivo_json = r"C:\Users\nicolas.ayala\OneDrive\Intranet\Sitios MBB\Antenas_03_02_26.json"
-archivo_excel = r"C:\Users\nicolas.ayala\OneDrive\Intranet\Sitios MBB\Reemplazos a realizar en Sitios.xlsx"
-archivo_salida = r"C:\Users\nicolas.ayala\OneDrive\Intranet\Sitios MBB\Antenas_03_02_26_corregido.json"
+archivo_json = r"C:\Users\nicolas.ayala\OneDrive\Intranet\Sitios MBB\Antenas_29_04_26.json"
+archivo_excel = r"C:\Users\nicolas.ayala\OneDrive\Intranet\Sitios MBB\Correcciones Json Sitios.xlsx"
+archivo_salida = r"C:\Users\nicolas.ayala\OneDrive\Intranet\Sitios MBB\Antenas_29_04_26_corregido.json"
 # --------------------------------
 
 print("Iniciando proceso...")
