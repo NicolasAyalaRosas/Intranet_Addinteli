@@ -126,13 +126,13 @@ Solución:
 
 
 
-  "Línea suspendida": `Nombre:
+  "Terminal NO Compatible": `Nombre:
 OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
 Validaciones en sistema:
 
-- Línea en estado Suspendido (B2W).
+- Línea en estado Suspendido (B1W).
 - Paquete: N/A
 - Bolsas: N/A
 
@@ -154,13 +154,39 @@ Solución:
 
 
 
-  "Terminal NO Compatible": `Nombre:
+  "Línea NO Vinculada al RNU": `Nombre:
 OMV y DN:
 Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
 
 Validaciones en sistema:
 
-- Línea en estado Barring (B1W).
+- Línea en estado Suspendido (B2W).
+- Paquete: N/A
+- Bolsas: N/A
+
+Validaciones teléfono:
+
+- IMEI: xxxxxx
+- Equipo: xxxxxx
+
+Posible causa:
+
+- La línea mantiene estatus B2W, por lo que se encuentra bloqueada y sin servicios, tras validar en V360 se confirma que esta no ha sido vinculada al RNU.
+
+Solución:
+
+- Se comenta con el Usuario-Distribuidor el escenario presentado, solicitando realizar el proceso de vinculacion conforme a la normativa vigente.
+- Se comparte con el Usuario-Distribuidor la linea de vinculacion mediante SMS.`,
+
+
+
+  "Línea suspendida": `Nombre:
+OMV y DN:
+Reporte: Se comunica Usuario-Distribuidor reportando falla total en servicio de voz y datos móviles.
+
+Validaciones en sistema:
+
+- Línea en estado Suspend (B2W).
 - Paquete: xxxxxx
 - Bolsas:
   Roaming: N/A
@@ -174,12 +200,12 @@ Validaciones teléfono:
 
 Posible causa:
 
-- La línea mantiene estatus B1W, por lo que se encuentra bloqueada y sin servicios.
+- La línea mantiene estatus B2W, por lo que se encuentra bloqueada y sin servicios.
 
 Solución:
 
-- Se realiza proceso de Reanudación desde plataforma HUB.
-- Se confirma con el usuario que el servicio queda restablecido.`,
+- Se confirma con el Usuario-Distribuidor el escenario presentado y se realiza "Reanudacion" desde plataforma HUB, indicandole que se debera aplicar una recarga de saldo el dia de hoy para evitar que la linea se suspenda nuevamente.
+- Se confirma con el Usuario-Distribuidor que el servicio quedó restablecido.`,
 
 
 

@@ -5,8 +5,6 @@ window.PLANTILLAS.tickets["Compra de adicionales"] = {
 Se aplica la compra de los siguientes adicionales:
 
 - xxxxxx
-- xxxxxx
-
 
 Se realiza el aprovisionamiento al DN: xxxxxx.
 
@@ -20,8 +18,6 @@ Favor de validar.`,
 Se aplica la compra de los siguientes adicionales:
 
 - xxxxxx
-- xxxxxx
-
 
 Se realiza el aprovisionamiento a los DN: xxxxxx y xxxxxx.
 
