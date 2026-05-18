@@ -29,6 +29,16 @@ Favor de validar con el usuario.`,
 
 
 
+    "Upsell 2 o más DN": `Estimados,
+
+Se realiza cambio de oferta para los xxxxxx DN proporcionados de manera correcta. 
+
+Se comparte archivo con detalle de fecha de activación, paquete original y paquete asignado.
+
+Favor de validar con los usuarios.`,
+
+
+
     "Migracion de 1 DN": `Estimados,
 
 Se aplica migración y asignación de oferta para el xxxxxx DN proporcionados.

@@ -30,6 +30,36 @@ Se da por terminada la atención.`,
 
 
 
+    "SIM Swap": `Nombre:
+OMV y DN:
+
+Reporte: Se comunica Usuario-Distribuidor solicitando información acerca del proceso de SIM Swap.
+
+Validaciones en sistema: 
+
+- N/A
+
+Validaciones en teléfono: 
+
+- N/A
+
+Posible causa: 
+
+- N/A
+
+Solución:
+
+- Se informa al Usuario-Distribuidor acerca del proceso considerando:
+
+• El estado en que debe encontrarse la nueva SIM
+• Como realizar proceso desde plataforma HUB
+• Tiempo estimado del trámite.
+• Validacion de seguridad previo al reemplazo (Pantera)
+
+Se da por terminada la atención.`,
+
+
+
     "Paquetes y Recargas": `Nombre:
 OMV y DN:
 

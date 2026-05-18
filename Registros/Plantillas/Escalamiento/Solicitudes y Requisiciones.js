@@ -11,7 +11,7 @@ Fecha Final: xxxxxx.`,
 
 "Reporte de Consumos 2 o más DN": `Estimados,
 
-Solicitamos de su apoyo para proveer el detalle de consumos para los servicios de Datos, para los 39 DN adjuntos en el archivo. 
+Solicitamos de su apoyo para proveer el detalle de consumos para los servicios de Datos, para los xxxxxx DN adjuntos en el archivo. 
 
 Fecha Inicial: xxxxxx
 Fecha Final: xxxxxx.`,

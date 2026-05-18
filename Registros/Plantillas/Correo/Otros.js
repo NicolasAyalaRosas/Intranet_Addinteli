@@ -92,6 +92,17 @@ Saludos.`,
 
 
 
+    "Upsell - Downsell 2 o más DN": `Estimado cliente, 
+
+Se realiza cambio solicitado, las líneas proporcionadas ya cuentan con el paquete solicitado, pedimos de su apoyo para validar con los usuarios.
+
+Se comparte detalle: 
+
+Quedamos al pendiente de sus comentarios.
+Saludos.`,
+
+
+
     "Renovacion de 1 DN": `Estimado cliente, 
 
 Se realiza renovación solicitada, la línea xxxxxx ya cuenta con el paquete xxxxxx, solicitamos de su apoyo para validar con el usuario.

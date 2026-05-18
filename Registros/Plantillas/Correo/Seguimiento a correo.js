@@ -92,7 +92,7 @@ Saludos.`,
 
 Se ha solicitado a nuestro equipo de segundo nivel nos comparta el detalle de consumos para xxxxxx.
 
-Este destalle tendrá como Fecha Inicial el día: xxxxxx y como Fecha Final el día: xxxxxx. En cuanto se nos proporcione esta información, será enviada a ustedes por este medio.
+Este detalle tendrá como Fecha Inicial el día: xxxxxx y como Fecha Final el día: xxxxxx. En cuanto se nos proporcione esta información, será enviada a ustedes por este medio.
 
 Quedamos al pendiente de sus comentarios.
 Saludos.`,
